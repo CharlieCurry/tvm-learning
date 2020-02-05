@@ -1,3 +1,4 @@
 # TVM-Learning
-TVM learning and research
-https://tvm.ai/
+#####TVM https://tvm.ai/
+##### RELEASE https://bitbucket.org/act-lab/release/src/master/
+##### chameleon https://bitbucket.org/act-lab/chameleon/src/master/

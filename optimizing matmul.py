@@ -120,12 +120,15 @@ def testwithnumpy():
     print("Numpy running time: %f" % (np_runing_time / np_repeat))
 
 if __name__ == '__main__':
-    M = sys.argv[1]
-    L = sys.argv[2]
-    N = sys.argv[3]
-    M = int(M)
-    L = int(L)
-    N = int(N)
+    # M = sys.argv[1]
+    # L = sys.argv[2]
+    # N = sys.argv[3]
+    # M = int(M)
+    # L = int(L)
+    # N = int(N)
+    M = 512
+    N = 512
+    L = 224
     target = 'llvm -mcpu=core-avx2'
     dtype = 'float32'
     ctx = tvm.context(target, 0)

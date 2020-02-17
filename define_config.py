@@ -5,46 +5,20 @@ import sys
 import math
 import timeit
 from tvm import autotvm
-
-def matmul_v0(N, L, M, dtype):
-    A = tvm.placeholder((N, L), name='A', dtype=dtype)
-    B = tvm.placeholder((L, M), name='B', dtype=dtype)
-    k = tvm.reduce_axis((0, L), name='k')
-    C = tvm.compute((N, M), lambda i, j: tvm.sum(A[i, k] * B[k, j], axis=k), name='C')
-    s = tvm.create_schedule(C.op)
-    # schedule
-    y, x = s[C].op.axis
-    k = s[C].op.reduce_axis[0]
-    yo, yi = s[C].split(y, 8)
-    xo, xi = s[C].split(x, 8)
-    s[C].reorder(yo, xo, k, yi, xi)
-    return s, [A, B, C]
-# Matmul V1: List candidate values
-@autotvm.template  # 1. use a decorator
+#
+#本教程主要展示如何定义一个比较合适的schedule congratulations以供autotvm调优
+#Use better space definition API
+# In the previous template, we manually list all possible values for a knob.
+# This is the lowest level API to define the space. However,
+# we also provide another set of API to make the space definition easier and smarter.
+# It is recommended to use this set of high level API.
+# In the following example, we use [ConfigSpace.define_split] to define a split knob.
+# It will enumerate all the possible ways to split an axis and construct the space.
+# We also have [ConfigSpace.define_reorder] for reorder knob and [ConfigSpace.define_annotate] for annotation like unroll,
+# vectorization, thread binding.
+#  When the high level API cannot meet your requirement, you can always fall back to use low level API.
+#
 def matmul_v1(N, L, M, dtype):
-    A = tvm.placeholder((N, L), name='A', dtype=dtype)
-    B = tvm.placeholder((L, M), name='B', dtype=dtype)
-    k = tvm.reduce_axis((0, L), name='k')
-    C = tvm.compute((N, M), lambda i, j: tvm.sum(A[i, k] * B[k, j], axis=k), name='C')
-    s = tvm.create_schedule(C.op)
-    # schedule
-    y, x = s[C].op.axis
-    k = s[C].op.reduce_axis[0]
-    # 2. get the config object
-    cfg = autotvm.get_config()
-    # 3. define search space
-    cfg.define_knob("tile_y", [1, 2, 4, 8, 16,32,64])
-    cfg.define_knob("tile_x", [1, 2, 4, 8, 16,32,64])
-    # 4. schedule according to config
-    yo, yi = s[C].split(y, cfg['tile_y'].val)
-    xo, xi = s[C].split(x, cfg['tile_x'].val)
-    s[C].reorder(yo, xo, k, yi, xi)
-    #other optimization skills/tricks
-    s[C].vectorize(yi)
-
-    return s, [A, B, C]
-@autotvm.template
-def matmul_v2(N, L, M, dtype):
     A = tvm.placeholder((N, L), name='A', dtype=dtype)
     B = tvm.placeholder((L, M), name='B', dtype=dtype)
     k = tvm.reduce_axis((0, L), name='k')
@@ -57,6 +31,20 @@ def matmul_v2(N, L, M, dtype):
     cfg = autotvm.get_config()
     cfg.define_split("tile_y", y, num_outputs=2)
     cfg.define_split("tile_x", x, num_outputs=2)
+    cfg.define_annotate("unroll",policy="try_unroll")
+    #policy (str) – name of policy If is ‘unroll’, unroll the axes.
+    # If is ‘try_unroll’, try to unroll the axes.
+    # If is ‘try_unroll_vec’, try to unroll or vectorize the axes.
+    # If is ‘bind_gpu’, bind the first few axes to gpu threads.
+    # If is ‘locate_cache’, choose n axes to attach shared/local cache.
+    cfg.define_annotate("vec",policy="try_unroll_vec")
+    cfg.define_annotate("cache",policy="locate_cache")
+    #policy (str) – name of policy If is ‘identity’, do an identity permutation.
+    # If is ‘all’, try all permutations.
+    # If is ‘interval_all’, try all permutations of an interval of axes.
+    # If is ‘candidate’, try listed candidate.
+    # If is ‘interleave’, interleave chains of spatial axes and chains of reduction axes.
+    cfg.define_reorder("reorder",policy="interval_all")
     ##### define space end #####
     # schedule according to config
     yo, yi = cfg["tile_y"].apply(s, C, y)
@@ -64,61 +52,8 @@ def matmul_v2(N, L, M, dtype):
     s[C].reorder(yo, xo, k, yi, xi)
     return s, [A, B, C]
 
-@autotvm.template
-def matmul_v3(N, L, M, dtype):
-    A = tvm.placeholder((N, L), name='A', dtype=dtype)
-    B = tvm.placeholder((L, M), name='B', dtype=dtype)
-    k = tvm.reduce_axis((0, L), name='k')
-    C = tvm.compute((N, M), lambda i, j: tvm.sum(A[i, k] * B[k, j], axis=k), name='C')
-    s = tvm.create_schedule(C.op)
-    # schedule
-    y, x = s[C].op.axis
-    k = s[C].op.reduce_axis[0]
-    ##### define space begin #####
-    cfg = autotvm.get_config()
-    # use a filter that only accepts the split scheme whose inner most tile is less then 4
-    cfg.define_split('tile_y', y, policy='factors', filter=lambda x: x.size[-1] <= 4)
-    cfg.define_split('tile_y', x, policy='factors', filter=lambda x: x.size[-1] <= 4)
-    ##### define space end #####
-    # schedule according to config
-    yo, yi = cfg["tile_y"].apply(s, C, y)
-    xo, xi = cfg["tile_x"].apply(s, C, x)
-    s[C].reorder(yo, xo, k, yi, xi)
-    return s, [A, B, C]
 
-@autotvm.template
-def matmul_v4(N, L, M, dtype):
-    A = tvm.placeholder((N, L), name='A', dtype=dtype)
-    B = tvm.placeholder((L, M), name='B', dtype=dtype)
-    k = tvm.reduce_axis((0, L), name='k')
-    C = tvm.compute((N, M), lambda i, j: tvm.sum(A[i, k] * B[k, j], axis=k), name='C')
-    s = tvm.create_schedule(C.op)
 
-    y, x = s[C].op.axis
-
-    k = s[C].op.reduce_axis[0]
-
-    cfg = autotvm.get_config()
-    # define search space
-    #tiling
-    cfg.define_knob("tile_y", [1,2,4,8,16,32,64])
-    cfg.define_knob("tile_x", [1,2,4,8,16,32,64])
-    yo, yi = s[C].split(y, cfg['tile_y'].val)
-    xo, xi = s[C].split(x, cfg['tile_x'].val)
-    # cfg.define_split("tile_f", f, num_outputs=4)
-    # cfg.define_split("tile_y", y, num_outputs=4)
-    # cfg.define_split("tile_x", x, num_outputs=4)
-    # cfg.define_split("tile_rc", rc, num_outputs=3)
-    # cfg.define_split("tile_ry", ry, num_outputs=3)
-    # cfg.define_split("tile_rx", rx, num_outputs=3)
-    #reordering
-    cfg.define_reorder("ordering",(yo, xo, k, yi, xi),policy="all")#interval_all
-
-    cfg.define_knob("auto_unroll_max_step", [0, 512, 1500])
-    cfg.define_knob("unroll_explicit", [0, 1])
-    #other optimization skills/tricks
-    s[C].vectorize(yi)
-    return s, [A, B, C]
 
 
 def testwithNoneopt(str,ctx,matmul):
@@ -162,15 +97,15 @@ if __name__ == '__main__':
     M = 512
     N = 512
     L = 224
-    target = 'llvm'
+    target = 'llvm -mcpu=core-avx2'
     dtype = 'float32'
     ctx = tvm.context(target, 0)
     src = str(M) + "*" + str(L) + "*" + str(N)
     print(src)
-    matmul = matmul_v4
+    matmul = matmul_v1
     space_len = 100
 
-    task = autotvm.task.create(matmul,args=(N,L,M,dtype),target=target)
+    task = autotvm.task.create(matmul, args=(N,L,M,dtype), target=target)
     print(task.config_space)
     # logging config (for printing tuning log to the screen)
     # logging.getLogger('autotvm').setLevel(logging.DEBUG)

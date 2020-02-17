@@ -424,15 +424,16 @@ def find_bestSchedule(s, A, B, C, a, b, c, ctx, c_np):
     print("################################################################")
 
 if __name__ == '__main__':
-    #M = sys.argv[1]
-    #K = sys.argv[2]
-    #N = sys.argv[3]
-    #M = int(M)
-    #K = int(K)
-    #N = int(N)
-    M = 512
-    N = 512
-    K = 224
+    M = sys.argv[1]
+    K = sys.argv[2]
+    N = sys.argv[3]
+    M = int(M)
+    K = int(K)
+    N = int(N)
+    # M = 512
+    # N = 512
+    # K = 224
+    print(str(M)+"*"+str(K)+"*"+str(N))
     random.seed(30)
     target = 'llvm -mcpu=core-avx2'
     dtype = 'float32'
@@ -459,3 +460,4 @@ if __name__ == '__main__':
     find_bestSchedule(s, A, B, C, a, b, c, ctx, c_np)
     
 
+##这里定义的schedule是具体的,没有暴露出可调节的参数,感觉这里任然是手工调节，并且在面对不同的问题上有较大的不确定性

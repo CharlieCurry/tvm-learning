@@ -6,9 +6,13 @@
 - *scheduling----------tvm不能自动选择合适的 schedule,需要手动编写合适的 schedule,不同的 schedule在还未选择参数时就有很大的差异*
 
 ## Open source stack
-##### TVM https://tvm.ai/
+##### TVM官网 https://tvm.ai/
+##### tvm Benchmark https://github.com/apache/incubator-tvm/wiki/Benchmark#mobile-gpu
 ##### RELEASE https://bitbucket.org/act-lab/release/src/master/
 ##### chameleon https://bitbucket.org/act-lab/chameleon/src/master/
+##### d2l-tvm https://github.com/d2l-ai/d2l-tvm
+##### tvm-cuda-int8-benchmark https://github.com/vinx13/tvm-cuda-int8-benchmark
+##### tvm-distro https://github.com/uwsampl/tvm-distro
 ###### This tutorial focuses on the end-to-end optimization of TVM for deep learning model, especially for the innovation of autotvm module.Organized as Three Parts:
 ## Part I Easy to use TVM
 

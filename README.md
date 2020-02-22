@@ -1,4 +1,10 @@
 # TVM-Learning
+
+- *autotvm-------------主要介绍tvm.autotvm中tuner的使用(针对给定的schedule调参)*
+- *learningfromlog-----利用机器学习方法对已获得的log数据进行分析*
+- *schedule stage------tvm.schedule中定义的可选择的stage(优化技术的使用)*
+- *scheduling----------tvm不能自动选择合适的schedule,需要手动编写合适的schedule,不同的schedule在还未选择参数时就有很大的差异*
+
 ## Open source stack
 ##### TVM https://tvm.ai/
 ##### RELEASE https://bitbucket.org/act-lab/release/src/master/

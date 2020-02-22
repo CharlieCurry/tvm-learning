@@ -11,8 +11,8 @@ import pandas as pd
 def load_data(src):
     filename = src+".txt"
     data = np.loadtxt(filename)
-    median = np.median(data[:, 3])
-    print(median)
+    median = np.median(data[:,3])
+    # print(median)
     for i in range(data.shape[0]):
         # print(i)
         # print(data[i][3])
@@ -20,8 +20,8 @@ def load_data(src):
             data[i][3] = 1
         elif data[i][3] < median:
             data[i][3] = 0
-    print(data[:,3])
-    print(data.shape)
+    # print(data[:,3])
+    # print(data.shape)
     #print(data)
     x = data[:,0:3]  # 数据特征
     y = data[:,3].astype(int)  # 标签
@@ -30,54 +30,54 @@ def load_data(src):
     #print(x_std)
     #print(y)
     x_train, x_test, y_train, y_test = train_test_split(x_std, y, test_size=.2)
-    print("x_train shape",x_train.shape)
-    print("x_test shape",x_test.shape)
-    print("y_train shape",y_train.shape)
-    print("y_test shape",y_test.shape)
+    # print("x_train shape",x_train.shape)
+    # print("x_test shape",x_test.shape)
+    # print("y_train shape",y_train.shape)
+    # print("y_test shape",y_test.shape)
     return x_train, x_test, y_train, y_test
 
 def svm_c(x_train, x_test, y_train, y_test):
     # rbf核函数，设置数据权重
     svc = SVC(kernel='rbf', class_weight='balanced',)
     c_range = [505505.90560927434]
-    print(c_range)
+    #print(c_range)
     gamma_range = [1.440246537538758]
-    print(gamma_range)
+    #print(gamma_range)
     # 网格搜索交叉验证的参数范围，cv=10,10折交叉
     param_grid = [{'kernel':['rbf'], 'C': c_range, 'gamma': gamma_range}]
     grid = GridSearchCV(svc, param_grid, cv=5, n_jobs=-1)
     # 训练模型
     gs = grid.fit(x_train, y_train)
-    print(gs.best_index_)
-    print(gs.best_score_)
-    print(gs.best_params_)
+    # print(gs.best_index_)
+    # print(gs.best_score_)
+    # print(gs.best_params_)
 
     #print(grid.predict(x_test))
     #print(y_test)
     # 计算测试集精度
     score = grid.score(x_test,y_test)
-    print('精度为%s' % score)
+    print('validation精度为%s' % score)
 
     print("-------------------wide testing------------------")
     testsrc = "512512512.txt"
     score = grid.score(*load_test(testsrc))
-    print('test的精度为%s' % score)
+    print('精度为%s' % score)
 
     testsrc = "102410241024.txt"
     score = grid.score(*load_test(testsrc))
-    print('test的精度为%s' % score)
+    print('精度为%s' % score)
 
     testsrc = "22422464.txt"
     score = grid.score(*load_test(testsrc))
-    print('test的精度为%s' % score)
+    print('精度为%s' % score)
 
     testsrc = "102210221022.txt"
     score = grid.score(*load_test(testsrc))
-    print('test的精度为%s' % score)
+    print('精度为%s' % score)
 
     testsrc = "100010001000.txt"
     score = grid.score(*load_test(testsrc))
-    print('test的精度为%s' % score)
+    print('精度为%s' % score)
 
 def load_test(testsrc):
     test_data = np.loadtxt(testsrc)
@@ -98,8 +98,8 @@ def load_test(testsrc):
     y = test_data[:,3].astype(int)#标签
     scaler = StandardScaler()
     x_std = scaler.fit_transform(x)#标准化
-    test_x = x_std[:400,:]
-    test_y = y[:400]
+    test_x = x_std[:,:]
+    test_y = y[:]
     print(test_x.shape)
     return test_x,test_y
 
@@ -133,7 +133,7 @@ def myxgb(x_train, x_test, y_train, y_test):
     #print(ypreds)
     bn = Binarizer(threshold=0.42444044)
     ypreds = bn.transform(ypreds.reshape(-1, 1))
-    print(accuracy_score(y_test,ypreds))
+    print("myxgb精度为：",accuracy_score(y_test,ypreds))
 
 if __name__ == '__main__':
     src = '512512512'

@@ -1,0 +1,11 @@
+python autoTVM.py 1025 1025 1025
+python autoTVM.py 1024 1024 1024
+python autoTVM.py 1023 1023 1023
+python autoTVM.py 1022 1022 1022
+python autoTVM.py 1021 1021 1021
+python autoTVM.py 1020 1020 1020
+python autoTVM.py 1026 1026 1026
+python autoTVM.py 1027 1027 1027
+python autoTVM.py 1028 1028 1028
+python autoTVM.py 1029 1029 1029
+python autoTVM.py 1030 1030 1030

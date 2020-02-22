@@ -26,7 +26,7 @@ def load_data(src):
     x_std = scaler.fit_transform(x)  # 标准化
     #print(x_std)
     #print(y)
-    x_train, x_test, y_train, y_test = train_test_split(x_std, y, test_size=.2)
+    x_train, x_test, y_train, y_test = train_test_split(x_std, y, test_size=.1)
     print("x_train shape",x_train.shape)
     print("x_test shape",x_test.shape)
     print("y_train shape",y_train.shape)

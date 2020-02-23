@@ -4,7 +4,7 @@
 - *learningfromlog-----利用机器学习方法对已获得的 log数据进行分析*
 - *schedule stage------tvm.schedule中定义的可选择的 stage(优化技术的使用)*
 - *scheduling----------tvm不能自动选择合适的 schedule,需要手动编写合适的 schedule,不同的 schedule在还未选择参数时就有很大的差异*
-
+- *end2end-------------对已有模型进行端到端的优化*
 ## Open source stack
 repo | src
 ---|---

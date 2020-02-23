@@ -13,6 +13,7 @@
 ##### d2l-tvm https://github.com/d2l-ai/d2l-tvm
 ##### tvm-cuda-int8-benchmark https://github.com/vinx13/tvm-cuda-int8-benchmark
 ##### tvm-distro https://github.com/uwsampl/tvm-distro
+##### 知乎专栏:深度学习编译器学习笔记和实践体会 https://zhuanlan.zhihu.com/c_1169609848697663488
 ###### This tutorial focuses on the end-to-end optimization of TVM for deep learning model, especially for the innovation of autotvm module.Organized as Three Parts:
 ## Part I Easy to use TVM
 

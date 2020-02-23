@@ -1,0 +1,34 @@
+[Task  1/12]  Current/Best:   91.26/  91.26 GFLOPS | Progress: (1/2000) | 1.59 s Done.
+[Task  2/12]  Current/Best:  440.86/2222.86 GFLOPS | Progress: (1152/2000) | 1283.39 s Done.
+[Task  3/12]  Current/Best:   63.80/ 382.54 GFLOPS | Progress: (896/2000) | 808.53 s Done.
+[Task  4/12]  Current/Best:  330.10/ 684.43 GFLOPS | Progress: (928/2000) | 895.90 s Done.
+[Task  5/12]  Current/Best:    5.45/2490.09 GFLOPS | Progress: (64/2000) | 73.50 sterminate called without an active exception
+terminate called without an active exception
+[Task  5/12]  Current/Best: 2924.00/2924.00 GFLOPS | Progress: (224/2000) | 227.77 sterminate called without an active exception
+[Task  5/12]  Current/Best:  856.27/2925.48 GFLOPS | Progress: (320/2000) | 317.63 sterminate called without an active exception
+[Task  5/12]  Current/Best:  879.59/2925.48 GFLOPS | Progress: (352/2000) | 339.94 sterminate called without an active exception
+terminate called without an active exception
+[Task  5/12]  Current/Best:  863.01/2965.41 GFLOPS | Progress: (384/2000) | 382.65 sterminate called without an active exception
+[Task  5/12]  Current/Best: 1617.16/2965.41 GFLOPS | Progress: (416/2000) | 405.53 sterminate called without an active exception
+terminate called without an active exception
+[Task  5/12]  Current/Best: 2027.93/3042.68 GFLOPS | Progress: (864/2000) | 847.06 sterminate called without an active exception
+[Task  5/12]  Current/Best: 1980.58/3042.68 GFLOPS | Progress: (1056/2000) | 1039.15 s Done.
+[Task  6/12]  Current/Best:  449.18/ 643.11 GFLOPS | Progress: (800/2000) | 759.97 s Done.
+[Task  7/12]  Current/Best:   41.57/1130.34 GFLOPS | Progress: (1280/2000) | 1426.39 s Done.
+[Task  8/12]  Current/Best: 1203.69/3117.10 GFLOPS | Progress: (96/2000) | 102.00 sterminate called without an active exception
+[Task  8/12]  Current/Best:   55.61/3215.06 GFLOPS | Progress: (192/2000) | 234.31 sterminate called without an active exception
+terminate called without an active exception
+[Task  8/12]  Current/Best: 1988.32/3460.60 GFLOPS | Progress: (224/2000) | 260.93 sterminate called without an active exception
+terminate called without an active exception
+[Task  8/12]  Current/Best: 2943.24/3460.60 GFLOPS | Progress: (608/2000) | 749.56 sterminate called without an active exception
+terminate called without an active exception
+[Task  8/12]  Current/Best: 2757.27/3460.60 GFLOPS | Progress: (672/2000) | 827.81 sterminate called without an active exception
+[Task  8/12]  Current/Best: 1814.06/3460.60 GFLOPS | Progress: (832/2000) | 1054.93 s Done.
+[Task  9/12]  Current/Best:    4.11/ 794.69 GFLOPS | Progress: (640/2000) | 653.04 s Done.
+[Task 10/12]  Current/Best: 1058.97/1422.98 GFLOPS | Progress: (736/2000) | 824.12 s Done.
+[Task 11/12]  Current/Best: 2772.02/3607.55 GFLOPS | Progress: (544/2000) | 704.94 sterminate called without an active exception
+[Task 11/12]  Current/Best: 2444.86/3697.01 GFLOPS | Progress: (1184/2000) | 1699.46 s Done.
+[Task 12/12]  Current/Best:   52.01/2904.56 GFLOPS | Progress: (1408/2000) | 1832.84 s Done.
+Compile...
+Evaluate inference time cost...
+Mean inference time (std dev): 1.75 ms (0.09 ms)

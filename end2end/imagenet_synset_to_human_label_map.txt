@@ -1,0 +1,1209 @@
+n00004475	organism, being
+n00005787	benthos
+n00006024	heterotroph
+n00006484	cell
+n00007846	person, individual, someone, somebody, mortal, soul
+n00015388	animal, animate being, beast, brute, creature, fauna
+n00017222	plant, flora, plant life
+n00021265	food, nutrient
+n00021939	artifact, artefact
+n00120010	hop
+n00141669	check-in
+n00288000	dressage
+n00288190	curvet, vaulting
+n00288384	piaffe
+n00324978	funambulism, tightrope walking
+n00326094	rock climbing
+n00433458	contact sport
+n00433661	outdoor sport, field sport
+n00433802	gymnastics, gymnastic exercise
+n00434075	acrobatics, tumbling
+n00439826	track and field
+n00440039	track, running
+n00440218	jumping
+n00440382	broad jump, long jump
+n00440509	high jump
+n00440643	Fosbury flop
+n00440747	skiing
+n00440941	cross-country skiing
+n00441073	ski jumping
+n00441824	water sport, aquatics
+n00442115	swimming, swim
+n00442437	bathe
+n00442847	dip, plunge
+n00442981	dive, diving
+n00443231	floating, natation
+n00443375	dead-man's float, prone float
+n00443517	belly flop, belly flopper, belly whop, belly whopper
+n00443692	cliff diving
+n00443803	flip
+n00443917	gainer, full gainer
+n00444142	half gainer
+n00444340	jackknife
+n00444490	swan dive, swallow dive
+n00444651	skin diving, skin-dive
+n00444846	scuba diving
+n00444937	snorkeling, snorkel diving
+n00445055	surfing, surfboarding, surfriding
+n00445226	water-skiing
+n00445351	rowing, row
+n00445685	sculling
+n00445802	boxing, pugilism, fisticuffs
+n00446311	professional boxing
+n00446411	in-fighting
+n00446493	fight
+n00446632	rope-a-dope
+n00446804	spar, sparring
+n00446980	archery
+n00447073	sledding
+n00447221	tobogganing
+n00447361	luging
+n00447463	bobsledding
+n00447540	wrestling, rassling, grappling
+n00447957	Greco-Roman wrestling
+n00448126	professional wrestling
+n00448232	sumo
+n00448466	skating
+n00448640	ice skating
+n00448748	figure skating
+n00448872	rollerblading
+n00448958	roller skating
+n00449054	skateboarding
+n00449168	speed skating
+n00449295	racing
+n00449517	auto racing, car racing
+n00449695	boat racing
+n00449796	hydroplane racing
+n00449892	camel racing
+n00449977	greyhound racing
+n00450070	horse racing
+n00450335	riding, horseback riding, equitation
+n00450700	equestrian sport
+n00450866	pony-trekking
+n00450998	showjumping, stadium jumping
+n00451186	cross-country riding, cross-country jumping
+n00451370	cycling
+n00451563	bicycling
+n00451635	motorcycling
+n00451768	dune cycling
+n00451866	blood sport
+n00452034	bullfighting, tauromachy
+n00452152	cockfighting
+n00452293	hunt, hunting
+n00452734	battue
+n00452864	beagling
+n00453126	coursing
+n00453313	deer hunting, deer hunt
+n00453396	ducking, duck hunting
+n00453478	fox hunting, foxhunt
+n00453631	pigsticking
+n00453935	fishing, sportfishing
+n00454237	angling
+n00454395	fly-fishing
+n00454493	troll, trolling
+n00454624	casting, cast
+n00454855	bait casting
+n00454983	fly casting
+n00455076	overcast
+n00455173	surf casting, surf fishing
+n00456465	day game
+n00463246	athletic game
+n00463543	ice hockey, hockey, hockey game
+n00464277	tetherball
+n00464478	water polo
+n00464651	outdoor game
+n00464894	golf, golf game
+n00466273	professional golf
+n00466377	round of golf, round
+n00466524	medal play, stroke play
+n00466630	match play
+n00466712	miniature golf
+n00466880	croquet
+n00467320	quoits, horseshoes
+n00467536	shuffleboard, shovelboard
+n00467719	field game
+n00467995	field hockey, hockey
+n00468299	shinny, shinney
+n00468480	football, football game
+n00469651	American football, American football game
+n00470554	professional football
+n00470682	touch football
+n00470830	hurling
+n00470966	rugby, rugby football, rugger
+n00471437	ball game, ballgame
+n00471613	baseball, baseball game
+n00474568	ball
+n00474657	professional baseball
+n00474769	hardball
+n00474881	perfect game
+n00475014	no-hit game, no-hitter
+n00475142	one-hitter, 1-hitter
+n00475273	two-hitter, 2-hitter
+n00475403	three-hitter, 3-hitter
+n00475535	four-hitter, 4-hitter
+n00475661	five-hitter, 5-hitter
+n00475787	softball, softball game
+n00476140	rounders
+n00476235	stickball, stickball game
+n00476389	cricket
+n00477392	lacrosse
+n00477639	polo
+n00477827	pushball
+n00478262	soccer, association football
+n00479076	court game
+n00479440	handball
+n00479616	racquetball
+n00479734	fives
+n00479887	squash, squash racquets, squash rackets
+n00480211	volleyball, volleyball game
+n00480366	jai alai, pelota
+n00480508	badminton
+n00480885	battledore, battledore and shuttlecock
+n00480993	basketball, basketball game, hoops
+n00481803	professional basketball
+n00481938	deck tennis
+n00482122	netball
+n00482298	tennis, lawn tennis
+n00483205	professional tennis
+n00483313	singles
+n00483409	singles
+n00483508	doubles
+n00483605	doubles
+n00483705	royal tennis, real tennis, court tennis
+n00483848	pallone
+n00523513	sport, athletics
+n00812526	clasp, clench, clutch, clutches, grasp, grip, hold
+n00825773	judo
+n00887544	team sport
+n01035504	Last Supper, Lord's Supper
+n01035667	Seder, Passover supper
+n01055165	camping, encampment, bivouacking, tenting
+n01314388	pest
+n01314663	critter
+n01314781	creepy-crawly
+n01314910	darter
+n01315213	peeper
+n01315330	homeotherm, homoiotherm, homotherm
+n01315581	poikilotherm, ectotherm
+n01315805	range animal
+n01316422	scavenger
+n01316579	bottom-feeder, bottom-dweller
+n01316734	bottom-feeder
+n01316949	work animal
+n01317089	beast of burden, jument
+n01317294	draft animal
+n01317391	pack animal, sumpter
+n01317541	domestic animal, domesticated animal
+n01317813	feeder
+n01317916	feeder
+n01318053	stocker
+n01318279	hatchling
+n01318381	head
+n01318478	migrator
+n01318660	molter, moulter
+n01318894	pet
+n01319001	stayer
+n01319187	stunt
+n01319467	marine animal, marine creature, sea animal, sea creature
+n01319685	by-catch, bycatch
+n01320872	female
+n01321123	hen
+n01321230	male
+n01321456	adult
+n01321579	young, offspring
+n01321770	orphan
+n01321854	young mammal
+n01322221	baby
+n01322343	pup, whelp
+n01322508	wolf pup, wolf cub
+n01322604	puppy
+n01322685	cub, young carnivore
+n01322898	lion cub
+n01322983	bear cub
+n01323068	tiger cub
+n01323155	kit
+n01323261	suckling
+n01323355	sire
+n01323493	dam
+n01323599	thoroughbred, purebred, pureblood
+n01323781	giant
+n01324305	mutant
+n01324431	carnivore
+n01324610	herbivore
+n01324799	insectivore
+n01324916	acrodont
+n01325060	pleurodont
+n01326291	microorganism, micro-organism
+n01327909	monohybrid
+n01329186	arbovirus, arborvirus
+n01330126	adenovirus
+n01330497	arenavirus
+n01332181	Marburg virus
+n01333082	Arenaviridae
+n01333483	vesiculovirus
+n01333610	Reoviridae
+n01334217	variola major, variola major virus
+n01334690	viroid, virusoid
+n01335218	coliphage
+n01337191	paramyxovirus
+n01337734	poliovirus
+n01338685	herpes, herpes virus
+n01339083	herpes simplex 1, HS1, HSV-1, HSV-I
+n01339336	herpes zoster, herpes zoster virus
+n01339471	herpes varicella zoster, herpes varicella zoster virus
+n01339801	cytomegalovirus, CMV
+n01340014	varicella zoster virus
+n01340522	polyoma, polyoma virus
+n01340785	lyssavirus
+n01340935	reovirus
+n01341090	rotavirus
+n01342269	moneran, moneron
+n01347583	archaebacteria, archaebacterium, archaeobacteria, archeobacteria
+n01349735	bacteroid
+n01350226	Bacillus anthracis, anthrax bacillus
+n01350701	Yersinia pestis
+n01351170	Brucella
+n01351315	spirillum, spirilla
+n01357328	botulinus, botulinum, Clostridium botulinum
+n01357507	clostridium perfringens
+n01358572	cyanobacteria, blue-green algae
+n01359762	trichodesmium
+n01362336	nitric bacteria, nitrobacteria
+n01363719	spirillum
+n01365474	Francisella, genus Francisella
+n01365885	gonococcus, Neisseria gonorrhoeae
+n01366700	Corynebacterium diphtheriae, C. diphtheriae, Klebs-Loeffler bacillus
+n01367772	enteric bacteria, enterobacteria, enterics, entric
+n01368672	klebsiella
+n01369358	Salmonella typhimurium
+n01369484	typhoid bacillus, Salmonella typhosa, Salmonella typhi
+n01374703	nitrate bacterium, nitric bacterium
+n01374846	nitrite bacterium, nitrous bacterium
+n01375204	actinomycete
+n01376237	streptomyces
+n01376437	Streptomyces erythreus
+n01376543	Streptomyces griseus
+n01377278	tubercle bacillus, Mycobacterium tuberculosis
+n01377510	pus-forming bacteria
+n01377694	streptobacillus
+n01378545	myxobacteria, myxobacterium, myxobacter, gliding bacteria, slime bacteria
+n01379389	staphylococcus, staphylococci, staph
+n01380610	diplococcus
+n01380754	pneumococcus, Diplococcus pneumoniae
+n01381044	streptococcus, streptococci, strep
+n01382033	spirochete, spirochaete
+n01384084	planktonic algae
+n01384164	zooplankton
+n01384687	parasite
+n01385017	endoparasite, entoparasite, entozoan, entozoon, endozoan
+n01385330	ectoparasite, ectozoan, ectozoon, epizoan, epizoon
+n01386007	pathogen
+n01386182	commensal
+n01386354	myrmecophile
+n01387065	protoctist
+n01389507	protozoan, protozoon
+n01390123	sarcodinian, sarcodine
+n01390763	heliozoan
+n01392275	endameba
+n01392380	ameba, amoeba
+n01393486	globigerina
+n01394040	testacean
+n01394492	arcella
+n01394771	difflugia
+n01395254	ciliate, ciliated protozoan, ciliophoran
+n01396048	paramecium, paramecia
+n01396617	stentor
+n01397114	alga, algae
+n01397690	arame
+n01397871	seagrass
+n01400247	golden algae
+n01400391	yellow-green algae
+n01402600	brown algae
+n01403457	kelp
+n01404365	fucoid, fucoid algae
+n01404495	fucoid
+n01405007	fucus
+n01405616	bladderwrack, Ascophyllum nodosum
+n01407798	green algae, chlorophyte
+n01410457	pond scum
+n01411450	chlorella
+n01412694	stonewort
+n01413457	desmid
+n01414216	sea moss
+n01415626	eukaryote, eucaryote
+n01415920	prokaryote, procaryote
+n01416213	zooid
+n01418498	Leishmania, genus Leishmania
+n01418620	zoomastigote, zooflagellate
+n01419332	polymastigote
+n01419573	costia, Costia necatrix
+n01419888	giardia
+n01421333	cryptomonad, cryptophyte
+n01421807	sporozoan
+n01422185	sporozoite
+n01422335	trophozoite
+n01422450	merozoite
+n01423302	coccidium, eimeria
+n01423617	gregarine
+n01424420	plasmodium, Plasmodium vivax, malaria parasite
+n01425223	leucocytozoan, leucocytozoon
+n01427399	microsporidian
+n01429172	Ostariophysi, order Ostariophysi
+n01438208	cypriniform fish
+n01438581	loach
+n01439121	cyprinid, cyprinid fish
+n01439514	carp
+n01439808	domestic carp, Cyprinus carpio
+n01440160	leather carp
+n01440242	mirror carp
+n01440467	European bream, Abramis brama
+n01440764	tench, Tinca tinca
+n01441117	dace, Leuciscus leuciscus
+n01441272	chub, Leuciscus cephalus
+n01441425	shiner
+n01441910	common shiner, silversides, Notropis cornutus
+n01442450	roach, Rutilus rutilus
+n01442710	rudd, Scardinius erythrophthalmus
+n01442972	minnow, Phoxinus phoxinus
+n01443243	gudgeon, Gobio gobio
+n01443537	goldfish, Carassius auratus
+n01443831	crucian carp, Carassius carassius, Carassius vulgaris
+n01444339	electric eel, Electrophorus electric
+n01444783	catostomid
+n01445429	buffalo fish, buffalofish
+n01445593	black buffalo, Ictiobus niger
+n01445857	hog sucker, hog molly, Hypentelium nigricans
+n01446152	redhorse, redhorse sucker
+n01446589	cyprinodont
+n01446760	killifish
+n01447139	mummichog, Fundulus heteroclitus
+n01447331	striped killifish, mayfish, may fish, Fundulus majalis
+n01447658	rivulus
+n01447946	flagfish, American flagfish, Jordanella floridae
+n01448291	swordtail, helleri, topminnow, Xyphophorus helleri
+n01448594	guppy, rainbow fish, Lebistes reticulatus
+n01448951	topminnow, poeciliid fish, poeciliid, live-bearer
+n01449374	mosquitofish, Gambusia affinis
+n01449712	platy, Platypoecilus maculatus
+n01449980	mollie, molly
+n01450661	squirrelfish
+n01450950	reef squirrelfish, Holocentrus coruscus
+n01451115	deepwater squirrelfish, Holocentrus bullisi
+n01451295	Holocentrus ascensionis
+n01451426	soldierfish, soldier-fish
+n01451863	anomalops, flashlight fish
+n01452345	flashlight fish, Photoblepharon palpebratus
+n01453087	John Dory, Zeus faber
+n01453475	boarfish, Capros aper
+n01453742	boarfish
+n01454545	cornetfish
+n01454856	stickleback, prickleback
+n01455317	three-spined stickleback, Gasterosteus aculeatus
+n01455461	ten-spined stickleback, Gasterosteus pungitius
+n01455778	pipefish, needlefish
+n01456137	dwarf pipefish, Syngnathus hildebrandi
+n01456454	deepwater pipefish, Cosmocampus profundus
+n01456756	seahorse, sea horse
+n01457082	snipefish, bellows fish
+n01457407	shrimpfish, shrimp-fish
+n01457852	trumpetfish, Aulostomus maculatus
+n01458746	pellicle
+n01458842	embryo, conceptus, fertilized egg
+n01459791	fetus, foetus
+n01460303	abortus
+n01461315	spawn
+n01461646	blastula, blastosphere
+n01462042	blastocyst, blastodermic vessicle
+n01462544	gastrula
+n01462803	morula
+n01464844	yolk, vitellus
+n01466257	chordate
+n01467336	cephalochordate
+n01467804	lancelet, amphioxus
+n01468238	tunicate, urochordate, urochord
+n01468712	ascidian
+n01469103	sea squirt
+n01469723	salp, salpa
+n01470145	doliolum
+n01470479	larvacean
+n01470733	appendicularia
+n01470895	ascidian tadpole
+n01471682	vertebrate, craniate
+n01472303	Amniota
+n01472502	amniote
+n01473806	aquatic vertebrate
+n01474283	jawless vertebrate, jawless fish, agnathan
+n01474864	ostracoderm
+n01475232	heterostracan
+n01475940	anaspid
+n01476418	conodont
+n01477080	cyclostome
+n01477525	lamprey, lamprey eel, lamper eel
+n01477875	sea lamprey, Petromyzon marinus
+n01478511	hagfish, hag, slime eels
+n01478969	Myxine glutinosa
+n01479213	eptatretus
+n01479820	gnathostome
+n01480106	placoderm
+n01480516	cartilaginous fish, chondrichthian
+n01480880	holocephalan, holocephalian
+n01481331	chimaera
+n01481498	rabbitfish, Chimaera monstrosa
+n01482071	elasmobranch, selachian
+n01482330	shark
+n01483021	cow shark, six-gilled shark, Hexanchus griseus
+n01483522	mackerel shark
+n01483830	porbeagle, Lamna nasus
+n01484097	mako, mako shark
+n01484285	shortfin mako, Isurus oxyrhincus
+n01484447	longfin mako, Isurus paucus
+n01484562	bonito shark, blue pointed, Isurus glaucus
+n01484850	great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias
+n01485479	basking shark, Cetorhinus maximus
+n01486010	thresher, thrasher, thresher shark, fox shark, Alopius vulpinus
+n01486540	carpet shark, Orectolobus barbatus
+n01486838	nurse shark, Ginglymostoma cirratum
+n01487506	sand tiger, sand shark, Carcharias taurus, Odontaspis taurus
+n01488038	whale shark, Rhincodon typus
+n01488918	requiem shark
+n01489501	bull shark, cub shark, Carcharhinus leucas
+n01489709	sandbar shark, Carcharhinus plumbeus
+n01489920	blacktip shark, sandbar shark, Carcharhinus limbatus
+n01490112	whitetip shark, oceanic whitetip shark, white-tipped shark, Carcharinus longimanus
+n01490360	dusky shark, Carcharhinus obscurus
+n01490670	lemon shark, Negaprion brevirostris
+n01491006	blue shark, great blue shark, Prionace glauca
+n01491361	tiger shark, Galeocerdo cuvieri
+n01491661	soupfin shark, soupfin, soup-fin, Galeorhinus zyopterus
+n01491874	dogfish
+n01492357	smooth dogfish
+n01492569	smoothhound, smoothhound shark, Mustelus mustelus
+n01492708	American smooth dogfish, Mustelus canis
+n01492860	Florida smoothhound, Mustelus norrisi
+n01493146	whitetip shark, reef whitetip shark, Triaenodon obseus
+n01493541	spiny dogfish
+n01493829	Atlantic spiny dogfish, Squalus acanthias
+n01494041	Pacific spiny dogfish, Squalus suckleyi
+n01494475	hammerhead, hammerhead shark
+n01494757	smooth hammerhead, Sphyrna zygaena
+n01494882	smalleye hammerhead, Sphyrna tudes
+n01495006	shovelhead, bonnethead, bonnet shark, Sphyrna tiburo
+n01495493	angel shark, angelfish, Squatina squatina, monkfish
+n01495701	ray
+n01496331	electric ray, crampfish, numbfish, torpedo
+n01497118	sawfish
+n01497413	smalltooth sawfish, Pristis pectinatus
+n01497738	guitarfish
+n01498041	stingray
+n01498406	roughtail stingray, Dasyatis centroura
+n01498699	butterfly ray
+n01498989	eagle ray
+n01499396	spotted eagle ray, spotted ray, Aetobatus narinari
+n01499732	cownose ray, cow-nosed ray, Rhinoptera bonasus
+n01500091	manta, manta ray, devilfish
+n01500476	Atlantic manta, Manta birostris
+n01500854	devil ray, Mobula hypostoma
+n01501160	skate
+n01501641	grey skate, gray skate, Raja batis
+n01501777	little skate, Raja erinacea
+n01501948	thorny skate, Raja radiata
+n01502101	barndoor skate, Raja laevis
+n01503061	bird
+n01503976	dickeybird, dickey-bird, dickybird, dicky-bird
+n01504179	fledgling, fledgeling
+n01504344	nestling, baby bird
+n01514668	cock
+n01514752	gamecock, fighting cock
+n01514859	hen
+n01514926	nester
+n01515078	night bird
+n01515217	night raven
+n01515303	bird of passage
+n01516212	archaeopteryx, archeopteryx, Archaeopteryx lithographica
+n01517389	archaeornis
+n01517565	ratite, ratite bird, flightless bird
+n01517966	carinate, carinate bird, flying bird
+n01518878	ostrich, Struthio camelus
+n01519563	cassowary
+n01519873	emu, Dromaius novaehollandiae, Emu novaehollandiae
+n01520576	kiwi, apteryx
+n01521399	rhea, Rhea americana
+n01521756	rhea, nandu, Pterocnemia pennata
+n01522450	elephant bird, aepyornis
+n01523105	moa
+n01524359	passerine, passeriform bird
+n01524761	nonpasserine bird
+n01525720	oscine, oscine bird
+n01526521	songbird, songster
+n01526766	honey eater, honeysucker
+n01527194	accentor
+n01527347	hedge sparrow, sparrow, dunnock, Prunella modularis
+n01527617	lark
+n01527917	skylark, Alauda arvensis
+n01528396	wagtail
+n01528654	pipit, titlark, lark
+n01528845	meadow pipit, Anthus pratensis
+n01529672	finch
+n01530439	chaffinch, Fringilla coelebs
+n01530575	brambling, Fringilla montifringilla
+n01531178	goldfinch, Carduelis carduelis
+n01531344	linnet, lintwhite, Carduelis cannabina
+n01531512	siskin, Carduelis spinus
+n01531639	red siskin, Carduelis cucullata
+n01531811	redpoll, Carduelis flammea
+n01531971	redpoll, Carduelis hornemanni
+n01532325	New World goldfinch, goldfinch, yellowbird, Spinus tristis
+n01532511	pine siskin, pine finch, Spinus pinus
+n01532829	house finch, linnet, Carpodacus mexicanus
+n01533000	purple finch, Carpodacus purpureus
+n01533339	canary, canary bird
+n01533481	common canary, Serinus canaria
+n01533651	serin
+n01533893	crossbill, Loxia curvirostra
+n01534155	bullfinch, Pyrrhula pyrrhula
+n01534433	junco, snowbird
+n01534582	dark-eyed junco, slate-colored junco, Junco hyemalis
+n01534762	New World sparrow
+n01535140	vesper sparrow, grass finch, Pooecetes gramineus
+n01535469	white-throated sparrow, whitethroat, Zonotrichia albicollis
+n01535690	white-crowned sparrow, Zonotrichia leucophrys
+n01536035	chipping sparrow, Spizella passerina
+n01536186	field sparrow, Spizella pusilla
+n01536334	tree sparrow, Spizella arborea
+n01536644	song sparrow, Melospiza melodia
+n01536780	swamp sparrow, Melospiza georgiana
+n01537134	bunting
+n01537544	indigo bunting, indigo finch, indigo bird, Passerina cyanea
+n01537895	ortolan, ortolan bunting, Emberiza hortulana
+n01538059	reed bunting, Emberiza schoeniclus
+n01538200	yellowhammer, yellow bunting, Emberiza citrinella
+n01538362	yellow-breasted bunting, Emberiza aureola
+n01538630	snow bunting, snowbird, snowflake, Plectrophenax nivalis
+n01538955	honeycreeper
+n01539272	banana quit
+n01539573	sparrow, true sparrow
+n01539925	English sparrow, house sparrow, Passer domesticus
+n01540090	tree sparrow, Passer montanus
+n01540233	grosbeak, grossbeak
+n01540566	evening grosbeak, Hesperiphona vespertina
+n01540832	hawfinch, Coccothraustes coccothraustes
+n01541102	pine grosbeak, Pinicola enucleator
+n01541386	cardinal, cardinal grosbeak, Richmondena Cardinalis, Cardinalis cardinalis, redbird
+n01541760	pyrrhuloxia, Pyrrhuloxia sinuata
+n01541922	towhee
+n01542168	chewink, cheewink, Pipilo erythrophthalmus
+n01542433	green-tailed towhee, Chlorura chlorura
+n01542786	weaver, weaverbird, weaver finch
+n01543175	baya, Ploceus philippinus
+n01543383	whydah, whidah, widow bird
+n01543632	Java sparrow, Java finch, ricebird, Padda oryzivora
+n01543936	avadavat, amadavat
+n01544208	grassfinch, grass finch
+n01544389	zebra finch, Poephila castanotis
+n01544704	honeycreeper, Hawaiian honeycreeper
+n01545574	lyrebird
+n01546039	scrubbird, scrub-bird, scrub bird
+n01546506	broadbill
+n01546921	tyrannid
+n01547832	New World flycatcher, flycatcher, tyrant flycatcher, tyrant bird
+n01548301	kingbird, Tyrannus tyrannus
+n01548492	Arkansas kingbird, western kingbird
+n01548694	Cassin's kingbird, Tyrannus vociferans
+n01548865	eastern kingbird
+n01549053	grey kingbird, gray kingbird, petchary, Tyrannus domenicensis domenicensis
+n01549430	pewee, peewee, peewit, pewit, wood pewee, Contopus virens
+n01549641	western wood pewee, Contopus sordidulus
+n01549886	phoebe, phoebe bird, Sayornis phoebe
+n01550172	vermillion flycatcher, firebird, Pyrocephalus rubinus mexicanus
+n01550761	cotinga, chatterer
+n01551080	cock of the rock, Rupicola rupicola
+n01551300	cock of the rock, Rupicola peruviana
+n01551711	manakin
+n01552034	bellbird
+n01552333	umbrella bird, Cephalopterus ornatus
+n01552813	ovenbird
+n01553142	antbird, ant bird
+n01553527	ant thrush
+n01553762	ant shrike
+n01554017	spotted antbird, Hylophylax naevioides
+n01554448	woodhewer, woodcreeper, wood-creeper, tree creeper
+n01555004	pitta
+n01555305	scissortail, scissortailed flycatcher, Muscivora-forficata
+n01555809	Old World flycatcher, true flycatcher, flycatcher
+n01556182	spotted flycatcher, Muscicapa striata, Muscicapa grisola
+n01556514	thickhead, whistler
+n01557185	thrush
+n01557962	missel thrush, mistle thrush, mistletoe thrush, Turdus viscivorus
+n01558149	song thrush, mavis, throstle, Turdus philomelos
+n01558307	fieldfare, snowbird, Turdus pilaris
+n01558461	redwing, Turdus iliacus
+n01558594	blackbird, merl, merle, ouzel, ousel, European blackbird, Turdus merula
+n01558765	ring ouzel, ring blackbird, ring thrush, Turdus torquatus
+n01558993	robin, American robin, Turdus migratorius
+n01559160	clay-colored robin, Turdus greyi
+n01559477	hermit thrush, Hylocichla guttata
+n01559639	veery, Wilson's thrush, Hylocichla fuscescens
+n01559804	wood thrush, Hylocichla mustelina
+n01560105	nightingale, Luscinia megarhynchos
+n01560280	thrush nightingale, Luscinia luscinia
+n01560419	bulbul
+n01560636	Old World chat, chat
+n01560793	stonechat, Saxicola torquata
+n01560935	whinchat, Saxicola rubetra
+n01561181	solitaire
+n01561452	redstart, redtail
+n01561732	wheatear
+n01562014	bluebird
+n01562265	robin, redbreast, robin redbreast, Old World robin, Erithacus rubecola
+n01562451	bluethroat, Erithacus svecicus
+n01563128	warbler
+n01563449	gnatcatcher
+n01563746	kinglet
+n01563945	goldcrest, golden-crested kinglet, Regulus regulus
+n01564101	gold-crowned kinglet, Regulus satrata
+n01564217	ruby-crowned kinglet, ruby-crowned wren, Regulus calendula
+n01564394	Old World warbler, true warbler
+n01564773	blackcap, Silvia atricapilla
+n01564914	greater whitethroat, whitethroat, Sylvia communis
+n01565078	lesser whitethroat, whitethroat, Sylvia curruca
+n01565345	wood warbler, Phylloscopus sibilatrix
+n01565599	sedge warbler, sedge bird, sedge wren, reedbird, Acrocephalus schoenobaenus
+n01565930	wren warbler
+n01566207	tailorbird, Orthotomus sutorius
+n01566645	babbler, cackler
+n01567133	New World warbler, wood warbler
+n01567678	parula warbler, northern parula, Parula americana
+n01567879	Wilson's warbler, Wilson's blackcap, Wilsonia pusilla
+n01568132	flycatching warbler
+n01568294	American redstart, redstart, Setophaga ruticilla
+n01568720	Cape May warbler, Dendroica tigrina
+n01568892	yellow warbler, golden warbler, yellowbird, Dendroica petechia
+n01569060	Blackburn, Blackburnian warbler, Dendroica fusca
+n01569262	Audubon's warbler, Audubon warbler, Dendroica auduboni
+n01569423	myrtle warbler, myrtle bird, Dendroica coronata
+n01569566	blackpoll, Dendroica striate
+n01569836	New World chat, chat
+n01569971	yellow-breasted chat, Icteria virens
+n01570267	ovenbird, Seiurus aurocapillus
+n01570421	water thrush
+n01570676	yellowthroat
+n01570839	common yellowthroat, Maryland yellowthroat, Geothlypis trichas
+n01571410	riflebird, Ptloris paradisea
+n01571904	New World oriole, American oriole, oriole
+n01572328	northern oriole, Icterus galbula
+n01572489	Baltimore oriole, Baltimore bird, hangbird, firebird, Icterus galbula galbula
+n01572654	Bullock's oriole, Icterus galbula bullockii
+n01572782	orchard oriole, Icterus spurius
+n01573074	meadowlark, lark
+n01573240	eastern meadowlark, Sturnella magna
+n01573360	western meadowlark, Sturnella neglecta
+n01573627	cacique, cazique
+n01573898	bobolink, ricebird, reedbird, Dolichonyx oryzivorus
+n01574045	New World blackbird, blackbird
+n01574390	grackle, crow blackbird
+n01574560	purple grackle, Quiscalus quiscula
+n01574801	rusty blackbird, rusty grackle, Euphagus carilonus
+n01575117	cowbird
+n01575401	red-winged blackbird, redwing, Agelaius phoeniceus
+n01575745	Old World oriole, oriole
+n01576076	golden oriole, Oriolus oriolus
+n01576358	fig-bird
+n01576695	starling
+n01577035	common starling, Sturnus vulgaris
+n01577458	rose-colored starling, rose-colored pastor, Pastor sturnus, Pastor roseus
+n01577659	myna, mynah, mina, minah, myna bird, mynah bird
+n01577941	crested myna, Acridotheres tristis
+n01578180	hill myna, Indian grackle, grackle, Gracula religiosa
+n01578575	corvine bird
+n01579028	crow
+n01579149	American crow, Corvus brachyrhyncos
+n01579260	raven, Corvus corax
+n01579410	rook, Corvus frugilegus
+n01579578	jackdaw, daw, Corvus monedula
+n01579729	chough
+n01580077	jay
+n01580379	Old World jay
+n01580490	common European jay, Garullus garullus
+n01580772	New World jay
+n01580870	blue jay, jaybird, Cyanocitta cristata
+n01581166	Canada jay, grey jay, gray jay, camp robber, whisker jack, Perisoreus canadensis
+n01581434	Rocky Mountain jay, Perisoreus canadensis capitalis
+n01581730	nutcracker
+n01581874	common nutcracker, Nucifraga caryocatactes
+n01581984	Clark's nutcracker, Nucifraga columbiana
+n01582220	magpie
+n01582398	European magpie, Pica pica
+n01582498	American magpie, Pica pica hudsonia
+n01582856	Australian magpie
+n01583209	butcherbird
+n01583495	currawong, bell magpie
+n01583828	piping crow, piping crow-shrike, Gymnorhina tibicen
+n01584225	wren, jenny wren
+n01584695	winter wren, Troglodytes troglodytes
+n01584853	house wren, Troglodytes aedon
+n01585121	marsh wren
+n01585287	long-billed marsh wren, Cistothorus palustris
+n01585422	sedge wren, short-billed marsh wren, Cistothorus platensis
+n01585715	rock wren, Salpinctes obsoletus
+n01586020	Carolina wren, Thryothorus ludovicianus
+n01586374	cactus wren
+n01586941	mockingbird, mocker, Mimus polyglotktos
+n01587278	blue mockingbird, Melanotis caerulescens
+n01587526	catbird, grey catbird, gray catbird, Dumetella carolinensis
+n01587834	thrasher, mocking thrush
+n01588002	brown thrasher, brown thrush, Toxostoma rufums
+n01588431	New Zealand wren
+n01588725	rock wren, Xenicus gilviventris
+n01588996	rifleman bird, Acanthisitta chloris
+n01589286	creeper, tree creeper
+n01589718	brown creeper, American creeper, Certhia americana
+n01589893	European creeper, Certhia familiaris
+n01590220	wall creeper, tichodrome, Tichodroma muriaria
+n01591005	European nuthatch, Sitta europaea
+n01591123	red-breasted nuthatch, Sitta canadensis
+n01591301	white-breasted nuthatch, Sitta carolinensis
+n01591697	titmouse, tit
+n01592084	chickadee
+n01592257	black-capped chickadee, blackcap, Parus atricapillus
+n01592387	tufted titmouse, Parus bicolor
+n01592540	Carolina chickadee, Parus carolinensis
+n01592694	blue tit, tomtit, Parus caeruleus
+n01593028	bushtit, bush tit
+n01593282	wren-tit, Chamaea fasciata
+n01593553	verdin, Auriparus flaviceps
+n01594004	fairy bluebird, bluebird
+n01594372	swallow
+n01594787	barn swallow, chimney swallow, Hirundo rustica
+n01594968	cliff swallow, Hirundo pyrrhonota
+n01595168	tree swallow, tree martin, Hirundo nigricans
+n01595450	white-bellied swallow, tree swallow, Iridoprocne bicolor
+n01595624	martin
+n01595974	house martin, Delichon urbica
+n01596273	bank martin, bank swallow, sand martin, Riparia riparia
+n01596608	purple martin, Progne subis
+n01597022	wood swallow, swallow shrike
+n01597336	tanager
+n01597737	scarlet tanager, Piranga olivacea, redbird, firebird
+n01597906	western tanager, Piranga ludoviciana
+n01598074	summer tanager, summer redbird, Piranga rubra
+n01598271	hepatic tanager, Piranga flava hepatica
+n01598588	shrike
+n01598988	butcherbird
+n01599159	European shrike, Lanius excubitor
+n01599269	northern shrike, Lanius borealis
+n01599388	white-rumped shrike, Lanius ludovicianus excubitorides
+n01599556	loggerhead shrike, Lanius lucovicianus
+n01599741	migrant shrike, Lanius ludovicianus migrans
+n01600085	bush shrike
+n01600341	black-fronted bush shrike, Chlorophoneus nigrifrons
+n01600657	bowerbird, catbird
+n01601068	satin bowerbird, satin bird, Ptilonorhynchus violaceus
+n01601410	great bowerbird, Chlamydera nuchalis
+n01601694	water ouzel, dipper
+n01602080	European water ouzel, Cinclus aquaticus
+n01602209	American water ouzel, Cinclus mexicanus
+n01602630	vireo
+n01602832	red-eyed vireo, Vireo olivaceous
+n01603000	solitary vireo, Vireo solitarius
+n01603152	blue-headed vireo, Vireo solitarius solitarius
+n01603600	waxwing
+n01603812	cedar waxwing, cedarbird, Bombycilla cedrorun
+n01603953	Bohemian waxwing, Bombycilla garrulus
+n01604330	bird of prey, raptor, raptorial bird
+n01604968	Accipitriformes, order Accipitriformes
+n01605630	hawk
+n01606097	eyas
+n01606177	tiercel, tercel, tercelet
+n01606522	goshawk, Accipiter gentilis
+n01606672	sparrow hawk, Accipiter nisus
+n01606809	Cooper's hawk, blue darter, Accipiter cooperii
+n01606978	chicken hawk, hen hawk
+n01607309	buteonine
+n01607429	redtail, red-tailed hawk, Buteo jamaicensis
+n01607600	rough-legged hawk, roughleg, Buteo lagopus
+n01607812	red-shouldered hawk, Buteo lineatus
+n01607962	buzzard, Buteo buteo
+n01608265	honey buzzard, Pernis apivorus
+n01608432	kite
+n01608814	black kite, Milvus migrans
+n01609062	swallow-tailed kite, swallow-tailed hawk, Elanoides forficatus
+n01609391	white-tailed kite, Elanus leucurus
+n01609751	harrier
+n01609956	marsh harrier, Circus Aeruginosus
+n01610100	Montagu's harrier, Circus pygargus
+n01610226	marsh hawk, northern harrier, hen harrier, Circus cyaneus
+n01610552	harrier eagle, short-toed eagle
+n01610955	falcon
+n01611472	peregrine, peregrine falcon, Falco peregrinus
+n01611674	falcon-gentle, falcon-gentil
+n01611800	gyrfalcon, gerfalcon, Falco rusticolus
+n01611969	kestrel, Falco tinnunculus
+n01612122	sparrow hawk, American kestrel, kestrel, Falco sparverius
+n01612275	pigeon hawk, merlin, Falco columbarius
+n01612476	hobby, Falco subbuteo
+n01612628	caracara
+n01612955	Audubon's caracara, Polyborus cheriway audubonii
+n01613177	carancha, Polyborus plancus
+n01613294	eagle, bird of Jove
+n01613615	young bird
+n01613807	eaglet
+n01614038	harpy, harpy eagle, Harpia harpyja
+n01614343	golden eagle, Aquila chrysaetos
+n01614556	tawny eagle, Aquila rapax
+n01614925	bald eagle, American eagle, Haliaeetus leucocephalus
+n01615121	sea eagle
+n01615303	Kamchatkan sea eagle, Stellar's sea eagle, Haliaeetus pelagicus
+n01615458	ern, erne, grey sea eagle, gray sea eagle, European sea eagle, white-tailed sea eagle, Haliatus albicilla
+n01615703	fishing eagle, Haliaeetus leucorhyphus
+n01616086	osprey, fish hawk, fish eagle, sea eagle, Pandion haliaetus
+n01616318	vulture
+n01616551	Aegypiidae, family Aegypiidae
+n01616764	Old World vulture
+n01617095	griffon vulture, griffon, Gyps fulvus
+n01617443	bearded vulture, lammergeier, lammergeyer, Gypaetus barbatus
+n01617766	Egyptian vulture, Pharaoh's chicken, Neophron percnopterus
+n01618082	black vulture, Aegypius monachus
+n01618503	secretary bird, Sagittarius serpentarius
+n01618922	New World vulture, cathartid
+n01619310	buzzard, turkey buzzard, turkey vulture, Cathartes aura
+n01619536	condor
+n01619835	Andean condor, Vultur gryphus
+n01620135	California condor, Gymnogyps californianus
+n01620414	black vulture, carrion crow, Coragyps atratus
+n01620735	king vulture, Sarcorhamphus papa
+n01621127	owl, bird of Minerva, bird of night, hooter
+n01621635	owlet
+n01622120	little owl, Athene noctua
+n01622352	horned owl
+n01622483	great horned owl, Bubo virginianus
+n01622779	great grey owl, great gray owl, Strix nebulosa
+n01622959	tawny owl, Strix aluco
+n01623110	barred owl, Strix varia
+n01623425	screech owl, Otus asio
+n01623615	screech owl
+n01623706	scops owl
+n01623880	spotted owl, Strix occidentalis
+n01624115	Old World scops owl, Otus scops
+n01624212	Oriental scops owl, Otus sunia
+n01624305	hoot owl
+n01624537	hawk owl, Surnia ulula
+n01624833	long-eared owl, Asio otus
+n01625121	laughing owl, laughing jackass, Sceloglaux albifacies
+n01625562	barn owl, Tyto alba
+n01627424	amphibian
+n01628331	Ichyostega
+n01628770	urodele, caudate
+n01629276	salamander
+n01629819	European fire salamander, Salamandra salamandra
+n01629962	spotted salamander, fire salamander, Salamandra maculosa
+n01630148	alpine salamander, Salamandra atra
+n01630284	newt, triton
+n01630670	common newt, Triturus vulgaris
+n01630901	red eft, Notophthalmus viridescens
+n01631175	Pacific newt
+n01631354	rough-skinned newt, Taricha granulosa
+n01631512	California newt, Taricha torosa
+n01631663	eft
+n01632047	ambystomid, ambystomid salamander
+n01632308	mole salamander, Ambystoma talpoideum
+n01632458	spotted salamander, Ambystoma maculatum
+n01632601	tiger salamander, Ambystoma tigrinum
+n01632777	axolotl, mud puppy, Ambystoma mexicanum
+n01632952	waterdog
+n01633406	hellbender, mud puppy, Cryptobranchus alleganiensis
+n01633781	giant salamander, Megalobatrachus maximus
+n01634227	olm, Proteus anguinus
+n01634522	mud puppy, Necturus maculosus
+n01635027	dicamptodon, dicamptodontid
+n01635176	Pacific giant salamander, Dicamptodon ensatus
+n01635480	olympic salamander, Rhyacotriton olympicus
+n01636127	lungless salamander, plethodont
+n01636352	eastern red-backed salamander, Plethodon cinereus
+n01636510	western red-backed salamander, Plethodon vehiculum
+n01636829	dusky salamander
+n01637112	climbing salamander
+n01637338	arboreal salamander, Aneides lugubris
+n01637615	slender salamander, worm salamander
+n01637932	web-toed salamander
+n01638194	Shasta salamander, Hydromantes shastae
+n01638329	limestone salamander, Hydromantes brunus
+n01638722	amphiuma, congo snake, congo eel, blind eel
+n01639187	siren
+n01639765	frog, toad, toad frog, anuran, batrachian, salientian
+n01640846	true frog, ranid
+n01641206	wood-frog, wood frog, Rana sylvatica
+n01641391	leopard frog, spring frog, Rana pipiens
+n01641577	bullfrog, Rana catesbeiana
+n01641739	green frog, spring frog, Rana clamitans
+n01641930	cascades frog, Rana cascadae
+n01642097	goliath frog, Rana goliath
+n01642257	pickerel frog, Rana palustris
+n01642391	tarahumara frog, Rana tarahumarae
+n01642539	grass frog, Rana temporaria
+n01642943	leptodactylid frog, leptodactylid
+n01643255	robber frog
+n01643507	barking frog, robber frog, Hylactophryne augusti
+n01643896	crapaud, South American bullfrog, Leptodactylus pentadactylus
+n01644373	tree frog, tree-frog
+n01644900	tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui
+n01645466	Liopelma hamiltoni
+n01645776	true toad
+n01646292	bufo
+n01646388	agua, agua toad, Bufo marinus
+n01646555	European toad, Bufo bufo
+n01646648	natterjack, Bufo calamita
+n01646802	American toad, Bufo americanus
+n01646902	Eurasian green toad, Bufo viridis
+n01647033	American green toad, Bufo debilis
+n01647180	Yosemite toad, Bufo canorus
+n01647303	Texas toad, Bufo speciosus
+n01647466	southwestern toad, Bufo microscaphus
+n01647640	western toad, Bufo boreas
+n01648139	obstetrical toad, midwife toad, Alytes obstetricans
+n01648356	midwife toad, Alytes cisternasi
+n01648620	fire-bellied toad, Bombina bombina
+n01649170	spadefoot, spadefoot toad
+n01649412	western spadefoot, Scaphiopus hammondii
+n01649556	southern spadefoot, Scaphiopus multiplicatus
+n01649726	plains spadefoot, Scaphiopus bombifrons
+n01650167	tree toad, tree frog, tree-frog
+n01650690	spring peeper, Hyla crucifer
+n01650901	Pacific tree toad, Hyla regilla
+n01651059	canyon treefrog, Hyla arenicolor
+n01651285	chameleon tree frog
+n01651487	cricket frog
+n01651641	northern cricket frog, Acris crepitans
+n01651778	eastern cricket frog, Acris gryllus
+n01652026	chorus frog
+n01652297	lowland burrowing treefrog, northern casque-headed frog, Pternohyla fodiens
+n01653026	western narrow-mouthed toad, Gastrophryne olivacea
+n01653223	eastern narrow-mouthed toad, Gastrophryne carolinensis
+n01653509	sheep frog
+n01653773	tongueless frog
+n01654083	Surinam toad, Pipa pipa, Pipa americana
+n01654637	African clawed frog, Xenopus laevis
+n01654863	South American poison toad
+n01655344	caecilian, blindworm
+n01661091	reptile, reptilian
+n01661592	anapsid, anapsid reptile
+n01661818	diapsid, diapsid reptile
+n01662060	Diapsida, subclass Diapsida
+n01662622	chelonian, chelonian reptile
+n01662784	turtle
+n01663401	sea turtle, marine turtle
+n01663782	green turtle, Chelonia mydas
+n01664065	loggerhead, loggerhead turtle, Caretta caretta
+n01664369	ridley
+n01664492	Atlantic ridley, bastard ridley, bastard turtle, Lepidochelys kempii
+n01664674	Pacific ridley, olive ridley, Lepidochelys olivacea
+n01664990	hawksbill turtle, hawksbill, hawkbill, tortoiseshell turtle, Eretmochelys imbricata
+n01665541	leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea
+n01665932	snapping turtle
+n01666228	common snapping turtle, snapper, Chelydra serpentina
+n01666585	alligator snapping turtle, alligator snapper, Macroclemys temmincki
+n01667114	mud turtle
+n01667432	musk turtle, stinkpot
+n01667778	terrapin
+n01668091	diamondback terrapin, Malaclemys centrata
+n01668436	red-bellied terrapin, red-bellied turtle, redbelly, Pseudemys rubriventris
+n01668665	slider, yellow-bellied terrapin, Pseudemys scripta
+n01668892	cooter, river cooter, Pseudemys concinna
+n01669191	box turtle, box tortoise
+n01669372	Western box turtle, Terrapene ornata
+n01669654	painted turtle, painted terrapin, painted tortoise, Chrysemys picta
+n01670092	tortoise
+n01670535	European tortoise, Testudo graeca
+n01670802	giant tortoise
+n01671125	gopher tortoise, gopher turtle, gopher, Gopherus polypemus
+n01671479	desert tortoise, Gopherus agassizii
+n01671705	Texas tortoise
+n01672032	soft-shelled turtle, pancake turtle
+n01672432	spiny softshell, Trionyx spiniferus
+n01672611	smooth softshell, Trionyx muticus
+n01673282	tuatara, Sphenodon punctatum
+n01674216	saurian
+n01674464	lizard
+n01674990	gecko
+n01675352	flying gecko, fringed gecko, Ptychozoon homalocephalum
+n01675722	banded gecko
+n01676755	iguanid, iguanid lizard
+n01677366	common iguana, iguana, Iguana iguana
+n01677747	marine iguana, Amblyrhynchus cristatus
+n01678043	desert iguana, Dipsosaurus dorsalis
+n01678343	chuckwalla, Sauromalus obesus
+n01678657	zebra-tailed lizard, gridiron-tailed lizard, Callisaurus draconoides
+n01679005	fringe-toed lizard, Uma notata
+n01679307	earless lizard
+n01679626	collared lizard
+n01679962	leopard lizard
+n01680264	spiny lizard
+n01680478	fence lizard
+n01680655	western fence lizard, swift, blue-belly, Sceloporus occidentalis
+n01680813	eastern fence lizard, pine lizard, Sceloporus undulatus
+n01680983	sagebrush lizard, Sceloporus graciosus
+n01681328	side-blotched lizard, sand lizard, Uta stansburiana
+n01681653	tree lizard, Urosaurus ornatus
+n01681940	horned lizard, horned toad, horny frog
+n01682172	Texas horned lizard, Phrynosoma cornutum
+n01682435	basilisk
+n01682714	American chameleon, anole, Anolis carolinensis
+n01683201	worm lizard
+n01683558	night lizard
+n01684133	skink, scincid, scincid lizard
+n01684578	western skink, Eumeces skiltonianus
+n01684741	mountain skink, Eumeces callicephalus
+n01685439	teiid lizard, teiid
+n01685808	whiptail, whiptail lizard
+n01686044	racerunner, race runner, six-lined racerunner, Cnemidophorus sexlineatus
+n01686220	plateau striped whiptail, Cnemidophorus velox
+n01686403	Chihuahuan spotted whiptail, Cnemidophorus exsanguis
+n01686609	western whiptail, Cnemidophorus tigris
+n01686808	checkered whiptail, Cnemidophorus tesselatus
+n01687128	teju
+n01687290	caiman lizard
+n01687665	agamid, agamid lizard
+n01687978	agama
+n01688243	frilled lizard, Chlamydosaurus kingi
+n01688961	moloch
+n01689081	mountain devil, spiny lizard, Moloch horridus
+n01689411	anguid lizard
+n01689811	alligator lizard
+n01690149	blindworm, slowworm, Anguis fragilis
+n01690466	glass lizard, glass snake, joint snake
+n01691217	legless lizard
+n01691652	Lanthanotus borneensis
+n01691951	venomous lizard
+n01692333	Gila monster, Heloderma suspectum
+n01692523	beaded lizard, Mexican beaded lizard, Heloderma horridum
+n01692864	lacertid lizard, lacertid
+n01693175	sand lizard, Lacerta agilis
+n01693334	green lizard, Lacerta viridis
+n01693783	chameleon, chamaeleon
+n01694178	African chameleon, Chamaeleo chamaeleon
+n01694311	horned chameleon, Chamaeleo oweni
+n01694709	monitor, monitor lizard, varan
+n01694955	African monitor, Varanus niloticus
+n01695060	Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis
+n01696633	crocodilian reptile, crocodilian
+n01697178	crocodile
+n01697457	African crocodile, Nile crocodile, Crocodylus niloticus
+n01697611	Asian crocodile, Crocodylus porosus
+n01697749	Morlett's crocodile
+n01697978	false gavial, Tomistoma schlegeli
+n01698434	alligator, gator
+n01698640	American alligator, Alligator mississipiensis
+n01698782	Chinese alligator, Alligator sinensis
+n01699040	caiman, cayman
+n01699254	spectacled caiman, Caiman sclerops
+n01699675	gavial, Gavialis gangeticus
+n01701551	armored dinosaur
+n01701859	stegosaur, stegosaurus, Stegosaur stenops
+n01702256	ankylosaur, ankylosaurus
+n01702479	Edmontonia
+n01703011	bone-headed dinosaur
+n01703161	pachycephalosaur, pachycephalosaurus
+n01703569	ceratopsian, horned dinosaur
+n01704103	protoceratops
+n01704323	triceratops
+n01704626	styracosaur, styracosaurus
+n01705010	psittacosaur, psittacosaurus
+n01705591	ornithopod, ornithopod dinosaur
+n01705934	hadrosaur, hadrosaurus, duck-billed dinosaur
+n01707294	trachodon, trachodont
+n01708106	saurischian, saurischian dinosaur
+n01708998	sauropod, sauropod dinosaur
+n01709484	apatosaur, apatosaurus, brontosaur, brontosaurus, thunder lizard, Apatosaurus excelsus
+n01709876	barosaur, barosaurus
+n01710177	diplodocus
+n01711160	argentinosaur
+n01712008	theropod, theropod dinosaur, bird-footed dinosaur
+n01712752	ceratosaur, ceratosaurus
+n01713170	coelophysis
+n01713764	tyrannosaur, tyrannosaurus, Tyrannosaurus rex
+n01714231	allosaur, allosaurus
+n01715888	ornithomimid
+n01717016	maniraptor
+n01717229	oviraptorid
+n01717467	velociraptor
+n01718096	deinonychus
+n01718414	utahraptor, superslasher
+n01719403	synapsid, synapsid reptile
+n01721174	dicynodont
+n01721898	pelycosaur
+n01722670	dimetrodon
+n01722998	pterosaur, flying reptile
+n01723579	pterodactyl
+n01724231	ichthyosaur
+n01724840	ichthyosaurus
+n01725086	stenopterygius, Stenopterygius quadrisicissus
+n01725713	plesiosaur, plesiosaurus
+n01726203	nothosaur
+n01726692	snake, serpent, ophidian
+n01727646	colubrid snake, colubrid
+n01728266	hoop snake
+n01728572	thunder snake, worm snake, Carphophis amoenus
+n01728920	ringneck snake, ring-necked snake, ring snake
+n01729322	hognose snake, puff adder, sand viper
+n01729672	leaf-nosed snake
+n01729977	green snake, grass snake
+n01730185	smooth green snake, Opheodrys vernalis
+n01730307	rough green snake, Opheodrys aestivus
+n01730563	green snake
+n01730812	racer
+n01730960	blacksnake, black racer, Coluber constrictor
+n01731137	blue racer, Coluber constrictor flaviventris
+n01731277	horseshoe whipsnake, Coluber hippocrepis
+n01731545	whip-snake, whip snake, whipsnake
+n01731764	coachwhip, coachwhip snake, Masticophis flagellum
+n01731941	California whipsnake, striped racer, Masticophis lateralis
+n01732093	Sonoran whipsnake, Masticophis bilineatus
+n01732244	rat snake
+n01732614	corn snake, red rat snake, Elaphe guttata
+n01732789	black rat snake, blacksnake, pilot blacksnake, mountain blacksnake, Elaphe obsoleta
+n01732989	chicken snake
+n01733214	Indian rat snake, Ptyas mucosus
+n01733466	glossy snake, Arizona elegans
+n01733757	bull snake, bull-snake
+n01733957	gopher snake, Pituophis melanoleucus
+n01734104	pine snake
+n01734418	king snake, kingsnake
+n01734637	common kingsnake, Lampropeltis getulus
+n01734808	milk snake, house snake, milk adder, checkered adder, Lampropeltis triangulum
+n01735189	garter snake, grass snake
+n01735439	common garter snake, Thamnophis sirtalis
+n01735577	ribbon snake, Thamnophis sauritus
+n01735728	Western ribbon snake, Thamnophis proximus
+n01736032	lined snake, Tropidoclonion lineatum
+n01736375	ground snake, Sonora semiannulata
+n01736796	eastern ground snake, Potamophis striatula, Haldea striatula
+n01737021	water snake
+n01737472	common water snake, banded water snake, Natrix sipedon, Nerodia sipedon
+n01737728	water moccasin
+n01737875	grass snake, ring snake, ringed snake, Natrix natrix
+n01738065	viperine grass snake, Natrix maura
+n01738306	red-bellied snake, Storeria occipitamaculata
+n01738601	sand snake
+n01738731	banded sand snake, Chilomeniscus cinctus
+n01739094	black-headed snake
+n01739381	vine snake
+n01739647	lyre snake
+n01739871	Sonoran lyre snake, Trimorphodon lambda
+n01740131	night snake, Hypsiglena torquata
+n01740551	blind snake, worm snake
+n01740885	western blind snake, Leptotyphlops humilis
+n01741232	indigo snake, gopher snake, Drymarchon corais
+n01741442	eastern indigo snake, Drymarchon corais couperi
+n01741562	constrictor
+n01741943	boa
+n01742172	boa constrictor, Constrictor constrictor
+n01742447	rubber boa, tow-headed snake, Charina bottae
+n01742821	rosy boa, Lichanura trivirgata
+n01743086	anaconda, Eunectes murinus
+n01743605	python
+n01743936	carpet snake, Python variegatus, Morelia spilotes variegatus
+n01744100	reticulated python, Python reticulatus
+n01744270	Indian python, Python molurus
+n01744401	rock python, rock snake, Python sebae
+n01744555	amethystine python
+n01745125	elapid, elapid snake
+n01745484	coral snake, harle

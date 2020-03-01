@@ -1,0 +1,1 @@
+{"i": ["llvm", "matmul_v4", [512, 224, 512, "float32"], {}, ["matmul_v4", 512, 224, 512, "float32"], {"i": 4, "t": "", "c": null, "e": [["tile_y", "ot", 16], ["tile_x", "ot", 1], ["ordering", "re", [0, 1, 2, 3, 4]], ["auto_unroll_max_step", "ot", 0], ["unroll_explicit", "ot", 0]]}], "r": [[0.03711548], 0, 0.9416851997375488, 1582621816.03615], "v": 0.1}

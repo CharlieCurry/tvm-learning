@@ -1,0 +1,31 @@
+128*128*128
+################################################################
+parallel
+time: 0.0000837700
+unroll
+time: 0.0000575700
+packing
+time: 0.0000970000
+write cache
+time: 0.0000996100
+################################################################
+Minimum Value: 0.0000575700
+unroll
+Numpy running time: 0.000054
+speedup= 0.9416710091
+################################################################
+best schedule method:  <function Gemm_tv2_reorder2_3_vec1_para1_unrollv1_config_define at 0x7f2df349b510>
+ConfigSpace (len=512, space_map=
+   0 tile_x: Split(policy=factors, product=128, num_outputs=2) len=8
+   1 tile_y: Split(policy=factors, product=128, num_outputs=2) len=8
+   2 tile_k: Split(policy=factors, product=128, num_outputs=2) len=8
+)
+XGBoost:
+ Current/Best:    2.85/  61.72 GFLOPS | Progress: (512/512) | 824.47 s Done.
+RandomSearch:
+ Current/Best:    5.53/  66.20 GFLOPS | Progress: (512/512) | 707.84 s Done.
+GA:
+ Current/Best:    4.77/  58.14 GFLOPS | Progress: (512/512) | 569.36 s Done.
+GridSearch
+ Current/Best:    0.00/  61.70 GFLOPS | Progress: (512/512) | 340.84 s Done.
+###############################

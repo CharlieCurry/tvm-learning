@@ -168,7 +168,7 @@ if __name__ == '__main__':
     src = str(M) + "*" + str(L) + "*" + str(N)
     print(src)
     matmul = matmul_v4
-    space_len = 100
+    space_len = 10
 
     task = autotvm.task.create(matmul,args=(N,L,M,dtype),target=target)
     print(task.config_space)

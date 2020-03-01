@@ -1,0 +1,1 @@
+{"i": ["llvm", "Gemm_tv2_reorder2_3_vec1_para1_unrollv1_config_define", [128, 64, 64, "float32"], {}, null, {"i": 172, "t": "", "c": null, "e": [["tile_x", "sp", [-1, 16]], ["tile_y", "sp", [-1, 1]], ["tile_k", "sp", [-1, 8]]]}], "r": [[2.34e-05], 0, 0.7424728870391846, 1582641783.3434727], "v": 0.1}

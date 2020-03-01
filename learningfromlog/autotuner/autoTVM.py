@@ -8,12 +8,15 @@ import sys
 # You are free to try out different shapes, sometimes TVM optimization outperforms numpy with MKL.
 #指定矩阵的大小(M, K) x (K, N)
 import sys
-M = sys.argv[1]
-K = sys.argv[2]
-N = sys.argv[3]
-M = int(M)
-K = int(K)
-N = int(N)
+# M = sys.argv[1]
+# K = sys.argv[2]
+# N = sys.argv[3]
+# M = int(M)
+# K = int(K)
+# N = int(N)
+M = 128
+N = 128
+K = 128
 src = str(M)+"*"+str(K)+"*"+str(N)
 print(src)
 # The default tensor type in tvm
@@ -310,8 +313,8 @@ measure_option = autotvm.measure_option(
 # begin tuning, log records to file `matmul.log`
 tuner = autotvm.tuner.XGBTuner(task)
 # tuner有众多的参数
-n_trial = 100
-early_stopping = 20
+n_trial = 64
+early_stopping = 32
 tuner.tune(n_trial=n_trial,
            early_stopping=early_stopping,
            measure_option=measure_option,

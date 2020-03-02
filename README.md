@@ -6,8 +6,8 @@
 - *scheduling----------tvm不能自动选择合适的 schedule,需要手动编写合适的 schedule,不同的 schedule在还未选择参数时就有很大的差异*
 - *autoschedule--------不同的schedule定义代表着不同的变换，同时也决定了后续参数调优的空间*
 - *end2end-------------对已有模型进行端到端的优化*
-- *NNTuner-------------基于神经网络的Tuner
-- *2thconferenceslide
+- *NNTuner-------------基于神经网络的Tuner*
+- *2thconferenceslide*
 ## Open source stack
 repo | src
 ---|---

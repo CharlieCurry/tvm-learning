@@ -22,6 +22,13 @@ print("test data shape:", valiation_data.shape)
 valiation_x = valiation_data[:, :27].astype('float')
 valiation_y = valiation_data[:, 27:28].astype('float')
 
+
+
+index = np.random.permutation(len(train_x))
+print(train_x[index].shape)
+print(train_y[index].shape)
+print(train_x[index].shape[1])
+print(train_y[index].shape[1])
 tss.TSS_NN_Model(train_x, train_y, test_x, test_y)
 
 prediction_y = tss.predict(valiation_x, valiation_y)

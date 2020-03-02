@@ -158,10 +158,8 @@ class NNCostModel(CostModel):
         y_train = y_train / max(y_max, 1e-8)
 
         valid_index = y_train > 1e-6
+        #随机排列排序
         index = np.random.permutation(len(x_train))
-
-
-
 
 
 

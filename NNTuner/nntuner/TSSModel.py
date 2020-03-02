@@ -42,11 +42,15 @@ class TSSModel():
         return outputs
 
     def TSS_NN_Model(self,train_x,train_y,test_x,test_y):
-        L1=self.add_layer(self.xs,27,32,activation_function=tf.nn.tanh)
+        input_size = train_x.shape[1]
+        output_size = train_y.shape[1]
+        print("input size:",input_size)
+        print("output size",output_size)
+        L1=self.add_layer(self.xs,input_size,32,activation_function=tf.nn.tanh)
         L2=self.add_layer(L1,32,32,activation_function=tf.nn.tanh)
         dropped = tf.nn.dropout(L2,self.keep_prob)
         #L3=add_layer(dropped,64,32,activation_function=tf.nn.tanh)
-        prediction = self.add_layer(L2,32,1,activation_function=None)
+        prediction = self.add_layer(L2,32,output_size,activation_function=None)
         loss=tf.reduce_mean(tf.reduce_sum(tf.square(self.ys-prediction),reduction_indices=[1]))
         #my_loss = tf.reduce_mean(tf.reduce_sum(tf.where(tf.greater(ys,prediction),(ys-prediction)*lossmore,(prediction-ys)*lossless)))
         hubers = tf.losses.huber_loss(self.ys, prediction,delta=2.0)

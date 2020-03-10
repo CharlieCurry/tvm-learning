@@ -1,0 +1,1057 @@
+128*128*128
+Numpy running time: 0.000042
+ Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/200) | 0.00 s Current/Best:  164.35/ 164.35 GFLOPS | Progress: (8/200) | 4.31 s Current/Best:   46.73/ 202.62 GFLOPS | Progress: (16/200) | 7.79 s Current/Best:    6.84/ 202.62 GFLOPS | Progress: (24/200) | 11.46 s Current/Best:  183.48/ 202.62 GFLOPS | Progress: (32/200) | 14.65 s Current/Best:   13.87/ 202.62 GFLOPS | Progress: (40/200) | 18.02 s Current/Best:   66.56/ 202.62 GFLOPS | Progress: (48/200) | 21.48 s Current/Best:  153.64/ 202.62 GFLOPS | Progress: (56/200) | 24.93 s
+_____________fit______________
+fit count: 1
+x_train shape: (64, 426)
+y_train shape: (64,)
+predict count: 1
+feas shape: (128, 426)
+result[:1]: [-1.6116993]
+points shape: (128,)
+scores shape: (128,)
+predict count: 2
+feas shape: (128, 426)
+result[:1]: [4.8635783]
+predict count: 3
+feas shape: (128, 426)
+result[:1]: [0.3225332]
+predict count: 4
+feas shape: (128, 426)
+result[:1]: [6.9191923]
+predict count: 5
+feas shape: (128, 426)
+result[:1]: [7.6890383]
+predict count: 6
+feas shape: (128, 426)
+result[:1]: [6.256638]
+predict count: 7
+feas shape: (128, 426)
+result[:1]: [4.2030787]
+predict count: 8
+feas shape: (128, 426)
+result[:1]: [4.5659075]
+predict count: 9
+feas shape: (128, 426)
+result[:1]: [4.1005]
+predict count: 10
+feas shape: (128, 426)
+result[:1]: [2.476386]
+predict count: 11
+feas shape: (128, 426)
+result[:1]: [4.541116]
+predict count: 12
+feas shape: (128, 426)
+result[:1]: [2.7416484]
+predict count: 13
+feas shape: (128, 426)
+result[:1]: [2.7416484]
+predict count: 14
+feas shape: (128, 426)
+result[:1]: [4.922373]
+predict count: 15
+feas shape: (128, 426)
+result[:1]: [6.490149]
+predict count: 16
+feas shape: (128, 426)
+result[:1]: [0.46669152]
+predict count: 17
+feas shape: (128, 426)
+result[:1]: [3.2791846]
+predict count: 18
+feas shape: (128, 426)
+result[:1]: [5.527164]
+predict count: 19
+feas shape: (128, 426)
+result[:1]: [4.5659075]
+predict count: 20
+feas shape: (128, 426)
+result[:1]: [3.361509]
+predict count: 21
+feas shape: (128, 426)
+result[:1]: [7.632261]
+predict count: 22
+feas shape: (128, 426)
+result[:1]: [4.890854]
+predict count: 23
+feas shape: (128, 426)
+result[:1]: [5.7957177]
+predict count: 24
+feas shape: (128, 426)
+result[:1]: [-2.0049293]
+predict count: 25
+feas shape: (128, 426)
+result[:1]: [2.2949023]
+predict count: 26
+feas shape: (128, 426)
+result[:1]: [2.7933877]
+predict count: 27
+feas shape: (128, 426)
+result[:1]: [5.406082]
+predict count: 28
+feas shape: (128, 426)
+result[:1]: [8.296098]
+predict count: 29
+feas shape: (128, 426)
+result[:1]: [-2.0049293]
+predict count: 30
+feas shape: (128, 426)
+result[:1]: [7.797111]
+predict count: 31
+feas shape: (128, 426)
+result[:1]: [4.361613]
+predict count: 32
+feas shape: (128, 426)
+result[:1]: [5.0738907]
+predict count: 33
+feas shape: (128, 426)
+result[:1]: [5.0738907]
+predict count: 34
+feas shape: (128, 426)
+result[:1]: [5.207819]
+predict count: 35
+feas shape: (128, 426)
+result[:1]: [-2.642629]
+predict count: 36
+feas shape: (128, 426)
+result[:1]: [5.9191403]
+predict count: 37
+feas shape: (128, 426)
+result[:1]: [7.104245]
+predict count: 38
+feas shape: (128, 426)
+result[:1]: [5.7957177]
+predict count: 39
+feas shape: (128, 426)
+result[:1]: [-0.48038024]
+predict count: 40
+feas shape: (128, 426)
+result[:1]: [4.1023445]
+predict count: 41
+feas shape: (128, 426)
+result[:1]: [5.436492]
+predict count: 42
+feas shape: (128, 426)
+result[:1]: [-4.2357187]
+predict count: 43
+feas shape: (128, 426)
+result[:1]: [4.4823065]
+predict count: 44
+feas shape: (128, 426)
+result[:1]: [5.7239943]
+predict count: 45
+feas shape: (128, 426)
+result[:1]: [1.8045465]
+predict count: 46
+feas shape: (128, 426)
+result[:1]: [4.4823065]
+predict count: 47
+feas shape: (128, 426)
+result[:1]: [3.4892378]
+predict count: 48
+feas shape: (128, 426)
+result[:1]: [4.150812]
+predict count: 49
+feas shape: (128, 426)
+result[:1]: [2.8438845]
+predict count: 50
+feas shape: (128, 426)
+result[:1]: [6.7172985]
+predict count: 51
+feas shape: (128, 426)
+result[:1]: [7.195846]
+predict count: 52
+feas shape: (128, 426)
+result[:1]: [4.6066623]
+predict count: 53
+feas shape: (128, 426)
+result[:1]: [3.1974764]
+predict count: 54
+feas shape: (128, 426)
+result[:1]: [-3.0113873]
+predict count: 55
+feas shape: (128, 426)
+result[:1]: [7.5947404]
+predict count: 56
+feas shape: (128, 426)
+result[:1]: [4.631869]
+predict count: 57
+feas shape: (128, 426)
+result[:1]: [4.541116]
+predict count: 58
+feas shape: (128, 426)
+result[:1]: [4.631869]
+predict count: 59
+feas shape: (128, 426)
+result[:1]: [2.7251115]
+predict count: 60
+feas shape: (128, 426)
+result[:1]: [-3.0113873]
+predict count: 61
+feas shape: (128, 426)
+result[:1]: [2.7251115]
+2:maxmums: [108, 172, 179, 115, 116, 171, 109, 107, 235, 163, 180, 236, 101, 106, 117, 165, 227, 164, 244, 99, 114, 105, 181, 113, 98, 299, 228, 170, 237, 234, 300, 229, 308, 309, 44, 51, 125, 169, 177, 364, 42, 112, 176, 226, 52, 245, 187, 178, 45, 43, 124, 37, 291, 35, 34, 188, 242, 373, 36, 301, 168, 365, 240, 189]
+ Current/Best:  257.00/ 257.00 GFLOPS | Progress: (64/200) | 31.76 s Current/Best:  163.84/ 257.00 GFLOPS | Progress: (72/200) | 34.95 s Current/Best:  209.09/ 257.00 GFLOPS | Progress: (80/200) | 38.05 s Current/Best:  175.35/ 257.00 GFLOPS | Progress: (88/200) | 41.10 s Current/Best:  237.50/ 257.00 GFLOPS | Progress: (96/200) | 44.23 s Current/Best:  178.18/ 257.00 GFLOPS | Progress: (104/200) | 47.49 s Current/Best:  145.84/ 257.00 GFLOPS | Progress: (112/200) | 50.62 s Current/Best:  159.60/ 257.00 GFLOPS | Progress: (120/200) | 53.77 s
+_____________fit______________
+fit count: 2
+x_train shape: (128, 426)
+y_train shape: (128,)
+predict count: 62
+feas shape: (128, 426)
+result[:1]: [2.3334367]
+points shape: (128,)
+scores shape: (128,)
+predict count: 63
+feas shape: (128, 426)
+result[:1]: [-3.303151]
+predict count: 64
+feas shape: (128, 426)
+result[:1]: [-3.303151]
+predict count: 65
+feas shape: (128, 426)
+result[:1]: [5.335531]
+predict count: 66
+feas shape: (128, 426)
+result[:1]: [-0.88703537]
+predict count: 67
+feas shape: (128, 426)
+result[:1]: [-0.4985174]
+predict count: 68
+feas shape: (128, 426)
+result[:1]: [1.8655179]
+predict count: 69
+feas shape: (128, 426)
+result[:1]: [-1.1406533]
+predict count: 70
+feas shape: (128, 426)
+result[:1]: [0.6980062]
+predict count: 71
+feas shape: (128, 426)
+result[:1]: [2.9936352]
+predict count: 72
+feas shape: (128, 426)
+result[:1]: [0.5807565]
+predict count: 73
+feas shape: (128, 426)
+result[:1]: [0.6980062]
+predict count: 74
+feas shape: (128, 426)
+result[:1]: [5.729377]
+predict count: 75
+feas shape: (128, 426)
+result[:1]: [6.077597]
+predict count: 76
+feas shape: (128, 426)
+result[:1]: [7.040175]
+predict count: 77
+feas shape: (128, 426)
+result[:1]: [4.6272097]
+predict count: 78
+feas shape: (128, 426)
+result[:1]: [4.6272097]
+predict count: 79
+feas shape: (128, 426)
+result[:1]: [2.9179723]
+predict count: 80
+feas shape: (128, 426)
+result[:1]: [4.793758]
+predict count: 81
+feas shape: (128, 426)
+result[:1]: [-5.017471]
+predict count: 82
+feas shape: (128, 426)
+result[:1]: [-2.4226532]
+predict count: 83
+feas shape: (128, 426)
+result[:1]: [7.040175]
+predict count: 84
+feas shape: (128, 426)
+result[:1]: [-1.2148315]
+predict count: 85
+feas shape: (128, 426)
+result[:1]: [4.6272097]
+predict count: 86
+feas shape: (128, 426)
+result[:1]: [-1.2148315]
+predict count: 87
+feas shape: (128, 426)
+result[:1]: [-1.8438442]
+predict count: 88
+feas shape: (128, 426)
+result[:1]: [-2.5967493]
+predict count: 89
+feas shape: (128, 426)
+result[:1]: [4.6272097]
+predict count: 90
+feas shape: (128, 426)
+result[:1]: [-5.017471]
+predict count: 91
+feas shape: (128, 426)
+result[:1]: [2.9179723]
+predict count: 92
+feas shape: (128, 426)
+result[:1]: [6.5767303]
+predict count: 93
+feas shape: (128, 426)
+result[:1]: [1.094899]
+predict count: 94
+feas shape: (128, 426)
+result[:1]: [2.7773418]
+predict count: 95
+feas shape: (128, 426)
+result[:1]: [1.094899]
+predict count: 96
+feas shape: (128, 426)
+result[:1]: [2.643153]
+predict count: 97
+feas shape: (128, 426)
+result[:1]: [-1.2148315]
+predict count: 98
+feas shape: (128, 426)
+result[:1]: [4.6272097]
+predict count: 99
+feas shape: (128, 426)
+result[:1]: [6.5767303]
+predict count: 100
+feas shape: (128, 426)
+result[:1]: [4.0267982]
+predict count: 101
+feas shape: (128, 426)
+result[:1]: [2.6690855]
+predict count: 102
+feas shape: (128, 426)
+result[:1]: [2.2579818]
+predict count: 103
+feas shape: (128, 426)
+result[:1]: [3.2609437]
+predict count: 104
+feas shape: (128, 426)
+result[:1]: [4.0267982]
+predict count: 105
+feas shape: (128, 426)
+result[:1]: [4.793758]
+predict count: 106
+feas shape: (128, 426)
+result[:1]: [2.1197405]
+predict count: 107
+feas shape: (128, 426)
+result[:1]: [0.57619]
+predict count: 108
+feas shape: (128, 426)
+result[:1]: [5.0538635]
+predict count: 109
+feas shape: (128, 426)
+result[:1]: [2.6690855]
+predict count: 110
+feas shape: (128, 426)
+result[:1]: [3.3621442]
+predict count: 111
+feas shape: (128, 426)
+result[:1]: [-2.0803478]
+predict count: 112
+feas shape: (128, 426)
+result[:1]: [1.094899]
+predict count: 113
+feas shape: (128, 426)
+result[:1]: [2.643153]
+predict count: 114
+feas shape: (128, 426)
+result[:1]: [4.793758]
+predict count: 115
+feas shape: (128, 426)
+result[:1]: [-5.017471]
+predict count: 116
+feas shape: (128, 426)
+result[:1]: [7.040175]
+predict count: 117
+feas shape: (128, 426)
+result[:1]: [4.6272097]
+predict count: 118
+feas shape: (128, 426)
+result[:1]: [0.18153673]
+predict count: 119
+feas shape: (128, 426)
+result[:1]: [3.9823492]
+predict count: 120
+feas shape: (128, 426)
+result[:1]: [2.643153]
+predict count: 121
+feas shape: (128, 426)
+result[:1]: [6.5767303]
+predict count: 122
+feas shape: (128, 426)
+result[:1]: [4.0267982]
+predict count: 123
+feas shape: (128, 426)
+result[:1]: [2.2579818]
+predict count: 124
+feas shape: (128, 426)
+result[:1]: [3.3621442]
+predict count: 125
+feas shape: (128, 426)
+result[:1]: [4.7642]
+predict count: 126
+feas shape: (128, 426)
+result[:1]: [4.793758]
+predict count: 127
+feas shape: (128, 426)
+result[:1]: [-2.0803478]
+predict count: 128
+feas shape: (128, 426)
+result[:1]: [-1.8438442]
+predict count: 129
+feas shape: (128, 426)
+result[:1]: [2.643153]
+predict count: 130
+feas shape: (128, 426)
+result[:1]: [3.3621442]
+predict count: 131
+feas shape: (128, 426)
+result[:1]: [4.0267982]
+predict count: 132
+feas shape: (128, 426)
+result[:1]: [-1.8438442]
+predict count: 133
+feas shape: (128, 426)
+result[:1]: [1.9357439]
+predict count: 134
+feas shape: (128, 426)
+result[:1]: [7.040175]
+predict count: 135
+feas shape: (128, 426)
+result[:1]: [7.8035774]
+predict count: 136
+feas shape: (128, 426)
+result[:1]: [0.18153673]
+predict count: 137
+feas shape: (128, 426)
+result[:1]: [-5.6666913]
+predict count: 138
+feas shape: (128, 426)
+result[:1]: [6.077597]
+predict count: 139
+feas shape: (128, 426)
+result[:1]: [6.5256143]
+predict count: 140
+feas shape: (128, 426)
+result[:1]: [3.9823492]
+predict count: 141
+feas shape: (128, 426)
+result[:1]: [-5.6666913]
+predict count: 142
+feas shape: (128, 426)
+result[:1]: [2.9179723]
+predict count: 143
+feas shape: (128, 426)
+result[:1]: [1.9168816]
+predict count: 144
+feas shape: (128, 426)
+result[:1]: [-1.7806463]
+predict count: 145
+feas shape: (128, 426)
+result[:1]: [3.707481]
+predict count: 146
+feas shape: (128, 426)
+result[:1]: [-1.7806463]
+2:maxmums: [365, 253, 372, 317, 252, 102, 189, 110, 429, 316, 174, 166, 363, 225, 293, 292, 246, 362, 241, 156, 381, 310, 421, 306, 357, 230, 38, 233, 97, 318, 157, 356, 49, 254, 380, 118, 182, 92, 221, 46, 302, 355, 155, 374, 220, 53, 91, 437, 366, 290, 370, 315, 85, 29, 314, 436, 33, 382, 445, 250, 435, 485, 379, 190]
+ Current/Best:   86.16/ 257.00 GFLOPS | Progress: (128/200) | 58.94 s Current/Best:  133.58/ 257.00 GFLOPS | Progress: (136/200) | 62.14 s Current/Best:  172.61/ 257.00 GFLOPS | Progress: (144/200) | 65.36 s Current/Best:  159.48/ 257.00 GFLOPS | Progress: (152/200) | 68.61 s Current/Best:  139.25/ 257.00 GFLOPS | Progress: (160/200) | 71.72 s Current/Best:   93.33/ 257.00 GFLOPS | Progress: (168/200) | 74.86 s Current/Best:  168.04/ 257.00 GFLOPS | Progress: (176/200) | 78.26 s Current/Best:  140.00/ 257.00 GFLOPS | Progress: (184/200) | 81.73 s
+_____________fit______________
+fit count: 3
+x_train shape: (192, 426)
+y_train shape: (192,)
+predict count: 147
+feas shape: (128, 426)
+result[:1]: [5.8325276]
+points shape: (128,)
+scores shape: (128,)
+predict count: 148
+feas shape: (128, 426)
+result[:1]: [-1.441278]
+predict count: 149
+feas shape: (128, 426)
+result[:1]: [2.4543202]
+predict count: 150
+feas shape: (128, 426)
+result[:1]: [0.72887623]
+predict count: 151
+feas shape: (128, 426)
+result[:1]: [-2.7978315]
+predict count: 152
+feas shape: (128, 426)
+result[:1]: [5.367384]
+predict count: 153
+feas shape: (128, 426)
+result[:1]: [-1.8626273]
+predict count: 154
+feas shape: (128, 426)
+result[:1]: [0.52481407]
+predict count: 155
+feas shape: (128, 426)
+result[:1]: [2.98349]
+predict count: 156
+feas shape: (128, 426)
+result[:1]: [-0.5259577]
+predict count: 157
+feas shape: (128, 426)
+result[:1]: [2.98349]
+predict count: 158
+feas shape: (128, 426)
+result[:1]: [2.5902598]
+predict count: 159
+feas shape: (128, 426)
+result[:1]: [2.5902598]
+predict count: 160
+feas shape: (128, 426)
+result[:1]: [1.0866106]
+predict count: 161
+feas shape: (128, 426)
+result[:1]: [-0.83644545]
+predict count: 162
+feas shape: (128, 426)
+result[:1]: [-2.7978315]
+predict count: 163
+feas shape: (128, 426)
+result[:1]: [2.98349]
+predict count: 164
+feas shape: (128, 426)
+result[:1]: [-1.2418606]
+predict count: 165
+feas shape: (128, 426)
+result[:1]: [3.7046611]
+predict count: 166
+feas shape: (128, 426)
+result[:1]: [-3.014205]
+predict count: 167
+feas shape: (128, 426)
+result[:1]: [3.605531]
+predict count: 168
+feas shape: (128, 426)
+result[:1]: [-0.966442]
+predict count: 169
+feas shape: (128, 426)
+result[:1]: [-1.1532863]
+predict count: 170
+feas shape: (128, 426)
+result[:1]: [2.5900185]
+predict count: 171
+feas shape: (128, 426)
+result[:1]: [2.5902598]
+predict count: 172
+feas shape: (128, 426)
+result[:1]: [5.547927]
+predict count: 173
+feas shape: (128, 426)
+result[:1]: [1.3732147]
+predict count: 174
+feas shape: (128, 426)
+result[:1]: [5.367384]
+predict count: 175
+feas shape: (128, 426)
+result[:1]: [-2.7978315]
+predict count: 176
+feas shape: (128, 426)
+result[:1]: [-2.7978315]
+predict count: 177
+feas shape: (128, 426)
+result[:1]: [-1.0706494]
+predict count: 178
+feas shape: (128, 426)
+result[:1]: [5.547927]
+predict count: 179
+feas shape: (128, 426)
+result[:1]: [3.0924182]
+predict count: 180
+feas shape: (128, 426)
+result[:1]: [4.9458523]
+predict count: 181
+feas shape: (128, 426)
+result[:1]: [5.547927]
+predict count: 182
+feas shape: (128, 426)
+result[:1]: [0.5575312]
+predict count: 183
+feas shape: (128, 426)
+result[:1]: [5.8325276]
+predict count: 184
+feas shape: (128, 426)
+result[:1]: [1.5460504]
+predict count: 185
+feas shape: (128, 426)
+result[:1]: [3.51678]
+predict count: 186
+feas shape: (128, 426)
+result[:1]: [5.547927]
+predict count: 187
+feas shape: (128, 426)
+result[:1]: [-2.7978315]
+predict count: 188
+feas shape: (128, 426)
+result[:1]: [1.2949648]
+predict count: 189
+feas shape: (128, 426)
+result[:1]: [5.8325276]
+predict count: 190
+feas shape: (128, 426)
+result[:1]: [2.4543202]
+predict count: 191
+feas shape: (128, 426)
+result[:1]: [2.4423683]
+predict count: 192
+feas shape: (128, 426)
+result[:1]: [-4.553267]
+predict count: 193
+feas shape: (128, 426)
+result[:1]: [3.5195363]
+predict count: 194
+feas shape: (128, 426)
+result[:1]: [-0.5259577]
+predict count: 195
+feas shape: (128, 426)
+result[:1]: [3.51678]
+predict count: 196
+feas shape: (128, 426)
+result[:1]: [2.6733127]
+predict count: 197
+feas shape: (128, 426)
+result[:1]: [-2.7978315]
+predict count: 198
+feas shape: (128, 426)
+result[:1]: [-2.7978315]
+predict count: 199
+feas shape: (128, 426)
+result[:1]: [5.0459876]
+predict count: 200
+feas shape: (128, 426)
+result[:1]: [-2.2046387]
+predict count: 201
+feas shape: (128, 426)
+result[:1]: [6.066932]
+predict count: 202
+feas shape: (128, 426)
+result[:1]: [1.5460504]
+predict count: 203
+feas shape: (128, 426)
+result[:1]: [5.0735316]
+predict count: 204
+feas shape: (128, 426)
+result[:1]: [4.518989]
+predict count: 205
+feas shape: (128, 426)
+result[:1]: [-2.8750765]
+predict count: 206
+feas shape: (128, 426)
+result[:1]: [3.7869902]
+predict count: 207
+feas shape: (128, 426)
+result[:1]: [2.6892862]
+predict count: 208
+feas shape: (128, 426)
+result[:1]: [0.20166224]
+predict count: 209
+feas shape: (128, 426)
+result[:1]: [0.9223778]
+predict count: 210
+feas shape: (128, 426)
+result[:1]: [2.4543202]
+predict count: 211
+feas shape: (128, 426)
+result[:1]: [1.8560096]
+predict count: 212
+feas shape: (128, 426)
+result[:1]: [0.9223778]
+predict count: 213
+feas shape: (128, 426)
+result[:1]: [0.9223778]
+predict count: 214
+feas shape: (128, 426)
+result[:1]: [-4.268193]
+predict count: 215
+feas shape: (128, 426)
+result[:1]: [-1.4723015]
+predict count: 216
+feas shape: (128, 426)
+result[:1]: [4.3839893]
+predict count: 217
+feas shape: (128, 426)
+result[:1]: [6.066932]
+predict count: 218
+feas shape: (128, 426)
+result[:1]: [3.605531]
+predict count: 219
+feas shape: (128, 426)
+result[:1]: [2.329636]
+predict count: 220
+feas shape: (128, 426)
+result[:1]: [2.329636]
+predict count: 221
+feas shape: (128, 426)
+result[:1]: [-0.17444289]
+predict count: 222
+feas shape: (128, 426)
+result[:1]: [4.3839893]
+predict count: 223
+feas shape: (128, 426)
+result[:1]: [-1.3546269]
+predict count: 224
+feas shape: (128, 426)
+result[:1]: [4.3839893]
+predict count: 225
+feas shape: (128, 426)
+result[:1]: [5.8325276]
+predict count: 226
+feas shape: (128, 426)
+result[:1]: [2.6733127]
+predict count: 227
+feas shape: (128, 426)
+result[:1]: [4.3839893]
+predict count: 228
+feas shape: (128, 426)
+result[:1]: [1.5460504]
+predict count: 229
+feas shape: (128, 426)
+result[:1]: [1.5460504]
+predict count: 230
+feas shape: (128, 426)
+result[:1]: [-4.7323027]
+predict count: 231
+feas shape: (128, 426)
+result[:1]: [-2.8750765]
+predict count: 232
+feas shape: (128, 426)
+result[:1]: [-2.8750765]
+predict count: 233
+feas shape: (128, 426)
+result[:1]: [5.283482]
+predict count: 234
+feas shape: (128, 426)
+result[:1]: [0.46848732]
+predict count: 235
+feas shape: (128, 426)
+result[:1]: [0.5353877]
+predict count: 236
+feas shape: (128, 426)
+result[:1]: [-0.03637654]
+predict count: 237
+feas shape: (128, 426)
+result[:1]: [5.0735316]
+predict count: 238
+feas shape: (128, 426)
+result[:1]: [5.367384]
+predict count: 239
+feas shape: (128, 426)
+result[:1]: [5.547927]
+predict count: 240
+feas shape: (128, 426)
+result[:1]: [1.2949648]
+predict count: 241
+feas shape: (128, 426)
+result[:1]: [-2.13202]
+predict count: 242
+feas shape: (128, 426)
+result[:1]: [2.885093]
+predict count: 243
+feas shape: (128, 426)
+result[:1]: [4.360072]
+predict count: 244
+feas shape: (128, 426)
+result[:1]: [4.460264]
+predict count: 245
+feas shape: (128, 426)
+result[:1]: [1.8881869]
+predict count: 246
+feas shape: (128, 426)
+result[:1]: [-4.7075276]
+predict count: 247
+feas shape: (128, 426)
+result[:1]: [1.8578274]
+predict count: 248
+feas shape: (128, 426)
+result[:1]: [-1.6485422]
+predict count: 249
+feas shape: (128, 426)
+result[:1]: [1.4795328]
+predict count: 250
+feas shape: (128, 426)
+result[:1]: [-2.925572]
+predict count: 251
+feas shape: (128, 426)
+result[:1]: [-3.0759196]
+predict count: 252
+feas shape: (128, 426)
+result[:1]: [-0.87239933]
+predict count: 253
+feas shape: (128, 426)
+result[:1]: [-2.925572]
+predict count: 254
+feas shape: (128, 426)
+result[:1]: [4.360072]
+predict count: 255
+feas shape: (128, 426)
+result[:1]: [-0.87239933]
+predict count: 256
+feas shape: (128, 426)
+result[:1]: [3.2695649]
+predict count: 257
+feas shape: (128, 426)
+result[:1]: [-1.7597864]
+predict count: 258
+feas shape: (128, 426)
+result[:1]: [2.4543202]
+predict count: 259
+feas shape: (128, 426)
+result[:1]: [-3.889896]
+predict count: 260
+feas shape: (128, 426)
+result[:1]: [-1.7597864]
+predict count: 261
+feas shape: (128, 426)
+result[:1]: [-2.4545596]
+predict count: 262
+feas shape: (128, 426)
+result[:1]: [0.3036926]
+predict count: 263
+feas shape: (128, 426)
+result[:1]: [-2.13202]
+predict count: 264
+feas shape: (128, 426)
+result[:1]: [2.141082]
+predict count: 265
+feas shape: (128, 426)
+result[:1]: [4.4949636]
+predict count: 266
+feas shape: (128, 426)
+result[:1]: [-4.475861]
+predict count: 267
+feas shape: (128, 426)
+result[:1]: [2.141082]
+predict count: 268
+feas shape: (128, 426)
+result[:1]: [4.1829495]
+predict count: 269
+feas shape: (128, 426)
+result[:1]: [1.7234514]
+predict count: 270
+feas shape: (128, 426)
+result[:1]: [0.19240114]
+predict count: 271
+feas shape: (128, 426)
+result[:1]: [-4.475861]
+predict count: 272
+feas shape: (128, 426)
+result[:1]: [0.9080656]
+predict count: 273
+feas shape: (128, 426)
+result[:1]: [0.9080656]
+predict count: 274
+feas shape: (128, 426)
+result[:1]: [-4.475861]
+predict count: 275
+feas shape: (128, 426)
+result[:1]: [4.460264]
+predict count: 276
+feas shape: (128, 426)
+result[:1]: [1.1416898]
+predict count: 277
+feas shape: (128, 426)
+result[:1]: [3.7869902]
+predict count: 278
+feas shape: (128, 426)
+result[:1]: [2.9163823]
+predict count: 279
+feas shape: (128, 426)
+result[:1]: [4.360072]
+predict count: 280
+feas shape: (128, 426)
+result[:1]: [3.2695649]
+predict count: 281
+feas shape: (128, 426)
+result[:1]: [0.06338769]
+predict count: 282
+feas shape: (128, 426)
+result[:1]: [2.9163823]
+predict count: 283
+feas shape: (128, 426)
+result[:1]: [2.329636]
+predict count: 284
+feas shape: (128, 426)
+result[:1]: [3.2695649]
+predict count: 285
+feas shape: (128, 426)
+result[:1]: [0.72825134]
+predict count: 286
+feas shape: (128, 426)
+result[:1]: [-2.6539083]
+predict count: 287
+feas shape: (128, 426)
+result[:1]: [-0.39950973]
+predict count: 288
+feas shape: (128, 426)
+result[:1]: [0.7106128]
+predict count: 289
+feas shape: (128, 426)
+result[:1]: [-2.13202]
+predict count: 290
+feas shape: (128, 426)
+result[:1]: [0.7106128]
+predict count: 291
+feas shape: (128, 426)
+result[:1]: [-2.13202]
+predict count: 292
+feas shape: (128, 426)
+result[:1]: [-2.13202]
+predict count: 293
+feas shape: (128, 426)
+result[:1]: [0.7106128]
+predict count: 294
+feas shape: (128, 426)
+result[:1]: [5.547927]
+predict count: 295
+feas shape: (128, 426)
+result[:1]: [2.885093]
+predict count: 296
+feas shape: (128, 426)
+result[:1]: [2.5902598]
+predict count: 297
+feas shape: (128, 426)
+result[:1]: [4.9458523]
+predict count: 298
+feas shape: (128, 426)
+result[:1]: [-1.6453302]
+predict count: 299
+feas shape: (128, 426)
+result[:1]: [1.3732147]
+predict count: 300
+feas shape: (128, 426)
+result[:1]: [5.0735316]
+predict count: 301
+feas shape: (128, 426)
+result[:1]: [6.066932]
+predict count: 302
+feas shape: (128, 426)
+result[:1]: [5.0459876]
+predict count: 303
+feas shape: (128, 426)
+result[:1]: [6.066932]
+predict count: 304
+feas shape: (128, 426)
+result[:1]: [2.5900185]
+predict count: 305
+feas shape: (128, 426)
+result[:1]: [5.0459876]
+predict count: 306
+feas shape: (128, 426)
+result[:1]: [5.283482]
+predict count: 307
+feas shape: (128, 426)
+result[:1]: [4.174782]
+predict count: 308
+feas shape: (128, 426)
+result[:1]: [3.4504137]
+predict count: 309
+feas shape: (128, 426)
+result[:1]: [0.46848732]
+predict count: 310
+feas shape: (128, 426)
+result[:1]: [0.46848732]
+predict count: 311
+feas shape: (128, 426)
+result[:1]: [0.46848732]
+predict count: 312
+feas shape: (128, 426)
+result[:1]: [1.8127041]
+predict count: 313
+feas shape: (128, 426)
+result[:1]: [2.9487982]
+predict count: 314
+feas shape: (128, 426)
+result[:1]: [3.4504137]
+predict count: 315
+feas shape: (128, 426)
+result[:1]: [0.5353877]
+predict count: 316
+feas shape: (128, 426)
+result[:1]: [3.9615307]
+predict count: 317
+feas shape: (128, 426)
+result[:1]: [6.066932]
+predict count: 318
+feas shape: (128, 426)
+result[:1]: [-0.17444289]
+predict count: 319
+feas shape: (128, 426)
+result[:1]: [5.0735316]
+predict count: 320
+feas shape: (128, 426)
+result[:1]: [-2.8750765]
+predict count: 321
+feas shape: (128, 426)
+result[:1]: [-4.7323027]
+predict count: 322
+feas shape: (128, 426)
+result[:1]: [-3.253152]
+predict count: 323
+feas shape: (128, 426)
+result[:1]: [5.283482]
+predict count: 324
+feas shape: (128, 426)
+result[:1]: [4.3839893]
+predict count: 325
+feas shape: (128, 426)
+result[:1]: [3.0924182]
+predict count: 326
+feas shape: (128, 426)
+result[:1]: [-0.18398982]
+predict count: 327
+feas shape: (128, 426)
+result[:1]: [1.0866106]
+predict count: 328
+feas shape: (128, 426)
+result[:1]: [1.0866106]
+predict count: 329
+feas shape: (128, 426)
+result[:1]: [4.3839893]
+predict count: 330
+feas shape: (128, 426)
+result[:1]: [3.7046611]
+predict count: 331
+feas shape: (128, 426)
+result[:1]: [4.3839893]
+predict count: 332
+feas shape: (128, 426)
+result[:1]: [-4.1769147]
+predict count: 333
+feas shape: (128, 426)
+result[:1]: [4.600833]
+predict count: 334
+feas shape: (128, 426)
+result[:1]: [5.283482]
+predict count: 335
+feas shape: (128, 426)
+result[:1]: [4.600833]
+predict count: 336
+feas shape: (128, 426)
+result[:1]: [4.2326884]
+predict count: 337
+feas shape: (128, 426)
+result[:1]: [5.283482]
+predict count: 338
+feas shape: (128, 426)
+result[:1]: [-0.5675864]
+predict count: 339
+feas shape: (128, 426)
+result[:1]: [6.066932]
+predict count: 340
+feas shape: (128, 426)
+result[:1]: [-0.17444289]
+predict count: 341
+feas shape: (128, 426)
+result[:1]: [1.5460504]
+predict count: 342
+feas shape: (128, 426)
+result[:1]: [2.4423683]
+predict count: 343
+feas shape: (128, 426)
+result[:1]: [-1.3546269]
+2:maxmums: [493, 444, 50, 285, 61, 379, 284, 154, 28, 485, 305, 297, 427, 218, 57]
+ Current/Best:   93.21/ 257.00 GFLOPS | Progress: (192/200) | 86.19 s Current/Best:  160.82/ 257.00 GFLOPS | Progress: (200/200) | 89.71 s Done.
+TVM: 1.8542e-05

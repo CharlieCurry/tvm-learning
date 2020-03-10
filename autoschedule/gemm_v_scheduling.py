@@ -60,6 +60,7 @@ def Gemm_tv2_reorder2_3_vec1_para1(C):
     bn = 32
     #tile接口只接受二维平铺
     xo, yo, xi, yi = s[C].tile(C.op.axis[0], C.op.axis[1], bn, bn)
+    print(xo)
     #通过这种方式对第三维的K进行划分
     ko, ki = s[C].split(s[C].op.reduce_axis[0], factor=32,nparts=None)
     #注意这里的bn和factor都对应的是axis的inner的取值范围
@@ -91,7 +92,7 @@ def Gemm_tv2_reorder2_3_vec1_para1_config_define(N, K, M, dtype):
     xo, xi = cfg["tile_x"].apply(s, C, x)
     yo, yi = cfg["tile_y"].apply(s, C, y)
     ko, ki = cfg["tile_k"].apply(s, C, k)
-
+    print(xo)
     s[C].reorder(xo,yo,ko,xi,ki,yi)
     s[C].vectorize(yi)
     s[C].parallel(xo)

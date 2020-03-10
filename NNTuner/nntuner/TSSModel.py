@@ -28,11 +28,9 @@ class TSSModel():
 
 
 
-
     def add_layer(self,input,in_size,out_size,activation_function):
         Weight=tf.Variable(tf.random_normal([in_size,out_size]))
         #Weight = tf.truncated_normal([in_size,out_size], stddev = 0.01)
-        #偏置这个的初始化0.1，0.01，0.001有没有影响？
         biases=tf.Variable(tf.zeros([1,out_size]))+0.000000001
         Wx_plus_b=tf.matmul(input,Weight)+biases
         if activation_function is None:

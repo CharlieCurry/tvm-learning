@@ -34,7 +34,7 @@ from tvm.autotvm.graph_tuner import DPTuner, PBQPTuner
 import tvm.contrib.graph_runtime as runtime
 
 import tensorflow as tf
-import tvm.relay.testing.tf as tf_testing
+#import tvm.relay.testing.tf as tf_testing
 from PIL import Image
 img_path='test.jpg'
 

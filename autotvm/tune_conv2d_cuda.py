@@ -50,7 +50,7 @@ import numpy as np
 
 import tvm
 import topi
-#from topi.testing import conv2d_nchw_python
+from topi.testing import conv2d_nchw_python
 
 from tvm import autotvm
 
@@ -234,4 +234,5 @@ tvm.testing.assert_allclose(c_np, c_tvm.asnumpy(), rtol=1e-2)
 # and the overhead of kernel launch. You can also use nvprof to validate the result.
 evaluator = func.time_evaluator(func.entry_name, ctx, number=400)
 print('Time cost of this operator: %f' % evaluator(a_tvm, w_tvm, c_tvm).mean)
+
 

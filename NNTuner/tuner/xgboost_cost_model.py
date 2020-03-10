@@ -66,6 +66,13 @@ class XGBoostCostModel(CostModel):
         self.num_threads = num_threads
         self.log_interval = log_interval
 
+        '''add'''
+        self.x_train = []
+        self.y_train = []
+        self.feas = []
+        self.feature_cache = None
+
+
         if loss_type == 'reg':
             self.xgb_params = {
                 'max_depth': 3,

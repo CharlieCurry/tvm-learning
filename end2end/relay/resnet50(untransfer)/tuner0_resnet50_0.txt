@@ -1,0 +1,791 @@
+Extract tasks...
+Tuning...
+n_trial= 528
+early_stopping= 132
+[Task  1/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/528) | 0.00 seach measure batch cost time: 52.35183501243591
+[Task  1/20]  Current/Best:   40.82/  67.18 GFLOPS | Progress: (8/528) | 54.99 seach measure batch cost time: 53.292879819869995
+[Task  1/20]  Current/Best:   40.06/  76.38 GFLOPS | Progress: (16/528) | 108.28 seach measure batch cost time: 56.20482420921326
+[Task  1/20]  Current/Best:   53.37/  76.38 GFLOPS | Progress: (24/528) | 164.49 seach measure batch cost time: 53.811920404434204
+[Task  1/20]  Current/Best:   61.94/  76.38 GFLOPS | Progress: (32/528) | 218.30 seach measure batch cost time: 58.086697578430176
+[Task  1/20]  Current/Best:   63.49/  76.38 GFLOPS | Progress: (40/528) | 276.39 seach measure batch cost time: 57.04713988304138
+[Task  1/20]  Current/Best:   22.57/  76.38 GFLOPS | Progress: (48/528) | 333.44 seach measure batch cost time: 54.26729083061218
+[Task  1/20]  Current/Best:   59.61/  76.38 GFLOPS | Progress: (56/528) | 387.71 seach measure batch cost time: 56.56749653816223
+[Task  1/20]  Current/Best:   33.07/  76.38 GFLOPS | Progress: (64/528) | 459.67 seach measure batch cost time: 50.517056941986084
+[Task  1/20]  Current/Best:   74.36/  76.38 GFLOPS | Progress: (72/528) | 510.19 seach measure batch cost time: 51.063825607299805
+[Task  1/20]  Current/Best:   70.76/  76.38 GFLOPS | Progress: (80/528) | 561.26 seach measure batch cost time: 51.39431667327881
+[Task  1/20]  Current/Best:   63.73/  76.38 GFLOPS | Progress: (88/528) | 612.65 seach measure batch cost time: 51.39811968803406
+[Task  1/20]  Current/Best:   59.80/  76.38 GFLOPS | Progress: (96/528) | 664.05 seach measure batch cost time: 51.32555937767029
+[Task  1/20]  Current/Best:   66.27/  78.17 GFLOPS | Progress: (104/528) | 715.38 seach measure batch cost time: 51.43823790550232
+[Task  1/20]  Current/Best:   46.14/  78.17 GFLOPS | Progress: (112/528) | 766.82 seach measure batch cost time: 51.39465928077698
+[Task  1/20]  Current/Best:   50.53/  78.17 GFLOPS | Progress: (120/528) | 818.22 seach measure batch cost time: 51.68173956871033
+[Task  1/20]  Current/Best:   61.79/  78.17 GFLOPS | Progress: (128/528) | 879.46 seach measure batch cost time: 51.57459998130798
+[Task  1/20]  Current/Best:   54.73/  78.17 GFLOPS | Progress: (136/528) | 931.04 seach measure batch cost time: 51.64758849143982
+[Task  1/20]  Current/Best:   64.85/  78.17 GFLOPS | Progress: (144/528) | 982.69 seach measure batch cost time: 51.77637076377869
+[Task  1/20]  Current/Best:   60.46/  78.17 GFLOPS | Progress: (152/528) | 1034.47 seach measure batch cost time: 51.73210954666138
+[Task  1/20]  Current/Best:   58.39/  78.17 GFLOPS | Progress: (160/528) | 1086.20 seach measure batch cost time: 58.18389940261841
+[Task  1/20]  Current/Best:   31.68/  78.17 GFLOPS | Progress: (168/528) | 1144.39 seach measure batch cost time: 55.20113801956177
+[Task  1/20]  Current/Best:   46.86/  78.17 GFLOPS | Progress: (176/528) | 1199.59 seach measure batch cost time: 55.042946100234985
+[Task  1/20]  Current/Best:   45.28/  78.17 GFLOPS | Progress: (184/528) | 1254.64 seach measure batch cost time: 54.468769788742065
+[Task  1/20]  Current/Best:   50.23/  78.17 GFLOPS | Progress: (192/528) | 1319.88 seach measure batch cost time: 51.772735357284546
+[Task  1/20]  Current/Best:   53.98/  78.17 GFLOPS | Progress: (200/528) | 1371.66 seach measure batch cost time: 51.2374050617218
+[Task  1/20]  Current/Best:   53.61/  78.17 GFLOPS | Progress: (208/528) | 1422.90 seach measure batch cost time: 51.266618967056274
+[Task  1/20]  Current/Best:   54.44/  78.17 GFLOPS | Progress: (216/528) | 1474.17 seach measure batch cost time: 57.44196176528931
+[Task  1/20]  Current/Best:   15.90/  78.17 GFLOPS | Progress: (224/528) | 1531.61 seach measure batch cost time: 57.28924322128296
+[Task  1/20]  Current/Best:   39.98/  78.17 GFLOPS | Progress: (232/528) | 1588.90 searly stopping
+measure batch cost time: 1550.478985786438
+ Done.
+n_trial= 880
+early_stopping= 220
+[Task  2/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/880) | 0.00 seach measure batch cost time: 58.420634508132935
+[Task  2/20]  Current/Best:   49.31/  90.58 GFLOPS | Progress: (8/880) | 61.13 seach measure batch cost time: 55.65804648399353
+[Task  2/20]  Current/Best:   63.63/  92.25 GFLOPS | Progress: (16/880) | 116.79 seach measure batch cost time: 54.1482892036438
+[Task  2/20]  Current/Best:   31.60/  92.25 GFLOPS | Progress: (24/880) | 170.94 seach measure batch cost time: 54.097981691360474
+[Task  2/20]  Current/Best:   64.98/  99.72 GFLOPS | Progress: (32/880) | 225.04 seach measure batch cost time: 53.02357268333435
+[Task  2/20]  Current/Best:   57.92/  99.72 GFLOPS | Progress: (40/880) | 278.07 seach measure batch cost time: 58.45826578140259
+[Task  2/20]  Current/Best:  105.14/ 105.14 GFLOPS | Progress: (48/880) | 336.53 seach measure batch cost time: 53.498305797576904
+[Task  2/20]  Current/Best:   62.86/ 105.14 GFLOPS | Progress: (56/880) | 390.03 seach measure batch cost time: 52.43840932846069
+[Task  2/20]  Current/Best:   62.32/ 105.14 GFLOPS | Progress: (64/880) | 460.15 seach measure batch cost time: 52.571043968200684
+[Task  2/20]  Current/Best:  106.15/ 106.15 GFLOPS | Progress: (72/880) | 512.72 seach measure batch cost time: 52.758429527282715
+[Task  2/20]  Current/Best:   96.24/ 106.15 GFLOPS | Progress: (80/880) | 565.48 seach measure batch cost time: 51.850003242492676
+[Task  2/20]  Current/Best:   87.67/ 106.15 GFLOPS | Progress: (88/880) | 617.34 seach measure batch cost time: 51.85211753845215
+[Task  2/20]  Current/Best:   93.09/ 106.15 GFLOPS | Progress: (96/880) | 669.19 seach measure batch cost time: 51.79477882385254
+[Task  2/20]  Current/Best:   86.88/ 106.15 GFLOPS | Progress: (104/880) | 720.99 seach measure batch cost time: 51.90633153915405
+[Task  2/20]  Current/Best:   92.66/ 106.15 GFLOPS | Progress: (112/880) | 772.90 seach measure batch cost time: 53.75651478767395
+[Task  2/20]  Current/Best:   85.02/ 106.15 GFLOPS | Progress: (120/880) | 826.65 seach measure batch cost time: 55.4352753162384
+[Task  2/20]  Current/Best:   67.66/ 106.15 GFLOPS | Progress: (128/880) | 893.12 seach measure batch cost time: 52.767662048339844
+[Task  2/20]  Current/Best:   95.43/ 106.18 GFLOPS | Progress: (136/880) | 945.89 seach measure batch cost time: 52.85099530220032
+[Task  2/20]  Current/Best:   93.92/ 106.18 GFLOPS | Progress: (144/880) | 998.74 seach measure batch cost time: 52.75231075286865
+[Task  2/20]  Current/Best:   90.54/ 106.18 GFLOPS | Progress: (152/880) | 1051.49 seach measure batch cost time: 51.06731843948364
+[Task  2/20]  Current/Best:   96.88/ 106.18 GFLOPS | Progress: (160/880) | 1102.56 seach measure batch cost time: 50.8061797618866
+[Task  2/20]  Current/Best:   93.93/ 106.18 GFLOPS | Progress: (168/880) | 1153.37 seach measure batch cost time: 51.427448987960815
+[Task  2/20]  Current/Best:   82.37/ 106.18 GFLOPS | Progress: (176/880) | 1204.80 seach measure batch cost time: 51.27500534057617
+[Task  2/20]  Current/Best:   89.47/ 106.18 GFLOPS | Progress: (184/880) | 1256.08 seach measure batch cost time: 53.07708716392517
+[Task  2/20]  Current/Best:   53.60/ 106.18 GFLOPS | Progress: (192/880) | 1320.08 seach measure batch cost time: 50.39751219749451
+[Task  2/20]  Current/Best:  101.91/ 106.18 GFLOPS | Progress: (200/880) | 1370.48 seach measure batch cost time: 50.3535943031311
+[Task  2/20]  Current/Best:   94.91/ 106.18 GFLOPS | Progress: (208/880) | 1420.84 seach measure batch cost time: 50.45538640022278
+[Task  2/20]  Current/Best:   80.80/ 106.18 GFLOPS | Progress: (216/880) | 1471.30 seach measure batch cost time: 50.80302309989929
+[Task  2/20]  Current/Best:   85.58/ 106.18 GFLOPS | Progress: (224/880) | 1522.10 seach measure batch cost time: 50.983691453933716
+[Task  2/20]  Current/Best:   84.62/ 106.18 GFLOPS | Progress: (232/880) | 1573.09 seach measure batch cost time: 50.98418855667114
+[Task  2/20]  Current/Best:   83.44/ 106.18 GFLOPS | Progress: (240/880) | 1624.07 seach measure batch cost time: 54.484137773513794
+[Task  2/20]  Current/Best:   40.22/ 106.18 GFLOPS | Progress: (248/880) | 1678.56 seach measure batch cost time: 54.92276191711426
+[Task  2/20]  Current/Best:   24.33/ 106.18 GFLOPS | Progress: (256/880) | 1743.74 seach measure batch cost time: 50.357258796691895
+[Task  2/20]  Current/Best:   83.20/ 106.18 GFLOPS | Progress: (264/880) | 1794.10 seach measure batch cost time: 54.98808717727661
+[Task  2/20]  Current/Best:   83.59/ 106.18 GFLOPS | Progress: (272/880) | 1849.09 seach measure batch cost time: 55.70824837684631
+[Task  2/20]  Current/Best:   35.45/ 106.18 GFLOPS | Progress: (280/880) | 1904.81 seach measure batch cost time: 55.02027773857117
+[Task  2/20]  Current/Best:   21.76/ 106.18 GFLOPS | Progress: (288/880) | 1959.83 seach measure batch cost time: 54.73262548446655
+[Task  2/20]  Current/Best:   74.17/ 106.18 GFLOPS | Progress: (296/880) | 2014.56 seach measure batch cost time: 57.16514611244202
+[Task  2/20]  Current/Best:   77.39/ 106.18 GFLOPS | Progress: (304/880) | 2071.73 seach measure batch cost time: 50.79247808456421
+[Task  2/20]  Current/Best:   59.03/ 106.18 GFLOPS | Progress: (312/880) | 2122.53 seach measure batch cost time: 54.24363350868225
+[Task  2/20]  Current/Best:   59.89/ 106.18 GFLOPS | Progress: (320/880) | 2186.51 seach measure batch cost time: 50.40851616859436
+[Task  2/20]  Current/Best:   80.98/ 106.18 GFLOPS | Progress: (328/880) | 2236.92 seach measure batch cost time: 50.74874806404114
+[Task  2/20]  Current/Best:   78.17/ 106.18 GFLOPS | Progress: (336/880) | 2287.67 seach measure batch cost time: 50.7687132358551
+[Task  2/20]  Current/Best:   75.75/ 106.18 GFLOPS | Progress: (344/880) | 2338.44 seach measure batch cost time: 57.64150285720825
+[Task  2/20]  Current/Best:   41.40/ 106.18 GFLOPS | Progress: (352/880) | 2396.09 searly stopping
+measure batch cost time: 2333.651539325714
+ Done.
+n_trial= 1080
+early_stopping= 270
+[Task  3/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/1080) | 0.00 seach measure batch cost time: 51.60904121398926
+[Task  3/20]  Current/Best:   95.53/  99.88 GFLOPS | Progress: (8/1080) | 54.36 seach measure batch cost time: 52.444477558135986
+[Task  3/20]  Current/Best:   85.07/ 100.58 GFLOPS | Progress: (16/1080) | 106.81 seach measure batch cost time: 55.976874351501465
+[Task  3/20]  Current/Best:   56.68/ 107.85 GFLOPS | Progress: (24/1080) | 162.79 seach measure batch cost time: 54.75823640823364
+[Task  3/20]  Current/Best:   55.22/ 107.85 GFLOPS | Progress: (32/1080) | 217.55 seach measure batch cost time: 53.5716392993927
+[Task  3/20]  Current/Best:   60.97/ 107.85 GFLOPS | Progress: (40/1080) | 271.12 seach measure batch cost time: 56.71043539047241
+[Task  3/20]  Current/Best:   47.85/ 107.85 GFLOPS | Progress: (48/1080) | 327.83 seach measure batch cost time: 52.91004180908203
+[Task  3/20]  Current/Best:   24.06/ 107.85 GFLOPS | Progress: (56/1080) | 380.75 seach measure batch cost time: 52.55207324028015
+[Task  3/20]  Current/Best:   50.59/ 107.85 GFLOPS | Progress: (64/1080) | 452.79 seach measure batch cost time: 51.27501034736633
+[Task  3/20]  Current/Best:   99.56/ 107.85 GFLOPS | Progress: (72/1080) | 504.07 seach measure batch cost time: 51.11476683616638
+[Task  3/20]  Current/Best:   91.79/ 107.85 GFLOPS | Progress: (80/1080) | 555.19 seach measure batch cost time: 51.091347455978394
+[Task  3/20]  Current/Best:   99.30/ 107.85 GFLOPS | Progress: (88/1080) | 606.28 seach measure batch cost time: 51.32246947288513
+[Task  3/20]  Current/Best:   93.84/ 107.85 GFLOPS | Progress: (96/1080) | 657.61 seach measure batch cost time: 51.5513436794281
+[Task  3/20]  Current/Best:   85.31/ 107.85 GFLOPS | Progress: (104/1080) | 709.16 seach measure batch cost time: 51.91259694099426
+[Task  3/20]  Current/Best:   99.71/ 107.85 GFLOPS | Progress: (112/1080) | 761.08 seach measure batch cost time: 51.795658349990845
+[Task  3/20]  Current/Best:   93.42/ 107.85 GFLOPS | Progress: (120/1080) | 812.87 seach measure batch cost time: 54.8297483921051
+[Task  3/20]  Current/Best:   32.98/ 107.85 GFLOPS | Progress: (128/1080) | 878.00 seach measure batch cost time: 51.356672048568726
+[Task  3/20]  Current/Best:   92.91/ 107.85 GFLOPS | Progress: (136/1080) | 929.36 seach measure batch cost time: 51.12316274642944
+[Task  3/20]  Current/Best:   62.41/ 107.85 GFLOPS | Progress: (144/1080) | 980.49 seach measure batch cost time: 51.58442449569702
+[Task  3/20]  Current/Best:   85.25/ 107.85 GFLOPS | Progress: (152/1080) | 1032.07 seach measure batch cost time: 51.38120436668396
+[Task  3/20]  Current/Best:   86.10/ 107.85 GFLOPS | Progress: (160/1080) | 1083.46 seach measure batch cost time: 51.59084105491638
+[Task  3/20]  Current/Best:   89.46/ 107.85 GFLOPS | Progress: (168/1080) | 1135.05 seach measure batch cost time: 51.7968213558197
+[Task  3/20]  Current/Best:   84.44/ 107.85 GFLOPS | Progress: (176/1080) | 1186.85 seach measure batch cost time: 52.042696714401245
+[Task  3/20]  Current/Best:   85.29/ 107.85 GFLOPS | Progress: (184/1080) | 1238.90 seach measure batch cost time: 51.847440004348755
+[Task  3/20]  Current/Best:   93.88/ 107.85 GFLOPS | Progress: (192/1080) | 1301.31 seach measure batch cost time: 52.1395149230957
+[Task  3/20]  Current/Best:   86.89/ 107.85 GFLOPS | Progress: (200/1080) | 1353.45 seach measure batch cost time: 52.37578988075256
+[Task  3/20]  Current/Best:   87.15/ 107.85 GFLOPS | Progress: (208/1080) | 1405.83 seach measure batch cost time: 52.870057106018066
+[Task  3/20]  Current/Best:   90.18/ 107.85 GFLOPS | Progress: (216/1080) | 1458.70 seach measure batch cost time: 52.5046443939209
+[Task  3/20]  Current/Best:   84.75/ 107.85 GFLOPS | Progress: (224/1080) | 1511.21 seach measure batch cost time: 52.50985932350159
+[Task  3/20]  Current/Best:   90.38/ 107.85 GFLOPS | Progress: (232/1080) | 1563.72 seach measure batch cost time: 52.26978635787964
+[Task  3/20]  Current/Best:   73.57/ 107.85 GFLOPS | Progress: (240/1080) | 1615.99 seach measure batch cost time: 52.52152132987976
+[Task  3/20]  Current/Best:   81.62/ 107.85 GFLOPS | Progress: (248/1080) | 1668.52 seach measure batch cost time: 53.19920063018799
+[Task  3/20]  Current/Best:   55.09/ 107.85 GFLOPS | Progress: (256/1080) | 1732.51 seach measure batch cost time: 52.713547229766846
+[Task  3/20]  Current/Best:   86.41/ 107.85 GFLOPS | Progress: (264/1080) | 1785.23 seach measure batch cost time: 53.384928703308105
+[Task  3/20]  Current/Best:   89.34/ 107.85 GFLOPS | Progress: (272/1080) | 1838.62 seach measure batch cost time: 57.64682221412659
+[Task  3/20]  Current/Best:   60.62/ 107.85 GFLOPS | Progress: (280/1080) | 1896.27 seach measure batch cost time: 54.107407569885254
+[Task  3/20]  Current/Best:   79.16/ 107.85 GFLOPS | Progress: (288/1080) | 1950.38 searly stopping
+measure batch cost time: 1896.3921031951904
+ Done.
+n_trial= 252
+early_stopping= 63
+[Task  4/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/252) | 0.00 seach measure batch cost time: 54.69644618034363
+[Task  4/20]  Current/Best:   81.31/  85.37 GFLOPS | Progress: (8/252) | 57.71 seach measure batch cost time: 53.934321641922
+[Task  4/20]  Current/Best:   47.65/ 127.99 GFLOPS | Progress: (16/252) | 111.65 seach measure batch cost time: 53.593698024749756
+[Task  4/20]  Current/Best:  101.17/ 127.99 GFLOPS | Progress: (24/252) | 165.25 seach measure batch cost time: 53.705798864364624
+[Task  4/20]  Current/Best:   36.95/ 127.99 GFLOPS | Progress: (32/252) | 218.95 seach measure batch cost time: 53.28600287437439
+[Task  4/20]  Current/Best:  115.75/ 127.99 GFLOPS | Progress: (40/252) | 272.24 seach measure batch cost time: 53.75004768371582
+[Task  4/20]  Current/Best:   72.52/ 127.99 GFLOPS | Progress: (48/252) | 326.00 seach measure batch cost time: 54.13334131240845
+[Task  4/20]  Current/Best:   88.75/ 127.99 GFLOPS | Progress: (56/252) | 380.13 seach measure batch cost time: 54.28588008880615
+[Task  4/20]  Current/Best:   60.75/ 127.99 GFLOPS | Progress: (64/252) | 447.25 seach measure batch cost time: 53.329073905944824
+[Task  4/20]  Current/Best:  127.99/ 129.58 GFLOPS | Progress: (72/252) | 500.58 seach measure batch cost time: 53.32189917564392
+[Task  4/20]  Current/Best:  120.69/ 129.58 GFLOPS | Progress: (80/252) | 553.90 seach measure batch cost time: 53.15199041366577
+[Task  4/20]  Current/Best:  107.29/ 129.58 GFLOPS | Progress: (88/252) | 607.06 seach measure batch cost time: 53.461095571517944
+[Task  4/20]  Current/Best:  105.58/ 129.58 GFLOPS | Progress: (96/252) | 660.52 seach measure batch cost time: 53.570406675338745
+[Task  4/20]  Current/Best:   93.12/ 129.58 GFLOPS | Progress: (104/252) | 714.09 seach measure batch cost time: 53.61724233627319
+[Task  4/20]  Current/Best:   95.55/ 129.58 GFLOPS | Progress: (112/252) | 767.71 seach measure batch cost time: 53.91243577003479
+[Task  4/20]  Current/Best:   92.44/ 129.58 GFLOPS | Progress: (120/252) | 821.63 seach measure batch cost time: 54.311747312545776
+[Task  4/20]  Current/Best:   86.37/ 129.58 GFLOPS | Progress: (128/252) | 886.37 seach measure batch cost time: 53.70774793624878
+[Task  4/20]  Current/Best:   51.18/ 129.58 GFLOPS | Progress: (136/252) | 940.08 searly stopping
+measure batch cost time: 913.7691757678986
+ Done.
+n_trial= 784
+early_stopping= 196
+[Task  5/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/784) | 0.00 seach measure batch cost time: 53.673240184783936
+[Task  5/20]  Current/Best:   77.95/ 107.73 GFLOPS | Progress: (8/784) | 56.69 seach measure batch cost time: 52.68800473213196
+[Task  5/20]  Current/Best:   70.48/ 107.73 GFLOPS | Progress: (16/784) | 109.38 seach measure batch cost time: 52.2864203453064
+[Task  5/20]  Current/Best:   64.10/ 107.73 GFLOPS | Progress: (24/784) | 161.67 seach measure batch cost time: 52.38296151161194
+[Task  5/20]  Current/Best:   79.74/ 107.73 GFLOPS | Progress: (32/784) | 214.05 seach measure batch cost time: 52.387895584106445
+[Task  5/20]  Current/Best:   81.32/ 107.73 GFLOPS | Progress: (40/784) | 266.44 seach measure batch cost time: 52.337541818618774
+[Task  5/20]  Current/Best:   44.71/ 107.73 GFLOPS | Progress: (48/784) | 318.78 seach measure batch cost time: 52.59870171546936
+[Task  5/20]  Current/Best:   85.31/ 107.73 GFLOPS | Progress: (56/784) | 371.39 seach measure batch cost time: 52.52502465248108
+[Task  5/20]  Current/Best:   90.58/ 107.73 GFLOPS | Progress: (64/784) | 441.05 seach measure batch cost time: 52.34527063369751
+[Task  5/20]  Current/Best:  108.29/ 110.10 GFLOPS | Progress: (72/784) | 493.40 seach measure batch cost time: 52.25917863845825
+[Task  5/20]  Current/Best:  103.82/ 110.10 GFLOPS | Progress: (80/784) | 545.66 seach measure batch cost time: 52.460840702056885
+[Task  5/20]  Current/Best:   86.74/ 110.10 GFLOPS | Progress: (88/784) | 598.12 seach measure batch cost time: 52.463077545166016
+[Task  5/20]  Current/Best:   94.10/ 110.10 GFLOPS | Progress: (96/784) | 650.59 seach measure batch cost time: 52.48178791999817
+[Task  5/20]  Current/Best:  106.86/ 111.36 GFLOPS | Progress: (104/784) | 703.07 seach measure batch cost time: 52.43516206741333
+[Task  5/20]  Current/Best:   98.98/ 111.36 GFLOPS | Progress: (112/784) | 755.51 seach measure batch cost time: 52.34925842285156
+[Task  5/20]  Current/Best:   92.28/ 111.36 GFLOPS | Progress: (120/784) | 807.86 seach measure batch cost time: 52.369348764419556
+[Task  5/20]  Current/Best:   71.02/ 111.36 GFLOPS | Progress: (128/784) | 872.09 seach measure batch cost time: 52.66683912277222
+[Task  5/20]  Current/Best:   93.66/ 111.36 GFLOPS | Progress: (136/784) | 924.77 seach measure batch cost time: 52.25693464279175
+[Task  5/20]  Current/Best:   98.20/ 111.36 GFLOPS | Progress: (144/784) | 977.03 seach measure batch cost time: 52.50902700424194
+[Task  5/20]  Current/Best:   86.32/ 111.36 GFLOPS | Progress: (152/784) | 1029.54 seach measure batch cost time: 52.3435115814209
+[Task  5/20]  Current/Best:   89.19/ 111.36 GFLOPS | Progress: (160/784) | 1081.89 seach measure batch cost time: 52.67362689971924
+[Task  5/20]  Current/Best:   94.12/ 111.36 GFLOPS | Progress: (168/784) | 1134.56 seach measure batch cost time: 52.33740162849426
+[Task  5/20]  Current/Best:   90.18/ 111.36 GFLOPS | Progress: (176/784) | 1186.90 seach measure batch cost time: 52.462388038635254
+[Task  5/20]  Current/Best:   84.95/ 111.36 GFLOPS | Progress: (184/784) | 1239.37 seach measure batch cost time: 52.47110199928284
+[Task  5/20]  Current/Best:   86.73/ 111.36 GFLOPS | Progress: (192/784) | 1302.42 seach measure batch cost time: 52.36722230911255
+[Task  5/20]  Current/Best:   91.37/ 111.36 GFLOPS | Progress: (200/784) | 1354.79 seach measure batch cost time: 52.59816288948059
+[Task  5/20]  Current/Best:   67.32/ 111.36 GFLOPS | Progress: (208/784) | 1407.39 seach measure batch cost time: 52.005786180496216
+[Task  5/20]  Current/Best:   85.04/ 111.36 GFLOPS | Progress: (216/784) | 1459.40 seach measure batch cost time: 52.01458954811096
+[Task  5/20]  Current/Best:   33.90/ 111.36 GFLOPS | Progress: (224/784) | 1511.42 seach measure batch cost time: 52.200674533843994
+[Task  5/20]  Current/Best:   72.71/ 111.36 GFLOPS | Progress: (232/784) | 1563.62 seach measure batch cost time: 52.283103227615356
+[Task  5/20]  Current/Best:   77.18/ 111.36 GFLOPS | Progress: (240/784) | 1615.90 seach measure batch cost time: 52.5643584728241
+[Task  5/20]  Current/Best:   80.20/ 111.36 GFLOPS | Progress: (248/784) | 1668.47 seach measure batch cost time: 52.90234923362732
+[Task  5/20]  Current/Best:   65.25/ 111.36 GFLOPS | Progress: (256/784) | 1732.25 seach measure batch cost time: 52.68011832237244
+[Task  5/20]  Current/Best:   87.32/ 111.36 GFLOPS | Progress: (264/784) | 1784.93 seach measure batch cost time: 52.711002826690674
+[Task  5/20]  Current/Best:   89.36/ 111.36 GFLOPS | Progress: (272/784) | 1837.65 seach measure batch cost time: 52.904805183410645
+[Task  5/20]  Current/Best:   87.85/ 111.36 GFLOPS | Progress: (280/784) | 1890.55 seach measure batch cost time: 52.64820861816406
+[Task  5/20]  Current/Best:   83.39/ 111.36 GFLOPS | Progress: (288/784) | 1943.20 seach measure batch cost time: 52.80190873146057
+[Task  5/20]  Current/Best:   80.47/ 111.36 GFLOPS | Progress: (296/784) | 1996.01 searly stopping
+measure batch cost time: 1942.446836233139
+ Done.
+n_trial= 1008
+early_stopping= 252
+[Task  6/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/1008) | 0.00 seach measure batch cost time: 53.036643505096436
+[Task  6/20]  Current/Best:   72.89/  90.50 GFLOPS | Progress: (8/1008) | 55.95 seach measure batch cost time: 53.47650122642517
+[Task  6/20]  Current/Best:   71.11/  90.50 GFLOPS | Progress: (16/1008) | 109.42 seach measure batch cost time: 52.83741903305054
+[Task  6/20]  Current/Best:   38.35/  90.50 GFLOPS | Progress: (24/1008) | 162.26 seach measure batch cost time: 53.1908905506134
+[Task  6/20]  Current/Best:   68.84/  92.82 GFLOPS | Progress: (32/1008) | 215.46 seach measure batch cost time: 52.62869334220886
+[Task  6/20]  Current/Best:   84.32/ 105.19 GFLOPS | Progress: (40/1008) | 268.09 seach measure batch cost time: 52.80648064613342
+[Task  6/20]  Current/Best:   59.01/ 105.19 GFLOPS | Progress: (48/1008) | 320.90 seach measure batch cost time: 53.60686659812927
+[Task  6/20]  Current/Best:   59.49/ 105.19 GFLOPS | Progress: (56/1008) | 374.51 seach measure batch cost time: 53.64334273338318
+[Task  6/20]  Current/Best:   69.92/ 105.19 GFLOPS | Progress: (64/1008) | 447.19 seach measure batch cost time: 52.62985324859619
+[Task  6/20]  Current/Best:   92.83/ 109.52 GFLOPS | Progress: (72/1008) | 499.83 seach measure batch cost time: 52.72582459449768
+[Task  6/20]  Current/Best:   88.97/ 109.52 GFLOPS | Progress: (80/1008) | 552.55 seach measure batch cost time: 53.04198336601257
+[Task  6/20]  Current/Best:  100.51/ 109.52 GFLOPS | Progress: (88/1008) | 605.60 seach measure batch cost time: 52.859198331832886
+[Task  6/20]  Current/Best:   88.62/ 109.52 GFLOPS | Progress: (96/1008) | 658.46 seach measure batch cost time: 53.17225122451782
+[Task  6/20]  Current/Best:   89.68/ 109.52 GFLOPS | Progress: (104/1008) | 711.63 seach measure batch cost time: 52.96865463256836
+[Task  6/20]  Current/Best:   88.47/ 109.52 GFLOPS | Progress: (112/1008) | 764.60 seach measure batch cost time: 52.864906787872314
+[Task  6/20]  Current/Best:   87.90/ 109.52 GFLOPS | Progress: (120/1008) | 817.47 seach measure batch cost time: 52.84172081947327
+[Task  6/20]  Current/Best:   40.99/ 109.52 GFLOPS | Progress: (128/1008) | 881.35 seach measure batch cost time: 52.68200373649597
+[Task  6/20]  Current/Best:   88.88/ 109.52 GFLOPS | Progress: (136/1008) | 934.04 seach measure batch cost time: 52.765400409698486
+[Task  6/20]  Current/Best:   92.31/ 109.52 GFLOPS | Progress: (144/1008) | 986.80 seach measure batch cost time: 52.879369258880615
+[Task  6/20]  Current/Best:   86.65/ 109.52 GFLOPS | Progress: (152/1008) | 1039.69 seach measure batch cost time: 52.9829375743866
+[Task  6/20]  Current/Best:   87.24/ 109.52 GFLOPS | Progress: (160/1008) | 1092.67 seach measure batch cost time: 52.93391227722168
+[Task  6/20]  Current/Best:   98.85/ 109.52 GFLOPS | Progress: (168/1008) | 1145.61 seach measure batch cost time: 52.756062746047974
+[Task  6/20]  Current/Best:   93.94/ 109.52 GFLOPS | Progress: (176/1008) | 1198.37 seach measure batch cost time: 52.873318672180176
+[Task  6/20]  Current/Best:   94.99/ 109.52 GFLOPS | Progress: (184/1008) | 1251.24 seach measure batch cost time: 53.234055042266846
+[Task  6/20]  Current/Best:   78.92/ 109.52 GFLOPS | Progress: (192/1008) | 1314.81 seach measure batch cost time: 52.64678597450256
+[Task  6/20]  Current/Best:   58.90/ 109.52 GFLOPS | Progress: (200/1008) | 1367.46 seach measure batch cost time: 52.899842262268066
+[Task  6/20]  Current/Best:   85.32/ 109.52 GFLOPS | Progress: (208/1008) | 1420.36 seach measure batch cost time: 53.05230736732483
+[Task  6/20]  Current/Best:   97.56/ 109.52 GFLOPS | Progress: (216/1008) | 1473.42 seach measure batch cost time: 53.97715735435486
+[Task  6/20]  Current/Best:   88.28/ 109.52 GFLOPS | Progress: (224/1008) | 1527.40 seach measure batch cost time: 53.87275838851929
+[Task  6/20]  Current/Best:   87.55/ 109.52 GFLOPS | Progress: (232/1008) | 1581.27 seach measure batch cost time: 53.813719749450684
+[Task  6/20]  Current/Best:   94.36/ 109.52 GFLOPS | Progress: (240/1008) | 1635.09 seach measure batch cost time: 54.74703359603882
+[Task  6/20]  Current/Best:   85.41/ 109.52 GFLOPS | Progress: (248/1008) | 1689.84 seach measure batch cost time: 56.22295069694519
+[Task  6/20]  Current/Best:   64.87/ 109.52 GFLOPS | Progress: (256/1008) | 1757.16 seach measure batch cost time: 53.02127194404602
+[Task  6/20]  Current/Best:   90.63/ 109.52 GFLOPS | Progress: (264/1008) | 1810.18 seach measure batch cost time: 53.315797090530396
+[Task  6/20]  Current/Best:   81.03/ 109.52 GFLOPS | Progress: (272/1008) | 1863.50 seach measure batch cost time: 53.26939678192139
+[Task  6/20]  Current/Best:   83.65/ 109.52 GFLOPS | Progress: (280/1008) | 1916.77 seach measure batch cost time: 53.246368169784546
+[Task  6/20]  Current/Best:   89.80/ 109.52 GFLOPS | Progress: (288/1008) | 1970.02 seach measure batch cost time: 53.33967041969299
+[Task  6/20]  Current/Best:   76.41/ 109.52 GFLOPS | Progress: (296/1008) | 2023.36 seach measure batch cost time: 53.511651039123535
+[Task  6/20]  Current/Best:   82.16/ 109.52 GFLOPS | Progress: (304/1008) | 2076.87 seach measure batch cost time: 53.59546613693237
+[Task  6/20]  Current/Best:   48.38/ 109.52 GFLOPS | Progress: (312/1008) | 2130.47 seach measure batch cost time: 53.3815758228302
+[Task  6/20]  Current/Best:   74.98/ 109.52 GFLOPS | Progress: (320/1008) | 2194.86 searly stopping
+measure batch cost time: 2129.3520431518555
+ Done.
+n_trial= 784
+early_stopping= 196
+[Task  7/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/784) | 0.00 seach measure batch cost time: 53.58697843551636
+[Task  7/20]  Current/Best:   91.69/ 122.48 GFLOPS | Progress: (8/784) | 56.48 seach measure batch cost time: 53.44197678565979
+[Task  7/20]  Current/Best:  123.17/ 127.79 GFLOPS | Progress: (16/784) | 109.93 seach measure batch cost time: 53.19823431968689
+[Task  7/20]  Current/Best:  118.62/ 127.79 GFLOPS | Progress: (24/784) | 163.13 seach measure batch cost time: 53.157612323760986
+[Task  7/20]  Current/Best:   94.56/ 127.79 GFLOPS | Progress: (32/784) | 216.29 seach measure batch cost time: 53.422500133514404
+[Task  7/20]  Current/Best:  127.95/ 127.95 GFLOPS | Progress: (40/784) | 269.71 seach measure batch cost time: 53.8861620426178
+[Task  7/20]  Current/Best:   76.86/ 128.78 GFLOPS | Progress: (48/784) | 323.60 seach measure batch cost time: 54.423648834228516
+[Task  7/20]  Current/Best:   70.78/ 128.78 GFLOPS | Progress: (56/784) | 378.03 seach measure batch cost time: 53.64193320274353
+[Task  7/20]  Current/Best:   88.81/ 128.87 GFLOPS | Progress: (64/784) | 449.85 seach measure batch cost time: 53.1661639213562
+[Task  7/20]  Current/Best:  124.36/ 129.70 GFLOPS | Progress: (72/784) | 503.01 seach measure batch cost time: 53.474241733551025
+[Task  7/20]  Current/Best:  131.67/ 131.67 GFLOPS | Progress: (80/784) | 556.49 seach measure batch cost time: 53.960195541381836
+[Task  7/20]  Current/Best:  108.88/ 131.67 GFLOPS | Progress: (88/784) | 610.45 seach measure batch cost time: 53.821704149246216
+[Task  7/20]  Current/Best:  115.32/ 132.03 GFLOPS | Progress: (96/784) | 664.28 seach measure batch cost time: 53.358299016952515
+[Task  7/20]  Current/Best:  128.78/ 132.03 GFLOPS | Progress: (104/784) | 717.64 seach measure batch cost time: 53.26272392272949
+[Task  7/20]  Current/Best:  129.84/ 132.03 GFLOPS | Progress: (112/784) | 770.90 seach measure batch cost time: 53.37464714050293
+[Task  7/20]  Current/Best:  120.47/ 132.03 GFLOPS | Progress: (120/784) | 824.28 seach measure batch cost time: 53.583871364593506
+[Task  7/20]  Current/Best:   17.71/ 132.03 GFLOPS | Progress: (128/784) | 888.84 seach measure batch cost time: 53.91750168800354
+[Task  7/20]  Current/Best:  129.42/ 132.03 GFLOPS | Progress: (136/784) | 942.76 seach measure batch cost time: 54.5131151676178
+[Task  7/20]  Current/Best:  116.23/ 132.03 GFLOPS | Progress: (144/784) | 997.28 seach measure batch cost time: 54.38240647315979
+[Task  7/20]  Current/Best:  121.15/ 132.03 GFLOPS | Progress: (152/784) | 1051.66 seach measure batch cost time: 54.40893268585205
+[Task  7/20]  Current/Best:  115.01/ 132.03 GFLOPS | Progress: (160/784) | 1106.07 seach measure batch cost time: 54.55973553657532
+[Task  7/20]  Current/Best:  114.81/ 132.03 GFLOPS | Progress: (168/784) | 1160.64 seach measure batch cost time: 54.723743200302124
+[Task  7/20]  Current/Best:   86.76/ 132.03 GFLOPS | Progress: (176/784) | 1215.36 seach measure batch cost time: 54.507906675338745
+[Task  7/20]  Current/Best:  108.10/ 132.03 GFLOPS | Progress: (184/784) | 1269.87 seach measure batch cost time: 54.73104763031006
+[Task  7/20]  Current/Best:  107.98/ 132.03 GFLOPS | Progress: (192/784) | 1336.48 seach measure batch cost time: 54.322818756103516
+[Task  7/20]  Current/Best:  114.64/ 132.03 GFLOPS | Progress: (200/784) | 1390.80 seach measure batch cost time: 54.499529123306274
+[Task  7/20]  Current/Best:  125.06/ 132.03 GFLOPS | Progress: (208/784) | 1445.30 seach measure batch cost time: 54.35480046272278
+[Task  7/20]  Current/Best:   99.65/ 132.03 GFLOPS | Progress: (216/784) | 1499.66 seach measure batch cost time: 54.94994878768921
+[Task  7/20]  Current/Best:   72.76/ 132.03 GFLOPS | Progress: (224/784) | 1554.61 seach measure batch cost time: 54.550201177597046
+[Task  7/20]  Current/Best:   92.55/ 132.03 GFLOPS | Progress: (232/784) | 1609.17 seach measure batch cost time: 53.65857195854187
+[Task  7/20]  Current/Best:   58.07/ 132.03 GFLOPS | Progress: (240/784) | 1662.83 seach measure batch cost time: 53.61968755722046
+[Task  7/20]  Current/Best:   55.94/ 132.03 GFLOPS | Progress: (248/784) | 1716.45 seach measure batch cost time: 53.80576229095459
+[Task  7/20]  Current/Best:   98.21/ 132.03 GFLOPS | Progress: (256/784) | 1781.10 seach measure batch cost time: 53.651565074920654
+[Task  7/20]  Current/Best:  110.24/ 132.03 GFLOPS | Progress: (264/784) | 1834.76 seach measure batch cost time: 53.7386269569397
+[Task  7/20]  Current/Best:   99.48/ 132.03 GFLOPS | Progress: (272/784) | 1888.50 seach measure batch cost time: 54.895689487457275
+[Task  7/20]  Current/Best:   62.83/ 132.03 GFLOPS | Progress: (280/784) | 1943.39 seach measure batch cost time: 55.08531856536865
+[Task  7/20]  Current/Best:   85.98/ 132.03 GFLOPS | Progress: (288/784) | 1998.48 searly stopping
+measure batch cost time: 1943.6378021240234
+ Done.
+n_trial= 1008
+early_stopping= 252
+[Task  8/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/1008) | 0.00 seach measure batch cost time: 54.730823040008545
+[Task  8/20]  Current/Best:   89.40/  94.06 GFLOPS | Progress: (8/1008) | 57.77 seach measure batch cost time: 55.65448474884033
+[Task  8/20]  Current/Best:  107.84/ 107.84 GFLOPS | Progress: (16/1008) | 113.42 seach measure batch cost time: 54.58503341674805
+[Task  8/20]  Current/Best:   70.54/ 116.81 GFLOPS | Progress: (24/1008) | 168.01 seach measure batch cost time: 54.391316652297974
+[Task  8/20]  Current/Best:   84.43/ 116.81 GFLOPS | Progress: (32/1008) | 222.40 seach measure batch cost time: 55.61474919319153
+[Task  8/20]  Current/Best:   57.88/ 116.81 GFLOPS | Progress: (40/1008) | 278.02 seach measure batch cost time: 55.268348693847656
+[Task  8/20]  Current/Best:   66.00/ 116.81 GFLOPS | Progress: (48/1008) | 333.29 seach measure batch cost time: 54.158851623535156
+[Task  8/20]  Current/Best:  108.02/ 116.81 GFLOPS | Progress: (56/1008) | 387.45 seach measure batch cost time: 54.46164512634277
+[Task  8/20]  Current/Best:   46.23/ 116.81 GFLOPS | Progress: (64/1008) | 461.52 seach measure batch cost time: 53.651039600372314
+[Task  8/20]  Current/Best:   93.45/ 116.81 GFLOPS | Progress: (72/1008) | 515.18 seach measure batch cost time: 53.27435898780823
+[Task  8/20]  Current/Best:   95.17/ 116.81 GFLOPS | Progress: (80/1008) | 568.46 seach measure batch cost time: 53.17640542984009
+[Task  8/20]  Current/Best:  104.81/ 116.81 GFLOPS | Progress: (88/1008) | 621.63 seach measure batch cost time: 53.24563407897949
+[Task  8/20]  Current/Best:  103.85/ 117.48 GFLOPS | Progress: (96/1008) | 674.88 seach measure batch cost time: 53.3395459651947
+[Task  8/20]  Current/Best:   97.98/ 117.48 GFLOPS | Progress: (104/1008) | 728.22 seach measure batch cost time: 54.33669686317444
+[Task  8/20]  Current/Best:  114.01/ 117.48 GFLOPS | Progress: (112/1008) | 782.56 seach measure batch cost time: 54.3768470287323
+[Task  8/20]  Current/Best:  107.96/ 117.60 GFLOPS | Progress: (120/1008) | 836.94 seach measure batch cost time: 54.45953392982483
+[Task  8/20]  Current/Best:   87.28/ 117.60 GFLOPS | Progress: (128/1008) | 902.79 seach measure batch cost time: 53.70532202720642
+[Task  8/20]  Current/Best:  108.58/ 118.19 GFLOPS | Progress: (136/1008) | 956.50 seach measure batch cost time: 53.42788100242615
+[Task  8/20]  Current/Best:  102.43/ 118.19 GFLOPS | Progress: (144/1008) | 1009.93 seach measure batch cost time: 53.16567659378052
+[Task  8/20]  Current/Best:  108.55/ 118.19 GFLOPS | Progress: (152/1008) | 1063.09 seach measure batch cost time: 53.38261699676514
+[Task  8/20]  Current/Best:  101.93/ 118.19 GFLOPS | Progress: (160/1008) | 1116.48 seach measure batch cost time: 53.3496515750885
+[Task  8/20]  Current/Best:  101.59/ 118.19 GFLOPS | Progress: (168/1008) | 1169.83 seach measure batch cost time: 53.40237522125244
+[Task  8/20]  Current/Best:  103.94/ 118.19 GFLOPS | Progress: (176/1008) | 1223.24 seach measure batch cost time: 53.41138315200806
+[Task  8/20]  Current/Best:   98.60/ 118.19 GFLOPS | Progress: (184/1008) | 1276.65 seach measure batch cost time: 54.443052768707275
+[Task  8/20]  Current/Best:   58.37/ 118.19 GFLOPS | Progress: (192/1008) | 1341.64 seach measure batch cost time: 53.43584203720093
+[Task  8/20]  Current/Best:  106.98/ 118.19 GFLOPS | Progress: (200/1008) | 1395.08 seach measure batch cost time: 53.36456632614136
+[Task  8/20]  Current/Best:   99.24/ 118.19 GFLOPS | Progress: (208/1008) | 1448.44 seach measure batch cost time: 53.66364336013794
+[Task  8/20]  Current/Best:   67.58/ 118.19 GFLOPS | Progress: (216/1008) | 1502.11 seach measure batch cost time: 54.49076271057129
+[Task  8/20]  Current/Best:   72.19/ 118.19 GFLOPS | Progress: (224/1008) | 1556.60 seach measure batch cost time: 54.573384046554565
+[Task  8/20]  Current/Best:   80.84/ 118.19 GFLOPS | Progress: (232/1008) | 1611.18 seach measure batch cost time: 54.318830728530884
+[Task  8/20]  Current/Best:   85.67/ 118.19 GFLOPS | Progress: (240/1008) | 1665.50 seach measure batch cost time: 54.30385065078735
+[Task  8/20]  Current/Best:   23.10/ 118.19 GFLOPS | Progress: (248/1008) | 1719.81 seach measure batch cost time: 55.159157514572144
+[Task  8/20]  Current/Best:   63.65/ 118.19 GFLOPS | Progress: (256/1008) | 1786.69 seach measure batch cost time: 53.18748164176941
+[Task  8/20]  Current/Best:   94.62/ 118.19 GFLOPS | Progress: (264/1008) | 1839.88 seach measure batch cost time: 53.58328986167908
+[Task  8/20]  Current/Best:   89.69/ 118.19 GFLOPS | Progress: (272/1008) | 1893.47 seach measure batch cost time: 53.49387311935425
+[Task  8/20]  Current/Best:   91.87/ 118.19 GFLOPS | Progress: (280/1008) | 1946.96 seach measure batch cost time: 53.47987103462219
+[Task  8/20]  Current/Best:   87.01/ 118.19 GFLOPS | Progress: (288/1008) | 2000.44 seach measure batch cost time: 53.5042245388031
+[Task  8/20]  Current/Best:   91.14/ 118.19 GFLOPS | Progress: (296/1008) | 2053.95 seach measure batch cost time: 53.59908723831177
+[Task  8/20]  Current/Best:   93.34/ 118.19 GFLOPS | Progress: (304/1008) | 2107.55 seach measure batch cost time: 53.55298829078674
+[Task  8/20]  Current/Best:   78.06/ 118.19 GFLOPS | Progress: (312/1008) | 2161.11 seach measure batch cost time: 58.429115772247314
+[Task  8/20]  Current/Best:   86.65/ 118.19 GFLOPS | Progress: (320/1008) | 2230.37 seach measure batch cost time: 53.50773358345032
+[Task  8/20]  Current/Best:   87.27/ 118.19 GFLOPS | Progress: (328/1008) | 2283.88 seach measure batch cost time: 53.63110542297363
+[Task  8/20]  Current/Best:   72.80/ 118.19 GFLOPS | Progress: (336/1008) | 2337.51 seach measure batch cost time: 53.57749795913696
+[Task  8/20]  Current/Best:   74.03/ 118.19 GFLOPS | Progress: (344/1008) | 2391.09 seach measure batch cost time: 53.35864329338074
+[Task  8/20]  Current/Best:   92.13/ 118.19 GFLOPS | Progress: (352/1008) | 2444.45 seach measure batch cost time: 57.86813402175903
+[Task  8/20]  Current/Best:   46.64/ 118.19 GFLOPS | Progress: (360/1008) | 2502.32 seach measure batch cost time: 54.10468864440918
+[Task  8/20]  Current/Best:   69.64/ 118.19 GFLOPS | Progress: (368/1008) | 2556.43 seach measure batch cost time: 53.890297651290894
+[Task  8/20]  Current/Best:   53.35/ 118.19 GFLOPS | Progress: (376/1008) | 2610.32 seach measure batch cost time: 60.883188247680664
+[Task  8/20]  Current/Best:   43.98/ 118.19 GFLOPS | Progress: (384/1008) | 2682.76 searly stopping
+measure batch cost time: 2603.9745314121246
+ Done.
+n_trial= 864
+early_stopping= 216
+[Task  9/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/864) | 0.00 seach measure batch cost time: 53.86004996299744
+[Task  9/20]  Current/Best:   18.26/  88.48 GFLOPS | Progress: (8/864) | 57.06 seach measure batch cost time: 54.017353534698486
+[Task  9/20]  Current/Best:   93.66/  93.66 GFLOPS | Progress: (16/864) | 111.08 seach measure batch cost time: 53.992653608322144
+[Task  9/20]  Current/Best:   41.43/  93.66 GFLOPS | Progress: (24/864) | 165.08 seach measure batch cost time: 53.90172266960144
+[Task  9/20]  Current/Best:   81.54/  93.66 GFLOPS | Progress: (32/864) | 218.98 seach measure batch cost time: 54.27332663536072
+[Task  9/20]  Current/Best:   19.21/  93.66 GFLOPS | Progress: (40/864) | 273.26 seach measure batch cost time: 54.770745515823364
+[Task  9/20]  Current/Best:   87.46/  93.66 GFLOPS | Progress: (48/864) | 328.03 seach measure batch cost time: 54.778738021850586
+[Task  9/20]  Current/Best:   21.38/  93.66 GFLOPS | Progress: (56/864) | 382.81 seach measure batch cost time: 54.74110221862793
+[Task  9/20]  Current/Best:   70.99/  98.05 GFLOPS | Progress: (64/864) | 456.35 seach measure batch cost time: 53.79601335525513
+[Task  9/20]  Current/Best:   93.47/  98.05 GFLOPS | Progress: (72/864) | 510.15 seach measure batch cost time: 54.101231813430786
+[Task  9/20]  Current/Best:   96.13/ 101.26 GFLOPS | Progress: (80/864) | 564.25 seach measure batch cost time: 54.59113001823425
+[Task  9/20]  Current/Best:   95.69/ 101.26 GFLOPS | Progress: (88/864) | 618.84 seach measure batch cost time: 54.38592886924744
+[Task  9/20]  Current/Best:  100.40/ 101.26 GFLOPS | Progress: (96/864) | 673.23 seach measure batch cost time: 53.882460832595825
+[Task  9/20]  Current/Best:   82.50/ 101.26 GFLOPS | Progress: (104/864) | 727.11 seach measure batch cost time: 53.65947389602661
+[Task  9/20]  Current/Best:   88.18/ 101.26 GFLOPS | Progress: (112/864) | 780.78 seach measure batch cost time: 53.73546886444092
+[Task  9/20]  Current/Best:   86.04/ 101.26 GFLOPS | Progress: (120/864) | 834.51 seach measure batch cost time: 53.88481116294861
+[Task  9/20]  Current/Best:   83.37/ 101.26 GFLOPS | Progress: (128/864) | 899.59 seach measure batch cost time: 53.8957781791687
+[Task  9/20]  Current/Best:   82.20/ 101.26 GFLOPS | Progress: (136/864) | 953.49 seach measure batch cost time: 53.829777240753174
+[Task  9/20]  Current/Best:   61.52/ 101.26 GFLOPS | Progress: (144/864) | 1007.32 seach measure batch cost time: 53.992424964904785
+[Task  9/20]  Current/Best:   85.52/ 101.26 GFLOPS | Progress: (152/864) | 1061.31 seach measure batch cost time: 53.90011692047119
+[Task  9/20]  Current/Best:   92.35/ 101.26 GFLOPS | Progress: (160/864) | 1115.22 seach measure batch cost time: 53.89016890525818
+[Task  9/20]  Current/Best:   76.80/ 101.26 GFLOPS | Progress: (168/864) | 1169.11 seach measure batch cost time: 53.937487840652466
+[Task  9/20]  Current/Best:   99.36/ 101.26 GFLOPS | Progress: (176/864) | 1223.05 seach measure batch cost time: 53.961405754089355
+[Task  9/20]  Current/Best:   80.71/ 101.26 GFLOPS | Progress: (184/864) | 1277.01 seach measure batch cost time: 53.877440452575684
+[Task  9/20]  Current/Best:   80.61/ 101.26 GFLOPS | Progress: (192/864) | 1342.05 seach measure batch cost time: 54.159621238708496
+[Task  9/20]  Current/Best:   94.45/ 101.26 GFLOPS | Progress: (200/864) | 1396.21 seach measure batch cost time: 54.20745229721069
+[Task  9/20]  Current/Best:   87.48/ 101.26 GFLOPS | Progress: (208/864) | 1450.42 seach measure batch cost time: 54.78486609458923
+[Task  9/20]  Current/Best:   85.03/ 101.26 GFLOPS | Progress: (216/864) | 1505.21 seach measure batch cost time: 54.77292013168335
+[Task  9/20]  Current/Best:   76.06/ 101.26 GFLOPS | Progress: (224/864) | 1559.98 seach measure batch cost time: 54.55271649360657
+[Task  9/20]  Current/Best:   86.08/ 101.26 GFLOPS | Progress: (232/864) | 1614.54 seach measure batch cost time: 54.483278036117554
+[Task  9/20]  Current/Best:   79.84/ 101.26 GFLOPS | Progress: (240/864) | 1669.02 seach measure batch cost time: 54.836483001708984
+[Task  9/20]  Current/Best:   24.59/ 101.26 GFLOPS | Progress: (248/864) | 1723.86 seach measure batch cost time: 54.8889000415802
+[Task  9/20]  Current/Best:   85.36/ 101.26 GFLOPS | Progress: (256/864) | 1790.67 seach measure batch cost time: 54.82311987876892
+[Task  9/20]  Current/Best:   87.73/ 101.26 GFLOPS | Progress: (264/864) | 1845.49 seach measure batch cost time: 55.40577292442322
+[Task  9/20]  Current/Best:   80.73/ 101.26 GFLOPS | Progress: (272/864) | 1900.90 seach measure batch cost time: 54.26371502876282
+[Task  9/20]  Current/Best:   77.47/ 101.26 GFLOPS | Progress: (280/864) | 1955.17 seach measure batch cost time: 54.43559193611145
+[Task  9/20]  Current/Best:   58.52/ 101.26 GFLOPS | Progress: (288/864) | 2009.60 seach measure batch cost time: 53.79034686088562
+[Task  9/20]  Current/Best:   29.83/ 101.26 GFLOPS | Progress: (296/864) | 2063.40 searly stopping
+measure batch cost time: 2007.0615952014923
+ Done.
+n_trial= 960
+early_stopping= 240
+[Task 10/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/960) | 0.00 seach measure batch cost time: 54.96959710121155
+[Task 10/20]  Current/Best:   81.84/  86.80 GFLOPS | Progress: (8/960) | 57.98 seach measure batch cost time: 54.73869204521179
+[Task 10/20]  Current/Best:   95.35/ 106.36 GFLOPS | Progress: (16/960) | 112.72 seach measure batch cost time: 54.63351058959961
+[Task 10/20]  Current/Best:   53.62/ 106.36 GFLOPS | Progress: (24/960) | 167.35 seach measure batch cost time: 54.68840765953064
+[Task 10/20]  Current/Best:   98.91/ 107.47 GFLOPS | Progress: (32/960) | 222.05 seach measure batch cost time: 54.94736194610596
+[Task 10/20]  Current/Best:   95.29/ 107.47 GFLOPS | Progress: (40/960) | 276.99 seach measure batch cost time: 55.02660894393921
+[Task 10/20]  Current/Best:  103.27/ 107.47 GFLOPS | Progress: (48/960) | 332.02 seach measure batch cost time: 55.178067207336426
+[Task 10/20]  Current/Best:   14.78/ 107.47 GFLOPS | Progress: (56/960) | 387.20 seach measure batch cost time: 55.12831664085388
+[Task 10/20]  Current/Best:   32.83/ 107.47 GFLOPS | Progress: (64/960) | 461.54 seach measure batch cost time: 55.81089496612549
+[Task 10/20]  Current/Best:  114.68/ 114.68 GFLOPS | Progress: (72/960) | 517.35 seach measure batch cost time: 55.6672739982605
+[Task 10/20]  Current/Best:  105.64/ 114.68 GFLOPS | Progress: (80/960) | 573.02 seach measure batch cost time: 55.61391305923462
+[Task 10/20]  Current/Best:   93.41/ 114.68 GFLOPS | Progress: (88/960) | 628.64 seach measure batch cost time: 55.57739806175232
+[Task 10/20]  Current/Best:  104.71/ 114.68 GFLOPS | Progress: (96/960) | 684.22 seach measure batch cost time: 54.88653540611267
+[Task 10/20]  Current/Best:  101.05/ 114.68 GFLOPS | Progress: (104/960) | 739.11 seach measure batch cost time: 54.773855209350586
+[Task 10/20]  Current/Best:  100.80/ 116.59 GFLOPS | Progress: (112/960) | 793.88 seach measure batch cost time: 55.166720151901245
+[Task 10/20]  Current/Best:   95.96/ 116.59 GFLOPS | Progress: (120/960) | 849.05 seach measure batch cost time: 55.85972833633423
+[Task 10/20]  Current/Best:   90.23/ 116.59 GFLOPS | Progress: (128/960) | 916.69 seach measure batch cost time: 55.817832946777344
+[Task 10/20]  Current/Best:  107.40/ 117.92 GFLOPS | Progress: (136/960) | 972.51 seach measure batch cost time: 55.59472680091858
+[Task 10/20]  Current/Best:   91.80/ 117.92 GFLOPS | Progress: (144/960) | 1028.11 seach measure batch cost time: 55.846174001693726
+[Task 10/20]  Current/Best:  100.21/ 117.92 GFLOPS | Progress: (152/960) | 1083.96 seach measure batch cost time: 55.766276597976685
+[Task 10/20]  Current/Best:  105.13/ 117.92 GFLOPS | Progress: (160/960) | 1139.73 seach measure batch cost time: 55.34292507171631
+[Task 10/20]  Current/Best:   99.73/ 117.92 GFLOPS | Progress: (168/960) | 1195.07 seach measure batch cost time: 55.30932021141052
+[Task 10/20]  Current/Best:  103.43/ 117.92 GFLOPS | Progress: (176/960) | 1250.39 seach measure batch cost time: 55.66324257850647
+[Task 10/20]  Current/Best:  100.69/ 117.92 GFLOPS | Progress: (184/960) | 1306.05 seach measure batch cost time: 56.124667167663574
+[Task 10/20]  Current/Best:   86.19/ 117.92 GFLOPS | Progress: (192/960) | 1374.21 seach measure batch cost time: 55.99718499183655
+[Task 10/20]  Current/Best:   99.15/ 117.92 GFLOPS | Progress: (200/960) | 1430.21 seach measure batch cost time: 56.11811351776123
+[Task 10/20]  Current/Best:   94.05/ 117.92 GFLOPS | Progress: (208/960) | 1486.33 seach measure batch cost time: 54.640581369400024
+[Task 10/20]  Current/Best:  101.15/ 117.92 GFLOPS | Progress: (216/960) | 1540.97 seach measure batch cost time: 54.55257821083069
+[Task 10/20]  Current/Best:  101.32/ 117.92 GFLOPS | Progress: (224/960) | 1595.53 seach measure batch cost time: 55.40364599227905
+[Task 10/20]  Current/Best:   30.98/ 117.92 GFLOPS | Progress: (232/960) | 1650.93 seach measure batch cost time: 54.911561727523804
+[Task 10/20]  Current/Best:   80.67/ 117.92 GFLOPS | Progress: (240/960) | 1705.85 seach measure batch cost time: 54.166139125823975
+[Task 10/20]  Current/Best:   81.91/ 117.92 GFLOPS | Progress: (248/960) | 1760.01 seach measure batch cost time: 54.25505566596985
+[Task 10/20]  Current/Best:   92.46/ 117.92 GFLOPS | Progress: (256/960) | 1826.45 seach measure batch cost time: 56.65836977958679
+[Task 10/20]  Current/Best:   95.41/ 117.92 GFLOPS | Progress: (264/960) | 1883.11 seach measure batch cost time: 55.95980095863342
+[Task 10/20]  Current/Best:   96.69/ 117.92 GFLOPS | Progress: (272/960) | 1939.07 seach measure batch cost time: 56.18035387992859
+[Task 10/20]  Current/Best:   97.26/ 117.92 GFLOPS | Progress: (280/960) | 1995.26 seach measure batch cost time: 56.599735260009766
+[Task 10/20]  Current/Best:   92.09/ 117.92 GFLOPS | Progress: (288/960) | 2051.86 seach measure batch cost time: 55.93108320236206
+[Task 10/20]  Current/Best:   31.00/ 117.92 GFLOPS | Progress: (296/960) | 2107.79 seach measure batch cost time: 55.392539262771606
+[Task 10/20]  Current/Best:   35.05/ 117.92 GFLOPS | Progress: (304/960) | 2163.19 seach measure batch cost time: 56.00740027427673
+[Task 10/20]  Current/Best:   95.63/ 117.92 GFLOPS | Progress: (312/960) | 2219.20 seach measure batch cost time: 55.80827879905701
+[Task 10/20]  Current/Best:   32.52/ 117.92 GFLOPS | Progress: (320/960) | 2286.28 seach measure batch cost time: 54.146605014801025
+[Task 10/20]  Current/Best:   97.59/ 117.92 GFLOPS | Progress: (328/960) | 2340.43 seach measure batch cost time: 54.50853705406189
+[Task 10/20]  Current/Best:   88.13/ 117.92 GFLOPS | Progress: (336/960) | 2394.94 seach measure batch cost time: 54.262259006500244
+[Task 10/20]  Current/Best:   90.99/ 117.92 GFLOPS | Progress: (344/960) | 2449.20 seach measure batch cost time: 53.910361528396606
+[Task 10/20]  Current/Best:   98.05/ 117.92 GFLOPS | Progress: (352/960) | 2503.11 seach measure batch cost time: 52.948894023895264
+[Task 10/20]  Current/Best:   88.82/ 117.92 GFLOPS | Progress: (360/960) | 2556.07 seach measure batch cost time: 52.96797466278076
+[Task 10/20]  Current/Best:   21.08/ 117.92 GFLOPS | Progress: (368/960) | 2609.04 searly stopping
+measure batch cost time: 2539.459100008011
+ Done.
+n_trial= 768
+early_stopping= 192
+[Task 11/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/768) | 0.00 seach measure batch cost time: 54.23576617240906
+[Task 11/20]  Current/Best:   66.19/ 101.36 GFLOPS | Progress: (8/768) | 57.09 seach measure batch cost time: 53.3546359539032
+[Task 11/20]  Current/Best:  117.12/ 117.12 GFLOPS | Progress: (16/768) | 110.45 seach measure batch cost time: 53.426706075668335
+[Task 11/20]  Current/Best:  127.69/ 129.77 GFLOPS | Progress: (24/768) | 163.88 seach measure batch cost time: 53.34144735336304
+[Task 11/20]  Current/Best:  109.46/ 129.77 GFLOPS | Progress: (32/768) | 217.22 seach measure batch cost time: 53.29635667800903
+[Task 11/20]  Current/Best:  114.60/ 129.77 GFLOPS | Progress: (40/768) | 270.52 seach measure batch cost time: 53.251484632492065
+[Task 11/20]  Current/Best:  122.08/ 131.60 GFLOPS | Progress: (48/768) | 323.78 seach measure batch cost time: 53.09933018684387
+[Task 11/20]  Current/Best:  114.77/ 131.60 GFLOPS | Progress: (56/768) | 376.88 seach measure batch cost time: 53.406426668167114
+[Task 11/20]  Current/Best:  126.04/ 131.60 GFLOPS | Progress: (64/768) | 448.16 seach measure batch cost time: 54.2908821105957
+[Task 11/20]  Current/Best:  126.97/ 133.24 GFLOPS | Progress: (72/768) | 502.45 seach measure batch cost time: 54.332165241241455
+[Task 11/20]  Current/Best:  121.99/ 133.24 GFLOPS | Progress: (80/768) | 556.78 seach measure batch cost time: 54.59290599822998
+[Task 11/20]  Current/Best:  122.60/ 133.24 GFLOPS | Progress: (88/768) | 611.38 seach measure batch cost time: 54.50626873970032
+[Task 11/20]  Current/Best:  131.40/ 133.24 GFLOPS | Progress: (96/768) | 665.89 seach measure batch cost time: 54.61085844039917
+[Task 11/20]  Current/Best:  115.41/ 133.24 GFLOPS | Progress: (104/768) | 720.50 seach measure batch cost time: 54.371236085891724
+[Task 11/20]  Current/Best:  117.53/ 133.24 GFLOPS | Progress: (112/768) | 774.87 seach measure batch cost time: 54.62515044212341
+[Task 11/20]  Current/Best:  115.41/ 133.24 GFLOPS | Progress: (120/768) | 829.50 seach measure batch cost time: 54.62290334701538
+[Task 11/20]  Current/Best:  108.35/ 133.24 GFLOPS | Progress: (128/768) | 896.54 seach measure batch cost time: 55.373918294906616
+[Task 11/20]  Current/Best:  126.82/ 133.64 GFLOPS | Progress: (136/768) | 951.92 seach measure batch cost time: 55.228983879089355
+[Task 11/20]  Current/Best:  114.72/ 133.64 GFLOPS | Progress: (144/768) | 1007.15 seach measure batch cost time: 55.137343645095825
+[Task 11/20]  Current/Best:  115.64/ 133.64 GFLOPS | Progress: (152/768) | 1062.29 seach measure batch cost time: 55.33396768569946
+[Task 11/20]  Current/Best:  111.18/ 133.64 GFLOPS | Progress: (160/768) | 1117.62 seach measure batch cost time: 55.311811685562134
+[Task 11/20]  Current/Best:  121.63/ 133.64 GFLOPS | Progress: (168/768) | 1172.94 seach measure batch cost time: 55.5740020275116
+[Task 11/20]  Current/Best:  117.45/ 133.64 GFLOPS | Progress: (176/768) | 1228.51 seach measure batch cost time: 55.32715082168579
+[Task 11/20]  Current/Best:  116.26/ 133.64 GFLOPS | Progress: (184/768) | 1283.84 seach measure batch cost time: 55.62517499923706
+[Task 11/20]  Current/Best:   72.79/ 133.64 GFLOPS | Progress: (192/768) | 1351.15 seach measure batch cost time: 55.37435221672058
+[Task 11/20]  Current/Best:  112.51/ 133.64 GFLOPS | Progress: (200/768) | 1406.53 seach measure batch cost time: 55.18280339241028
+[Task 11/20]  Current/Best:  111.26/ 133.64 GFLOPS | Progress: (208/768) | 1461.72 seach measure batch cost time: 55.553356409072876
+[Task 11/20]  Current/Best:   68.98/ 133.64 GFLOPS | Progress: (216/768) | 1517.27 seach measure batch cost time: 55.65010333061218
+[Task 11/20]  Current/Best:   68.35/ 133.64 GFLOPS | Progress: (224/768) | 1572.92 seach measure batch cost time: 56.093170404434204
+[Task 11/20]  Current/Best:   89.26/ 133.64 GFLOPS | Progress: (232/768) | 1629.02 seach measure batch cost time: 56.10251307487488
+[Task 11/20]  Current/Best:   64.35/ 133.64 GFLOPS | Progress: (240/768) | 1685.12 seach measure batch cost time: 56.27874183654785
+[Task 11/20]  Current/Best:   35.34/ 133.64 GFLOPS | Progress: (248/768) | 1741.41 seach measure batch cost time: 56.29476571083069
+[Task 11/20]  Current/Best:   93.31/ 133.64 GFLOPS | Progress: (256/768) | 1809.09 seach measure batch cost time: 55.59204816818237
+[Task 11/20]  Current/Best:  110.34/ 133.64 GFLOPS | Progress: (264/768) | 1864.68 seach measure batch cost time: 55.55671167373657
+[Task 11/20]  Current/Best:  118.94/ 133.64 GFLOPS | Progress: (272/768) | 1920.24 seach measure batch cost time: 55.475091218948364
+[Task 11/20]  Current/Best:  106.87/ 133.64 GFLOPS | Progress: (280/768) | 1975.72 seach measure batch cost time: 55.48038959503174
+[Task 11/20]  Current/Best:  103.69/ 133.64 GFLOPS | Progress: (288/768) | 2031.20 seach measure batch cost time: 55.65591216087341
+[Task 11/20]  Current/Best:  106.07/ 133.64 GFLOPS | Progress: (296/768) | 2086.86 seach measure batch cost time: 55.09478425979614
+[Task 11/20]  Current/Best:   46.67/ 133.64 GFLOPS | Progress: (304/768) | 2141.96 seach measure batch cost time: 55.08663201332092
+[Task 11/20]  Current/Best:   81.13/ 133.64 GFLOPS | Progress: (312/768) | 2197.05 seach measure batch cost time: 55.545329570770264
+[Task 11/20]  Current/Best:   32.72/ 133.64 GFLOPS | Progress: (320/768) | 2264.12 searly stopping
+measure batch cost time: 2196.293582201004
+ Done.
+n_trial= 960
+early_stopping= 240
+[Task 12/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/960) | 0.00 seach measure batch cost time: 54.06556987762451
+[Task 12/20]  Current/Best:   62.01/ 104.48 GFLOPS | Progress: (8/960) | 57.10 seach measure batch cost time: 52.88460612297058
+[Task 12/20]  Current/Best:   90.25/ 104.48 GFLOPS | Progress: (16/960) | 109.99 seach measure batch cost time: 52.91469883918762
+[Task 12/20]  Current/Best:   69.29/ 109.09 GFLOPS | Progress: (24/960) | 162.91 seach measure batch cost time: 57.71348261833191
+[Task 12/20]  Current/Best:   53.74/ 109.09 GFLOPS | Progress: (32/960) | 220.62 seach measure batch cost time: 57.48969864845276
+[Task 12/20]  Current/Best:   54.14/ 116.60 GFLOPS | Progress: (40/960) | 278.12 seach measure batch cost time: 54.43691444396973
+[Task 12/20]  Current/Best:   73.92/ 116.60 GFLOPS | Progress: (48/960) | 332.56 seach measure batch cost time: 53.28193545341492
+[Task 12/20]  Current/Best:   42.09/ 116.60 GFLOPS | Progress: (56/960) | 385.84 seach measure batch cost time: 53.22600746154785
+[Task 12/20]  Current/Best:  120.38/ 120.38 GFLOPS | Progress: (64/960) | 457.60 seach measure batch cost time: 53.584989070892334
+[Task 12/20]  Current/Best:  120.04/ 120.38 GFLOPS | Progress: (72/960) | 511.19 seach measure batch cost time: 53.36802387237549
+[Task 12/20]  Current/Best:   96.01/ 123.72 GFLOPS | Progress: (80/960) | 564.56 seach measure batch cost time: 53.109453201293945
+[Task 12/20]  Current/Best:  102.57/ 123.72 GFLOPS | Progress: (88/960) | 617.67 seach measure batch cost time: 53.43169927597046
+[Task 12/20]  Current/Best:  120.53/ 123.72 GFLOPS | Progress: (96/960) | 671.11 seach measure batch cost time: 53.28146409988403
+[Task 12/20]  Current/Best:  107.97/ 123.72 GFLOPS | Progress: (104/960) | 724.39 seach measure batch cost time: 53.04807734489441
+[Task 12/20]  Current/Best:  100.72/ 123.72 GFLOPS | Progress: (112/960) | 777.44 seach measure batch cost time: 52.917895555496216
+[Task 12/20]  Current/Best:  119.33/ 123.72 GFLOPS | Progress: (120/960) | 830.36 seach measure batch cost time: 53.580503940582275
+[Task 12/20]  Current/Best:   74.50/ 123.72 GFLOPS | Progress: (128/960) | 894.55 seach measure batch cost time: 52.817516565322876
+[Task 12/20]  Current/Best:  119.72/ 124.19 GFLOPS | Progress: (136/960) | 947.37 seach measure batch cost time: 53.330206871032715
+[Task 12/20]  Current/Best:  115.52/ 124.19 GFLOPS | Progress: (144/960) | 1000.70 seach measure batch cost time: 52.997440338134766
+[Task 12/20]  Current/Best:  107.69/ 124.19 GFLOPS | Progress: (152/960) | 1053.70 seach measure batch cost time: 52.97211170196533
+[Task 12/20]  Current/Best:  109.52/ 124.19 GFLOPS | Progress: (160/960) | 1106.67 seach measure batch cost time: 53.15900278091431
+[Task 12/20]  Current/Best:  108.06/ 124.19 GFLOPS | Progress: (168/960) | 1159.84 seach measure batch cost time: 53.286441802978516
+[Task 12/20]  Current/Best:  101.97/ 124.19 GFLOPS | Progress: (176/960) | 1213.12 seach measure batch cost time: 53.91390943527222
+[Task 12/20]  Current/Best:  100.75/ 124.19 GFLOPS | Progress: (184/960) | 1267.04 seach measure batch cost time: 53.54372048377991
+[Task 12/20]  Current/Best:   44.12/ 124.19 GFLOPS | Progress: (192/960) | 1331.07 seach measure batch cost time: 53.12993931770325
+[Task 12/20]  Current/Best:  110.64/ 124.19 GFLOPS | Progress: (200/960) | 1384.20 seach measure batch cost time: 53.68675398826599
+[Task 12/20]  Current/Best:  110.34/ 124.19 GFLOPS | Progress: (208/960) | 1437.89 seach measure batch cost time: 53.67818546295166
+[Task 12/20]  Current/Best:   96.06/ 124.19 GFLOPS | Progress: (216/960) | 1491.57 seach measure batch cost time: 53.272348165512085
+[Task 12/20]  Current/Best:   98.58/ 124.19 GFLOPS | Progress: (224/960) | 1544.85 seach measure batch cost time: 56.83894348144531
+[Task 12/20]  Current/Best:   75.27/ 124.19 GFLOPS | Progress: (232/960) | 1601.69 seach measure batch cost time: 53.57229042053223
+[Task 12/20]  Current/Best:   38.52/ 124.19 GFLOPS | Progress: (240/960) | 1655.26 seach measure batch cost time: 57.086588621139526
+[Task 12/20]  Current/Best:   40.43/ 124.19 GFLOPS | Progress: (248/960) | 1712.35 seach measure batch cost time: 54.70252990722656
+[Task 12/20]  Current/Best:   42.54/ 124.19 GFLOPS | Progress: (256/960) | 1777.71 seach measure batch cost time: 53.58357787132263
+[Task 12/20]  Current/Best:  108.92/ 124.19 GFLOPS | Progress: (264/960) | 1831.29 seach measure batch cost time: 53.571633100509644
+[Task 12/20]  Current/Best:   94.42/ 124.19 GFLOPS | Progress: (272/960) | 1884.87 seach measure batch cost time: 54.3942666053772
+[Task 12/20]  Current/Best:  106.45/ 124.19 GFLOPS | Progress: (280/960) | 1939.27 seach measure batch cost time: 54.89663767814636
+[Task 12/20]  Current/Best:  105.73/ 124.19 GFLOPS | Progress: (288/960) | 1994.16 seach measure batch cost time: 54.64278316497803
+[Task 12/20]  Current/Best:   96.91/ 124.19 GFLOPS | Progress: (296/960) | 2048.81 seach measure batch cost time: 57.765997886657715
+[Task 12/20]  Current/Best:   73.21/ 124.19 GFLOPS | Progress: (304/960) | 2106.58 seach measure batch cost time: 59.229504346847534
+[Task 12/20]  Current/Best:   47.53/ 124.19 GFLOPS | Progress: (312/960) | 2165.81 seach measure batch cost time: 57.21806025505066
+[Task 12/20]  Current/Best:   67.68/ 124.19 GFLOPS | Progress: (320/960) | 2238.97 seach measure batch cost time: 54.88184094429016
+[Task 12/20]  Current/Best:   97.95/ 124.19 GFLOPS | Progress: (328/960) | 2293.86 seach measure batch cost time: 58.5746648311615
+[Task 12/20]  Current/Best:   33.46/ 124.19 GFLOPS | Progress: (336/960) | 2352.43 seach measure batch cost time: 59.4574716091156
+[Task 12/20]  Current/Best:   67.58/ 124.19 GFLOPS | Progress: (344/960) | 2411.89 seach measure batch cost time: 53.7641704082489
+[Task 12/20]  Current/Best:   86.10/ 124.19 GFLOPS | Progress: (352/960) | 2465.66 seach measure batch cost time: 54.198606729507446
+[Task 12/20]  Current/Best:   94.51/ 124.19 GFLOPS | Progress: (360/960) | 2519.86 seach measure batch cost time: 53.898406982421875
+[Task 12/20]  Current/Best:   94.00/ 124.19 GFLOPS | Progress: (368/960) | 2573.76 seach measure batch cost time: 55.03180503845215
+[Task 12/20]  Current/Best:   43.45/ 124.19 GFLOPS | Progress: (376/960) | 2628.80 searly stopping
+measure batch cost time: 2559.4323766231537
+ Done.
+n_trial= 720
+early_stopping= 180
+[Task 13/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/720) | 0.00 seach measure batch cost time: 53.92008829116821
+[Task 13/20]  Current/Best:   96.94/  96.94 GFLOPS | Progress: (8/720) | 56.99 seach measure batch cost time: 53.830015659332275
+[Task 13/20]  Current/Best:   47.01/  96.94 GFLOPS | Progress: (16/720) | 110.82 seach measure batch cost time: 53.75599217414856
+[Task 13/20]  Current/Best:   83.38/  96.94 GFLOPS | Progress: (24/720) | 164.58 seach measure batch cost time: 53.76782417297363
+[Task 13/20]  Current/Best:   38.92/  96.94 GFLOPS | Progress: (32/720) | 218.35 seach measure batch cost time: 56.219457149505615
+[Task 13/20]  Current/Best:   43.83/  96.94 GFLOPS | Progress: (40/720) | 274.57 seach measure batch cost time: 53.212960720062256
+[Task 13/20]  Current/Best:   60.96/  96.94 GFLOPS | Progress: (48/720) | 327.79 seach measure batch cost time: 54.40745997428894
+[Task 13/20]  Current/Best:   40.29/  96.94 GFLOPS | Progress: (56/720) | 382.20 seach measure batch cost time: 53.73341679573059
+[Task 13/20]  Current/Best:   15.19/  96.94 GFLOPS | Progress: (64/720) | 452.87 seach measure batch cost time: 53.238123416900635
+[Task 13/20]  Current/Best:  106.55/ 106.55 GFLOPS | Progress: (72/720) | 506.11 seach measure batch cost time: 53.78942108154297
+[Task 13/20]  Current/Best:   91.91/ 106.55 GFLOPS | Progress: (80/720) | 559.90 seach measure batch cost time: 53.40472221374512
+[Task 13/20]  Current/Best:   89.31/ 106.55 GFLOPS | Progress: (88/720) | 613.31 seach measure batch cost time: 53.05688810348511
+[Task 13/20]  Current/Best:   92.43/ 109.19 GFLOPS | Progress: (96/720) | 666.36 seach measure batch cost time: 53.31594276428223
+[Task 13/20]  Current/Best:   95.16/ 109.19 GFLOPS | Progress: (104/720) | 719.68 seach measure batch cost time: 53.05403184890747
+[Task 13/20]  Current/Best:   94.31/ 109.19 GFLOPS | Progress: (112/720) | 772.74 seach measure batch cost time: 53.48913908004761
+[Task 13/20]  Current/Best:   87.33/ 109.19 GFLOPS | Progress: (120/720) | 826.23 seach measure batch cost time: 53.303959131240845
+[Task 13/20]  Current/Best:   22.68/ 109.19 GFLOPS | Progress: (128/720) | 890.00 seach measure batch cost time: 53.27998232841492
+[Task 13/20]  Current/Best:   88.59/ 109.19 GFLOPS | Progress: (136/720) | 943.29 seach measure batch cost time: 53.64882230758667
+[Task 13/20]  Current/Best:   91.46/ 109.19 GFLOPS | Progress: (144/720) | 996.94 seach measure batch cost time: 53.470149517059326
+[Task 13/20]  Current/Best:   99.07/ 109.19 GFLOPS | Progress: (152/720) | 1050.41 seach measure batch cost time: 53.0279815196991
+[Task 13/20]  Current/Best:   92.49/ 109.19 GFLOPS | Progress: (160/720) | 1103.44 seach measure batch cost time: 53.51718711853027
+[Task 13/20]  Current/Best:   89.81/ 109.19 GFLOPS | Progress: (168/720) | 1156.96 seach measure batch cost time: 52.8251006603241
+[Task 13/20]  Current/Best:   84.53/ 109.19 GFLOPS | Progress: (176/720) | 1209.79 seach measure batch cost time: 52.95771861076355
+[Task 13/20]  Current/Best:   89.13/ 109.19 GFLOPS | Progress: (184/720) | 1262.75 seach measure batch cost time: 53.56686449050903
+[Task 13/20]  Current/Best:   47.01/ 109.19 GFLOPS | Progress: (192/720) | 1327.04 seach measure batch cost time: 52.694957971572876
+[Task 13/20]  Current/Best:   88.75/ 109.19 GFLOPS | Progress: (200/720) | 1379.74 seach measure batch cost time: 52.889384746551514
+[Task 13/20]  Current/Best:   75.76/ 109.19 GFLOPS | Progress: (208/720) | 1432.63 seach measure batch cost time: 53.117746353149414
+[Task 13/20]  Current/Best:   60.34/ 109.19 GFLOPS | Progress: (216/720) | 1485.75 seach measure batch cost time: 52.93618106842041
+[Task 13/20]  Current/Best:   73.73/ 109.19 GFLOPS | Progress: (224/720) | 1538.69 seach measure batch cost time: 52.67455434799194
+[Task 13/20]  Current/Best:   90.14/ 109.19 GFLOPS | Progress: (232/720) | 1591.37 seach measure batch cost time: 52.863322734832764
+[Task 13/20]  Current/Best:   31.17/ 109.19 GFLOPS | Progress: (240/720) | 1644.23 seach measure batch cost time: 52.97869038581848
+[Task 13/20]  Current/Best:   75.55/ 109.19 GFLOPS | Progress: (248/720) | 1697.21 seach measure batch cost time: 53.29104781150818
+[Task 13/20]  Current/Best:   48.75/ 109.19 GFLOPS | Progress: (256/720) | 1760.66 seach measure batch cost time: 52.86007308959961
+[Task 13/20]  Current/Best:   16.53/ 109.19 GFLOPS | Progress: (264/720) | 1813.52 seach measure batch cost time: 52.655410289764404
+[Task 13/20]  Current/Best:   61.53/ 109.19 GFLOPS | Progress: (272/720) | 1866.18 searly stopping
+measure batch cost time: 1814.7546179294586
+ Done.
+n_trial= 792
+early_stopping= 198
+[Task 14/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/792) | 0.00 seach measure batch cost time: 53.045206785202026
+[Task 14/20]  Current/Best:   17.33/ 111.83 GFLOPS | Progress: (8/792) | 55.92 seach measure batch cost time: 53.390674114227295
+[Task 14/20]  Current/Best:   98.97/ 111.83 GFLOPS | Progress: (16/792) | 109.31 seach measure batch cost time: 53.014878034591675
+[Task 14/20]  Current/Best:    8.75/ 111.83 GFLOPS | Progress: (24/792) | 162.33 seach measure batch cost time: 54.481781244277954
+[Task 14/20]  Current/Best:   52.20/ 111.83 GFLOPS | Progress: (32/792) | 216.81 seach measure batch cost time: 53.456193685531616
+[Task 14/20]  Current/Best:  106.37/ 111.83 GFLOPS | Progress: (40/792) | 270.27 seach measure batch cost time: 53.932594537734985
+[Task 14/20]  Current/Best:   83.06/ 111.83 GFLOPS | Progress: (48/792) | 324.20 seach measure batch cost time: 53.59800386428833
+[Task 14/20]  Current/Best:   69.00/ 111.83 GFLOPS | Progress: (56/792) | 377.81 seach measure batch cost time: 53.732409715652466
+[Task 14/20]  Current/Best:   84.10/ 115.46 GFLOPS | Progress: (64/792) | 449.10 seach measure batch cost time: 52.4709849357605
+[Task 14/20]  Current/Best:  123.73/ 123.73 GFLOPS | Progress: (72/792) | 501.58 seach measure batch cost time: 52.54622745513916
+[Task 14/20]  Current/Best:  104.66/ 123.73 GFLOPS | Progress: (80/792) | 554.13 seach measure batch cost time: 52.72028350830078
+[Task 14/20]  Current/Best:  101.05/ 123.73 GFLOPS | Progress: (88/792) | 606.85 seach measure batch cost time: 52.82941818237305
+[Task 14/20]  Current/Best:  105.18/ 123.73 GFLOPS | Progress: (96/792) | 659.68 seach measure batch cost time: 52.98307228088379
+[Task 14/20]  Current/Best:   94.64/ 123.73 GFLOPS | Progress: (104/792) | 712.67 seach measure batch cost time: 52.62942552566528
+[Task 14/20]  Current/Best:   83.98/ 123.73 GFLOPS | Progress: (112/792) | 765.30 seach measure batch cost time: 52.50471591949463
+[Task 14/20]  Current/Best:  122.55/ 123.73 GFLOPS | Progress: (120/792) | 817.81 seach measure batch cost time: 52.843255043029785
+[Task 14/20]  Current/Best:   81.41/ 123.73 GFLOPS | Progress: (128/792) | 881.17 seach measure batch cost time: 52.930145263671875
+[Task 14/20]  Current/Best:  110.60/ 123.73 GFLOPS | Progress: (136/792) | 934.10 seach measure batch cost time: 53.0414080619812
+[Task 14/20]  Current/Best:  104.21/ 123.73 GFLOPS | Progress: (144/792) | 987.15 seach measure batch cost time: 52.906850814819336
+[Task 14/20]  Current/Best:   98.25/ 123.73 GFLOPS | Progress: (152/792) | 1040.06 seach measure batch cost time: 52.74677610397339
+[Task 14/20]  Current/Best:  117.62/ 123.73 GFLOPS | Progress: (160/792) | 1092.81 seach measure batch cost time: 52.743287086486816
+[Task 14/20]  Current/Best:   99.36/ 123.73 GFLOPS | Progress: (168/792) | 1145.55 seach measure batch cost time: 52.640249252319336
+[Task 14/20]  Current/Best:   97.98/ 123.73 GFLOPS | Progress: (176/792) | 1198.19 seach measure batch cost time: 52.95201277732849
+[Task 14/20]  Current/Best:  103.06/ 123.73 GFLOPS | Progress: (184/792) | 1251.15 seach measure batch cost time: 52.82507133483887
+[Task 14/20]  Current/Best:   28.90/ 123.73 GFLOPS | Progress: (192/792) | 1314.57 seach measure batch cost time: 52.82986044883728
+[Task 14/20]  Current/Best:   94.66/ 123.73 GFLOPS | Progress: (200/792) | 1367.40 seach measure batch cost time: 52.85400652885437
+[Task 14/20]  Current/Best:   98.94/ 123.73 GFLOPS | Progress: (208/792) | 1420.26 seach measure batch cost time: 52.63135504722595
+[Task 14/20]  Current/Best:   97.76/ 123.73 GFLOPS | Progress: (216/792) | 1472.89 seach measure batch cost time: 52.866304874420166
+[Task 14/20]  Current/Best:   93.92/ 123.73 GFLOPS | Progress: (224/792) | 1525.76 seach measure batch cost time: 52.85104823112488
+[Task 14/20]  Current/Best:   89.29/ 123.73 GFLOPS | Progress: (232/792) | 1578.61 seach measure batch cost time: 52.814494371414185
+[Task 14/20]  Current/Best:   76.41/ 123.73 GFLOPS | Progress: (240/792) | 1631.43 seach measure batch cost time: 52.78397274017334
+[Task 14/20]  Current/Best:   91.47/ 123.73 GFLOPS | Progress: (248/792) | 1684.22 seach measure batch cost time: 53.48658871650696
+[Task 14/20]  Current/Best:   69.24/ 123.73 GFLOPS | Progress: (256/792) | 1747.91 seach measure batch cost time: 52.6201958656311
+[Task 14/20]  Current/Best:   95.08/ 123.73 GFLOPS | Progress: (264/792) | 1800.54 seach measure batch cost time: 52.82679104804993
+[Task 14/20]  Current/Best:   75.85/ 123.73 GFLOPS | Progress: (272/792) | 1853.37 searly stopping
+measure batch cost time: 1801.5295433998108
+ Done.
+n_trial= 648
+early_stopping= 162
+[Task 15/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/648) | 0.00 seach measure batch cost time: 54.19650053977966
+[Task 15/20]  Current/Best:   65.80/ 121.11 GFLOPS | Progress: (8/648) | 57.09 seach measure batch cost time: 53.42452001571655
+[Task 15/20]  Current/Best:   17.31/ 121.11 GFLOPS | Progress: (16/648) | 110.52 seach measure batch cost time: 53.86375641822815
+[Task 15/20]  Current/Best:   75.30/ 124.50 GFLOPS | Progress: (24/648) | 164.39 seach measure batch cost time: 53.75470590591431
+[Task 15/20]  Current/Best:   34.09/ 124.50 GFLOPS | Progress: (32/648) | 218.15 seach measure batch cost time: 53.77274513244629
+[Task 15/20]  Current/Best:  110.35/ 130.51 GFLOPS | Progress: (40/648) | 271.92 seach measure batch cost time: 53.39761304855347
+[Task 15/20]  Current/Best:   93.34/ 130.51 GFLOPS | Progress: (48/648) | 325.32 seach measure batch cost time: 53.81248378753662
+[Task 15/20]  Current/Best:    8.73/ 130.51 GFLOPS | Progress: (56/648) | 379.14 seach measure batch cost time: 53.84929800033569
+[Task 15/20]  Current/Best:  101.98/ 130.51 GFLOPS | Progress: (64/648) | 450.03 seach measure batch cost time: 52.78101372718811
+[Task 15/20]  Current/Best:  121.02/ 130.51 GFLOPS | Progress: (72/648) | 502.82 seach measure batch cost time: 53.39903402328491
+[Task 15/20]  Current/Best:  126.38/ 132.12 GFLOPS | Progress: (80/648) | 556.22 seach measure batch cost time: 52.970672845840454
+[Task 15/20]  Current/Best:  115.07/ 132.12 GFLOPS | Progress: (88/648) | 609.19 seach measure batch cost time: 53.080411195755005
+[Task 15/20]  Current/Best:  117.79/ 132.12 GFLOPS | Progress: (96/648) | 662.27 seach measure batch cost time: 52.864235162734985
+[Task 15/20]  Current/Best:  120.70/ 132.12 GFLOPS | Progress: (104/648) | 715.14 seach measure batch cost time: 53.02010989189148
+[Task 15/20]  Current/Best:  107.75/ 132.12 GFLOPS | Progress: (112/648) | 768.16 seach measure batch cost time: 53.05796670913696
+[Task 15/20]  Current/Best:  113.75/ 132.12 GFLOPS | Progress: (120/648) | 821.22 seach measure batch cost time: 53.10658383369446
+[Task 15/20]  Current/Best:  102.10/ 132.12 GFLOPS | Progress: (128/648) | 884.73 seach measure batch cost time: 53.132489919662476
+[Task 15/20]  Current/Best:  119.43/ 132.12 GFLOPS | Progress: (136/648) | 937.87 seach measure batch cost time: 53.1613028049469
+[Task 15/20]  Current/Best:  117.96/ 132.12 GFLOPS | Progress: (144/648) | 991.03 seach measure batch cost time: 52.896265745162964
+[Task 15/20]  Current/Best:   70.06/ 132.12 GFLOPS | Progress: (152/648) | 1043.93 seach measure batch cost time: 52.83301877975464
+[Task 15/20]  Current/Best:   92.89/ 132.12 GFLOPS | Progress: (160/648) | 1096.77 seach measure batch cost time: 53.65672707557678
+[Task 15/20]  Current/Best:   92.51/ 132.12 GFLOPS | Progress: (168/648) | 1150.43 seach measure batch cost time: 53.14027714729309
+[Task 15/20]  Current/Best:   80.07/ 132.12 GFLOPS | Progress: (176/648) | 1203.57 seach measure batch cost time: 52.996453285217285
+[Task 15/20]  Current/Best:  110.80/ 132.12 GFLOPS | Progress: (184/648) | 1256.57 seach measure batch cost time: 52.64992690086365
+[Task 15/20]  Current/Best:   17.38/ 132.12 GFLOPS | Progress: (192/648) | 1319.38 seach measure batch cost time: 53.03366708755493
+[Task 15/20]  Current/Best:   98.34/ 132.12 GFLOPS | Progress: (200/648) | 1372.42 seach measure batch cost time: 53.4137396812439
+[Task 15/20]  Current/Best:  102.47/ 132.12 GFLOPS | Progress: (208/648) | 1425.83 seach measure batch cost time: 53.18423128128052
+[Task 15/20]  Current/Best:  119.69/ 132.12 GFLOPS | Progress: (216/648) | 1479.02 seach measure batch cost time: 52.80751967430115
+[Task 15/20]  Current/Best:  104.92/ 132.12 GFLOPS | Progress: (224/648) | 1531.83 seach measure batch cost time: 54.14643430709839
+[Task 15/20]  Current/Best:   53.50/ 132.12 GFLOPS | Progress: (232/648) | 1585.98 seach measure batch cost time: 53.440255880355835
+[Task 15/20]  Current/Best:   79.46/ 132.12 GFLOPS | Progress: (240/648) | 1639.42 searly stopping
+measure batch cost time: 1598.8439598083496
+ Done.
+n_trial= 792
+early_stopping= 198
+[Task 16/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/792) | 0.00 seach measure batch cost time: 54.357372760772705
+[Task 16/20]  Current/Best:  107.55/ 116.11 GFLOPS | Progress: (8/792) | 57.20 seach measure batch cost time: 52.819495677948
+[Task 16/20]  Current/Best:   18.55/ 122.07 GFLOPS | Progress: (16/792) | 110.02 seach measure batch cost time: 53.41506814956665
+[Task 16/20]  Current/Best:   87.70/ 122.07 GFLOPS | Progress: (24/792) | 163.44 seach measure batch cost time: 58.246198654174805
+[Task 16/20]  Current/Best:  109.79/ 122.07 GFLOPS | Progress: (32/792) | 221.69 seach measure batch cost time: 56.65443015098572
+[Task 16/20]  Current/Best:   51.24/ 125.93 GFLOPS | Progress: (40/792) | 278.34 seach measure batch cost time: 54.244972705841064
+[Task 16/20]  Current/Best:   94.85/ 127.73 GFLOPS | Progress: (48/792) | 332.59 seach measure batch cost time: 56.997653007507324
+[Task 16/20]  Current/Best:   83.81/ 127.73 GFLOPS | Progress: (56/792) | 389.59 seach measure batch cost time: 53.51527190208435
+[Task 16/20]  Current/Best:   18.20/ 127.73 GFLOPS | Progress: (64/792) | 460.61 seach measure batch cost time: 52.3965208530426
+[Task 16/20]  Current/Best:  128.29/ 128.29 GFLOPS | Progress: (72/792) | 513.01 seach measure batch cost time: 52.48542261123657
+[Task 16/20]  Current/Best:  110.42/ 128.34 GFLOPS | Progress: (80/792) | 565.50 seach measure batch cost time: 52.39178419113159
+[Task 16/20]  Current/Best:  127.48/ 128.34 GFLOPS | Progress: (88/792) | 617.89 seach measure batch cost time: 52.36214804649353
+[Task 16/20]  Current/Best:  108.94/ 128.34 GFLOPS | Progress: (96/792) | 670.25 seach measure batch cost time: 52.58312129974365
+[Task 16/20]  Current/Best:  116.80/ 128.34 GFLOPS | Progress: (104/792) | 722.84 seach measure batch cost time: 52.78597402572632
+[Task 16/20]  Current/Best:  116.81/ 128.34 GFLOPS | Progress: (112/792) | 775.63 seach measure batch cost time: 52.69046068191528
+[Task 16/20]  Current/Best:  105.98/ 128.34 GFLOPS | Progress: (120/792) | 828.32 seach measure batch cost time: 52.86618685722351
+[Task 16/20]  Current/Best:   89.16/ 128.34 GFLOPS | Progress: (128/792) | 891.99 seach measure batch cost time: 52.37706518173218
+[Task 16/20]  Current/Best:  119.65/ 128.45 GFLOPS | Progress: (136/792) | 944.37 seach measure batch cost time: 52.47716784477234
+[Task 16/20]  Current/Best:  116.95/ 128.45 GFLOPS | Progress: (144/792) | 996.85 seach measure batch cost time: 52.41332983970642
+[Task 16/20]  Current/Best:  106.42/ 128.45 GFLOPS | Progress: (152/792) | 1049.26 seach measure batch cost time: 52.59180045127869
+[Task 16/20]  Current/Best:   97.52/ 128.45 GFLOPS | Progress: (160/792) | 1101.86 seach measure batch cost time: 52.55733585357666
+[Task 16/20]  Current/Best:  110.40/ 128.45 GFLOPS | Progress: (168/792) | 1154.42 seach measure batch cost time: 52.46935725212097
+[Task 16/20]  Current/Best:   93.69/ 128.45 GFLOPS | Progress: (176/792) | 1206.89 seach measure batch cost time: 53.11149263381958
+[Task 16/20]  Current/Best:   94.63/ 128.45 GFLOPS | Progress: (184/792) | 1260.00 seach measure batch cost time: 58.00698637962341
+[Task 16/20]  Current/Best:   74.77/ 128.45 GFLOPS | Progress: (192/792) | 1328.37 seach measure batch cost time: 52.94344997406006
+[Task 16/20]  Current/Best:  112.11/ 128.45 GFLOPS | Progress: (200/792) | 1381.31 seach measure batch cost time: 56.46850895881653
+[Task 16/20]  Current/Best:   62.17/ 128.45 GFLOPS | Progress: (208/792) | 1437.78 seach measure batch cost time: 59.02722120285034
+[Task 16/20]  Current/Best:   95.96/ 128.45 GFLOPS | Progress: (216/792) | 1496.81 seach measure batch cost time: 58.013954401016235
+[Task 16/20]  Current/Best:   76.25/ 128.45 GFLOPS | Progress: (224/792) | 1554.83 seach measure batch cost time: 52.72310519218445
+[Task 16/20]  Current/Best:   58.24/ 128.45 GFLOPS | Progress: (232/792) | 1607.55 seach measure batch cost time: 59.27543044090271
+[Task 16/20]  Current/Best:   34.66/ 128.45 GFLOPS | Progress: (240/792) | 1666.83 seach measure batch cost time: 59.05878233909607
+[Task 16/20]  Current/Best:   13.62/ 128.45 GFLOPS | Progress: (248/792) | 1725.89 seach measure batch cost time: 55.209452629089355
+[Task 16/20]  Current/Best:   58.65/ 128.45 GFLOPS | Progress: (256/792) | 1791.42 seach measure batch cost time: 52.368130683898926
+[Task 16/20]  Current/Best:  103.88/ 128.45 GFLOPS | Progress: (264/792) | 1843.79 seach measure batch cost time: 52.46514534950256
+[Task 16/20]  Current/Best:   97.58/ 128.45 GFLOPS | Progress: (272/792) | 1896.26 seach measure batch cost time: 52.70461964607239
+[Task 16/20]  Current/Best:   97.27/ 128.45 GFLOPS | Progress: (280/792) | 1948.97 seach measure batch cost time: 52.916393518447876
+[Task 16/20]  Current/Best:  108.13/ 128.45 GFLOPS | Progress: (288/792) | 2001.89 seach measure batch cost time: 52.888376235961914
+[Task 16/20]  Current/Best:  108.57/ 128.45 GFLOPS | Progress: (296/792) | 2054.78 seach measure batch cost time: 54.42934274673462
+[Task 16/20]  Current/Best:   54.25/ 128.45 GFLOPS | Progress: (304/792) | 2109.21 seach measure batch cost time: 58.183531761169434
+[Task 16/20]  Current/Best:   49.10/ 128.45 GFLOPS | Progress: (312/792) | 2167.40 seach measure batch cost time: 53.46082162857056
+[Task 16/20]  Current/Best:   81.45/ 128.45 GFLOPS | Progress: (320/792) | 2231.73 seach measure batch cost time: 58.15002179145813
+[Task 16/20]  Current/Best:   21.91/ 128.45 GFLOPS | Progress: (328/792) | 2289.88 seach measure batch cost time: 53.82024049758911
+[Task 16/20]  Current/Best:   96.32/ 128.45 GFLOPS | Progress: (336/792) | 2343.71 searly stopping
+measure batch cost time: 2280.923146009445
+ Done.
+n_trial= 440
+early_stopping= 110
+[Task 17/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/440) | 0.00 seach measure batch cost time: 56.005120038986206
+[Task 17/20]  Current/Best:    8.21/ 100.04 GFLOPS | Progress: (8/440) | 58.89 seach measure batch cost time: 55.99956393241882
+[Task 17/20]  Current/Best:   86.65/ 100.04 GFLOPS | Progress: (16/440) | 114.90 seach measure batch cost time: 57.726327896118164
+[Task 17/20]  Current/Best:   29.10/ 100.04 GFLOPS | Progress: (24/440) | 172.62 seach measure batch cost time: 53.50588536262512
+[Task 17/20]  Current/Best:   25.93/ 100.04 GFLOPS | Progress: (32/440) | 226.13 seach measure batch cost time: 53.51535654067993
+[Task 17/20]  Current/Best:   52.02/ 100.04 GFLOPS | Progress: (40/440) | 279.65 seach measure batch cost time: 53.06024765968323
+[Task 17/20]  Current/Best:   92.50/ 100.04 GFLOPS | Progress: (48/440) | 332.71 seach measure batch cost time: 54.56869649887085
+[Task 17/20]  Current/Best:   78.70/ 100.04 GFLOPS | Progress: (56/440) | 387.29 seach measure batch cost time: 53.65673089027405
+[Task 17/20]  Current/Best:   15.97/ 100.04 GFLOPS | Progress: (64/440) | 455.03 seach measure batch cost time: 53.20883107185364
+[Task 17/20]  Current/Best:   91.84/ 104.14 GFLOPS | Progress: (72/440) | 508.24 seach measure batch cost time: 53.2273223400116
+[Task 17/20]  Current/Best:   93.76/ 108.95 GFLOPS | Progress: (80/440) | 561.47 seach measure batch cost time: 53.21103072166443
+[Task 17/20]  Current/Best:   93.03/ 108.95 GFLOPS | Progress: (88/440) | 614.69 seach measure batch cost time: 53.20063042640686
+[Task 17/20]  Current/Best:   80.80/ 108.95 GFLOPS | Progress: (96/440) | 667.89 seach measure batch cost time: 53.36981701850891
+[Task 17/20]  Current/Best:   84.33/ 108.95 GFLOPS | Progress: (104/440) | 721.26 seach measure batch cost time: 53.345722675323486
+[Task 17/20]  Current/Best:   91.57/ 108.95 GFLOPS | Progress: (112/440) | 774.61 seach measure batch cost time: 53.4120876789093
+[Task 17/20]  Current/Best:   90.50/ 108.95 GFLOPS | Progress: (120/440) | 828.03 seach measure batch cost time: 56.55677509307861
+[Task 17/20]  Current/Best:   26.23/ 108.95 GFLOPS | Progress: (128/440) | 895.03 seach measure batch cost time: 54.104109048843384
+[Task 17/20]  Current/Best:   42.21/ 108.95 GFLOPS | Progress: (136/440) | 949.14 seach measure batch cost time: 55.171385288238525
+[Task 17/20]  Current/Best:   34.69/ 108.95 GFLOPS | Progress: (144/440) | 1004.31 seach measure batch cost time: 53.8733024597168
+[Task 17/20]  Current/Best:   62.48/ 108.95 GFLOPS | Progress: (152/440) | 1058.19 seach measure batch cost time: 54.451557636260986
+[Task 17/20]  Current/Best:   34.26/ 108.95 GFLOPS | Progress: (160/440) | 1112.64 seach measure batch cost time: 57.688068151474
+[Task 17/20]  Current/Best:   25.62/ 108.95 GFLOPS | Progress: (168/440) | 1170.34 seach measure batch cost time: 57.38639426231384
+[Task 17/20]  Current/Best:   38.01/ 108.95 GFLOPS | Progress: (176/440) | 1227.72 seach measure batch cost time: 58.69433546066284
+[Task 17/20]  Current/Best:   73.57/ 108.95 GFLOPS | Progress: (184/440) | 1286.42 searly stopping
+measure batch cost time: 1258.9392981529236
+ Done.
+n_trial= 480
+early_stopping= 120
+[Task 18/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/480) | 0.00 seach measure batch cost time: 54.43085074424744
+[Task 18/20]  Current/Best:   98.34/  98.34 GFLOPS | Progress: (8/480) | 57.38 seach measure batch cost time: 53.997438192367554
+[Task 18/20]  Current/Best:   50.02/  98.34 GFLOPS | Progress: (16/480) | 111.38 seach measure batch cost time: 55.773398637771606
+[Task 18/20]  Current/Best:   16.78/  98.34 GFLOPS | Progress: (24/480) | 167.16 seach measure batch cost time: 54.12814545631409
+[Task 18/20]  Current/Best:   66.57/ 103.98 GFLOPS | Progress: (32/480) | 221.29 seach measure batch cost time: 54.73380970954895
+[Task 18/20]  Current/Best:   40.13/ 103.98 GFLOPS | Progress: (40/480) | 276.02 seach measure batch cost time: 54.0760555267334
+[Task 18/20]  Current/Best:   52.36/ 103.98 GFLOPS | Progress: (48/480) | 330.10 seach measure batch cost time: 53.66182851791382
+[Task 18/20]  Current/Best:   89.26/ 103.98 GFLOPS | Progress: (56/480) | 383.77 seach measure batch cost time: 53.59427332878113
+[Task 18/20]  Current/Best:   56.24/ 103.98 GFLOPS | Progress: (64/480) | 452.18 seach measure batch cost time: 53.62106490135193
+[Task 18/20]  Current/Best:  102.42/ 103.98 GFLOPS | Progress: (72/480) | 505.80 seach measure batch cost time: 53.50849461555481
+[Task 18/20]  Current/Best:   87.79/ 103.98 GFLOPS | Progress: (80/480) | 559.32 seach measure batch cost time: 53.33246421813965
+[Task 18/20]  Current/Best:   87.62/ 104.35 GFLOPS | Progress: (88/480) | 612.65 seach measure batch cost time: 54.060481786727905
+[Task 18/20]  Current/Best:  101.61/ 105.29 GFLOPS | Progress: (96/480) | 666.71 seach measure batch cost time: 53.784178733825684
+[Task 18/20]  Current/Best:   83.69/ 105.29 GFLOPS | Progress: (104/480) | 720.50 seach measure batch cost time: 53.99917936325073
+[Task 18/20]  Current/Best:   66.50/ 105.33 GFLOPS | Progress: (112/480) | 774.50 seach measure batch cost time: 53.48298764228821
+[Task 18/20]  Current/Best:   77.14/ 105.33 GFLOPS | Progress: (120/480) | 827.99 seach measure batch cost time: 54.75915503501892
+[Task 18/20]  Current/Best:   40.27/ 105.33 GFLOPS | Progress: (128/480) | 892.76 seach measure batch cost time: 53.973432302474976
+[Task 18/20]  Current/Best:   76.92/ 105.33 GFLOPS | Progress: (136/480) | 946.73 seach measure batch cost time: 53.362032890319824
+[Task 18/20]  Current/Best:   81.26/ 105.33 GFLOPS | Progress: (144/480) | 1000.10 seach measure batch cost time: 53.57670879364014
+[Task 18/20]  Current/Best:   63.59/ 105.33 GFLOPS | Progress: (152/480) | 1053.68 seach measure batch cost time: 53.757426023483276
+[Task 18/20]  Current/Best:   48.55/ 105.33 GFLOPS | Progress: (160/480) | 1107.44 seach measure batch cost time: 53.4616916179657
+[Task 18/20]  Current/Best:   60.04/ 105.33 GFLOPS | Progress: (168/480) | 1160.90 seach measure batch cost time: 54.02365207672119
+[Task 18/20]  Current/Best:   30.57/ 105.33 GFLOPS | Progress: (176/480) | 1214.93 seach measure batch cost time: 53.99686098098755
+[Task 18/20]  Current/Best:   62.35/ 105.33 GFLOPS | Progress: (184/480) | 1268.93 seach measure batch cost time: 57.11013841629028
+[Task 18/20]  Current/Best:   55.37/ 105.33 GFLOPS | Progress: (192/480) | 1336.30 seach measure batch cost time: 53.811262369155884
+[Task 18/20]  Current/Best:   72.38/ 105.33 GFLOPS | Progress: (200/480) | 1390.11 seach measure batch cost time: 54.0931282043457
+[Task 18/20]  Current/Best:   56.39/ 105.33 GFLOPS | Progress: (208/480) | 1444.21 seach measure batch cost time: 54.12920379638672
+[Task 18/20]  Current/Best:   56.89/ 105.33 GFLOPS | Progress: (216/480) | 1498.34 seach measure batch cost time: 58.44005084037781
+[Task 18/20]  Current/Best:   28.86/ 105.33 GFLOPS | Progress: (224/480) | 1556.78 seach measure batch cost time: 54.734373807907104
+[Task 18/20]  Current/Best:   40.59/ 105.33 GFLOPS | Progress: (232/480) | 1611.52 searly stopping
+measure batch cost time: 1573.413768529892
+ Done.
+n_trial= 400
+early_stopping= 100
+[Task 19/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/400) | 0.00 seach measure batch cost time: 55.33187246322632
+[Task 19/20]  Current/Best:   67.94/  76.12 GFLOPS | Progress: (8/400) | 58.28 seach measure batch cost time: 54.235798597335815
+[Task 19/20]  Current/Best:   46.28/  83.28 GFLOPS | Progress: (16/400) | 112.52 seach measure batch cost time: 55.982340812683105
+[Task 19/20]  Current/Best:   47.01/  83.28 GFLOPS | Progress: (24/400) | 168.50 seach measure batch cost time: 56.377445697784424
+[Task 19/20]  Current/Best:   22.89/  83.28 GFLOPS | Progress: (32/400) | 224.88 seach measure batch cost time: 56.52755689620972
+[Task 19/20]  Current/Best:   35.03/  83.28 GFLOPS | Progress: (40/400) | 281.41 seach measure batch cost time: 55.27388882637024
+[Task 19/20]  Current/Best:   47.27/  83.28 GFLOPS | Progress: (48/400) | 336.69 seach measure batch cost time: 54.74742817878723
+[Task 19/20]  Current/Best:   51.39/  83.28 GFLOPS | Progress: (56/400) | 391.44 seach measure batch cost time: 57.01677322387695
+[Task 19/20]  Current/Best:   16.57/  83.28 GFLOPS | Progress: (64/400) | 462.58 seach measure batch cost time: 54.10756254196167
+[Task 19/20]  Current/Best:   65.59/  83.28 GFLOPS | Progress: (72/400) | 516.69 seach measure batch cost time: 54.101592779159546
+[Task 19/20]  Current/Best:   69.61/  83.28 GFLOPS | Progress: (80/400) | 570.79 seach measure batch cost time: 54.38441729545593
+[Task 19/20]  Current/Best:   68.67/  83.28 GFLOPS | Progress: (88/400) | 625.18 seach measure batch cost time: 54.10791301727295
+[Task 19/20]  Current/Best:   65.28/  83.28 GFLOPS | Progress: (96/400) | 679.29 seach measure batch cost time: 54.16955256462097
+[Task 19/20]  Current/Best:   60.44/  83.28 GFLOPS | Progress: (104/400) | 733.46 seach measure batch cost time: 54.183881759643555
+[Task 19/20]  Current/Best:   51.81/  83.28 GFLOPS | Progress: (112/400) | 787.65 searly stopping
+measure batch cost time: 770.5480246543884
+ Done.
+n_trial= 480
+early_stopping= 120
+[Task 20/20]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/480) | 0.00 seach measure batch cost time: 58.93028974533081
+[Task 20/20]  Current/Best:   40.86/  97.08 GFLOPS | Progress: (8/480) | 61.86 seach measure batch cost time: 47.188313007354736
+[Task 20/20]  Current/Best:   60.62/  98.95 GFLOPS | Progress: (16/480) | 109.05 seach measure batch cost time: 46.23306679725647
+[Task 20/20]  Current/Best:   53.24/  98.95 GFLOPS | Progress: (24/480) | 155.29 seach measure batch cost time: 54.76700401306152
+[Task 20/20]  Current/Best:   92.90/  98.95 GFLOPS | Progress: (32/480) | 210.06 seach measure batch cost time: 53.54932355880737
+[Task 20/20]  Current/Best:   53.62/ 102.87 GFLOPS | Progress: (40/480) | 263.61 seach measure batch cost time: 50.62109613418579
+[Task 20/20]  Current/Best:   62.70/ 102.87 GFLOPS | Progress: (48/480) | 314.23 seach measure batch cost time: 50.5652117729187
+[Task 20/20]  Current/Best:   42.96/ 102.87 GFLOPS | Progress: (56/480) | 364.80 seach measure batch cost time: 50.757906675338745
+[Task 20/20]  Current/Best:   36.68/ 102.87 GFLOPS | Progress: (64/480) | 431.96 seach measure batch cost time: 45.450772762298584
+[Task 20/20]  Current/Best:  102.62/ 108.21 GFLOPS | Progress: (72/480) | 477.42 seach measure batch cost time: 45.5581271648407
+[Task 20/20]  Current/Best:   76.78/ 108.21 GFLOPS | Progress: (80/480) | 522.98 seach measure batch cost time: 45.932252407073975
+[Task 20/20]  Current/Best:   95.88/ 108.21 GFLOPS | Progress: (88/480) | 568.91 seach measure batch cost time: 45.825029373168945
+[Task 20/20]  Current/Best:   92.92/ 108.21 GFLOPS | Progress: (96/480) | 614.74 seach measure batch cost time: 45.673112869262695
+[Task 20/20]  Current/Best:  103.37/ 108.21 GFLOPS | Progress: (104/480) | 660.41 seach measure batch cost time: 45.900404930114746
+[Task 20/20]  Current/Best:   74.74/ 108.21 GFLOPS | Progress: (112/480) | 706.32 seach measure batch cost time: 46.05676865577698
+[Task 20/20]  Current/Best:   79.16/ 108.21 GFLOPS | Progress: (120/480) | 752.37 seach measure batch cost time: 45.826889514923096
+[Task 20/20]  Current/Best:   61.38/ 108.21 GFLOPS | Progress: (128/480) | 810.21 seach measure batch cost time: 45.80288648605347
+[Task 20/20]  Current/Best:   91.85/ 108.21 GFLOPS | Progress: (136/480) | 856.02 seach measure batch cost time: 46.30685257911682
+[Task 20/20]  Current/Best:   86.13/ 108.21 GFLOPS | Progress: (144/480) | 902.33 seach measure batch cost time: 46.00947403907776
+[Task 20/20]  Current/Best:   93.32/ 108.21 GFLOPS | Progress: (152/480) | 948.34 seach measure batch cost time: 45.72195649147034
+[Task 20/20]  Current/Best:   98.42/ 108.21 GFLOPS | Progress: (160/480) | 994.06 seach measure batch cost time: 46.10320734977722
+[Task 20/20]  Current/Best:   90.35/ 108.21 GFLOPS | Progress: (168/480) | 1040.17 seach measure batch cost time: 45.71856331825256
+[Task 20/20]  Current/Best:   75.29/ 108.21 GFLOPS | Progress: (176/480) | 1085.89 seach measure batch cost time: 46.00913119316101
+[Task 20/20]  Current/Best:   60.47/ 108.21 GFLOPS | Progress: (184/480) | 1131.90 searly stopping
+measure batch cost time: 1100.507640838623
+ Done.
+Compile...
+Evaluate inference time cost...
+Mean inference time (std dev): 65.44 ms (0.86 ms)

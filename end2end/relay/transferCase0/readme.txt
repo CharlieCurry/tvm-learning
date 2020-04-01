@@ -1,0 +1,1 @@
+这组是不小心暴露了所有数据给模型，所有基本上都能直接找到，不能做真实意义上的transferlearning，准确的设计参考transferCase1的结果

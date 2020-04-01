@@ -1,0 +1,54 @@
+Extract tasks...
+Tuning...
+n_trial= 360
+early_stopping= 120
+[Task  1/12]  Current/Best:   62.65/ 113.67 GFLOPS | Progress: (224/360) | 1199.96 searly stopping
+ Done.
+n_trial= 576
+early_stopping= 192
+[Task  2/12]  Current/Best:   77.53/ 109.64 GFLOPS | Progress: (216/576) | 1156.69 searly stopping
+ Done.
+n_trial= 672
+early_stopping= 224
+[Task  3/12]  Current/Best:   23.01/  99.51 GFLOPS | Progress: (384/672) | 2050.01 searly stopping
+ Done.
+n_trial= 784
+early_stopping= 261
+[Task  4/12]  Current/Best:   82.17/ 111.56 GFLOPS | Progress: (456/784) | 2485.05 searly stopping
+ Done.
+n_trial= 252
+early_stopping= 84
+[Task  5/12]  Current/Best:   38.22/ 100.48 GFLOPS | Progress: (16/252) | 87.07 s
+[Task  5/12]  Current/Best:   92.07/ 125.97 GFLOPS | Progress: (112/252) | 622.23 searly stopping
+ Done.
+n_trial= 784
+early_stopping= 261
+[Task  6/12]  Current/Best:   84.87/ 129.52 GFLOPS | Progress: (400/784) | 2242.01 searly stopping
+ Done.
+n_trial= 672
+early_stopping= 224
+[Task  7/12]  Current/Best:   94.18/ 126.29 GFLOPS | Progress: (272/672) | 1497.19 searly stopping
+ Done.
+n_trial= 768
+early_stopping= 256
+[Task  8/12]  Current/Best:   69.07/ 133.10 GFLOPS | Progress: (400/768) | 2232.69 searly stopping
+ Done.
+n_trial= 576
+early_stopping= 192
+[Task  9/12]  Current/Best:   60.64/ 126.85 GFLOPS | Progress: (288/576) | 1579.99 searly stopping
+ Done.
+n_trial= 648
+early_stopping= 216
+[Task 10/12]  Current/Best:    8.71/ 128.09 GFLOPS | Progress: (312/648) | 1702.21 searly stopping
+ Done.
+n_trial= 360
+early_stopping= 120
+[Task 11/12]  Current/Best:   47.04/ 103.91 GFLOPS | Progress: (216/360) | 1211.65 searly stopping
+ Done.
+n_trial= 400
+early_stopping= 133
+[Task 12/12]  Current/Best:   42.35/  80.82 GFLOPS | Progress: (200/400) | 1138.85 searly stopping
+ Done.
+Compile...
+Evaluate inference time cost...
+Mean inference time (std dev): 30.23 ms (1.35 ms)

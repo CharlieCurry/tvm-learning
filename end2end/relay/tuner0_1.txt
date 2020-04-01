@@ -1,0 +1,38 @@
+[Task  1/12]  Current/Best:   15.35/ 113.96 GFLOPS | Progress: (208/360) | 1059.03 smeasure batch cost time: 1029.5770716667175
+ Done.
+
+[Task  2/12]  Current/Best:   75.04/ 112.01 GFLOPS | Progress: (264/360) | 1344.47 smeasure batch cost time: 1305.6578271389008
+ Done.
+
+[Task  3/12]  Current/Best:   75.60/  99.48 GFLOPS | Progress: (296/360) | 1519.88 smeasure batch cost time: 1478.7170798778534
+ Done.
+
+[Task  4/12]  Current/Best:   87.39/ 109.95 GFLOPS | Progress: (328/360) | 1707.50 smeasure batch cost time: 1656.8432428836823
+ Done.
+
+[Task  5/12]  Current/Best:   66.91/ 127.76 GFLOPS | Progress: (160/252) | 847.07 smeasure batch cost time: 826.6377561092377
+ Done.
+
+[Task  6/12]  Current/Best:  102.35/ 130.12 GFLOPS | Progress: (252/252) | 1341.01 smeasure batch cost time: 1303.7784898281097
+ Done.
+
+[Task  7/12]  Current/Best:   67.57/ 125.21 GFLOPS | Progress: (252/252) | 1324.23 smeasure batch cost time: 1290.4952292442322
+ Done.
+
+[Task  8/12]  Current/Best:  105.08/ 134.09 GFLOPS | Progress: (252/252) | 1328.43 smeasure batch cost time: 1292.579836845398
+ Done.
+
+[Task  9/12]  Current/Best:   63.16/ 127.50 GFLOPS | Progress: (252/252) | 1333.62 smeasure batch cost time: 1301.7040498256683
+ Done.
+
+[Task 10/12]  Current/Best:   63.23/ 129.65 GFLOPS | Progress: (252/252) | 1244.56 smeasure batch cost time: 1209.6947774887085
+ Done.
+
+[Task 11/12]  Current/Best:   75.19/ 112.63 GFLOPS | Progress: (200/252) | 862.33 smeasure batch cost time: 828.832816362381
+ Done.
+
+[Task 12/12]  Current/Best:   47.35/  83.84 GFLOPS | Progress: (208/252) | 893.25 smeasure batch cost time: 859.1767010688782
+
+Compile...
+Evaluate inference time cost...
+Mean inference time (std dev): 30.17 ms (0.88 ms)

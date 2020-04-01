@@ -1,0 +1,17 @@
+Extract tasks...
+Tuning...
+[Task  1/12]  Current/Best:   51.64/ 112.20 GFLOPS | Progress: (360/360) | 1933.29 s Done.
+[Task  2/12]  Current/Best:   43.34/ 113.51 GFLOPS | Progress: (360/360) | 1920.48 s Done.
+[Task  3/12]  Current/Best:   36.71/ 100.02 GFLOPS | Progress: (360/360) | 2457.93 s Done.
+[Task  4/12]  Current/Best:   76.38/ 111.40 GFLOPS | Progress: (360/360) | 1982.07 s Done.
+[Task  5/12]  Current/Best:   82.90/ 125.74 GFLOPS | Progress: (252/252) | 1380.73 s Done.
+[Task  6/12]  Current/Best:   68.67/ 129.58 GFLOPS | Progress: (252/252) | 1381.07 s Done.
+[Task  7/12]  Current/Best:   33.37/ 125.06 GFLOPS | Progress: (252/252) | 1373.86 s Done.
+[Task  8/12]  Current/Best:   71.85/ 130.36 GFLOPS | Progress: (252/252) | 1413.36 s Done.
+[Task  9/12]  Current/Best:   50.23/ 124.97 GFLOPS | Progress: (252/252) | 1417.85 s Done.
+[Task 10/12]  Current/Best:   71.60/ 123.84 GFLOPS | Progress: (252/252) | 1410.27 s Done.
+[Task 11/12]  Current/Best:   15.25/  94.06 GFLOPS | Progress: (252/252) | 1457.34 s Done.
+[Task 12/12]  Current/Best:   24.94/  73.94 GFLOPS | Progress: (252/252) | 1496.33 s Done.
+Compile...
+Evaluate inference time cost...
+Mean inference time (std dev): 31.28 ms (1.17 ms)

@@ -1,0 +1,33 @@
+[Task  1/12]  Current/Best:   62.98/ 115.43 GFLOPS | Progress: (184/360) | 971.20 searly stopping!
+measure batch total time: 950.0576119422913
+ Done.
+[Task  2/12]  Current/Best:   76.90/ 109.45 GFLOPS | Progress: (272/360) | 1478.61 searly stopping!
+measure batch total time: 1439.8198382854462
+ Done.
+[Task  3/12]  Current/Best:   62.76/ 100.02 GFLOPS | Progress: (360/360) | 1953.62 smeasure batch total time: 1907.6826503276825
+ Done.
+[Task  4/12]  Current/Best:   83.42/ 110.66 GFLOPS | Progress: (336/360) | 1829.77 searly stopping!
+measure batch total time: 1781.6132969856262
+ Done.
+[Task  5/12]  Current/Best:   59.29/ 128.09 GFLOPS | Progress: (189/252) | 1027.44 searly stopping!
+measure batch total time: 1007.6889696121216
+ Done.
+[Task  6/12]  Current/Best:   93.61/ 130.13 GFLOPS | Progress: (252/252) | 1381.84 smeasure batch total time: 1350.0916712284088
+ Done.
+[Task  7/12]  Current/Best:  105.24/ 124.94 GFLOPS | Progress: (252/252) | 1367.23 smeasure batch total time: 1336.1299374103546
+ Done.
+[Task  8/12]  Current/Best:   88.31/ 131.36 GFLOPS | Progress: (252/252) | 1385.91 smeasure batch total time: 1353.8879339694977
+ Done.
+[Task  9/12]  Current/Best:   80.04/ 127.01 GFLOPS | Progress: (252/252) | 1390.54 smeasure batch total time: 1360.1558310985565
+ Done.
+[Task 10/12]  Current/Best:   71.80/ 126.51 GFLOPS | Progress: (252/252) | 1404.89 smeasure batch total time: 1366.4973618984222
+ Done.
+[Task 11/12]  Current/Best:   44.35/ 112.98 GFLOPS | Progress: (128/252) | 715.54 searly stopping!
+measure batch total time: 694.2688000202179
+ Done.
+[Task 12/12]  Current/Best:   23.02/  78.85 GFLOPS | Progress: (252/252) | 1437.35 searly stopping!
+measure batch total time: 1407.7523279190063
+ Done.
+Compile...
+Evaluate inference time cost...
+Mean inference time (std dev): 30.18 ms (0.87 ms)

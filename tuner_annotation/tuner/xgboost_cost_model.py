@@ -20,7 +20,7 @@
 import multiprocessing
 import logging
 import time
-
+import pandas as pd
 import numpy as np
 try:
     import xgboost as xgb
@@ -31,6 +31,7 @@ from .. import feature
 from ..util import get_rank
 from .metric import max_curve, recall_curve, cover_curve
 from .model_based_tuner import CostModel, FeatureCache
+from sklearn.preprocessing import minmax_scale
 
 from sklearn.decomposition import PCA
 logger = logging.getLogger('autotvm')
@@ -91,6 +92,8 @@ class XGBoostCostModel(CostModel):
         self.feas = None
         self.x_train = None
         self.y_train = None
+        self.predict_count = 0
+        self.fit_count = 0
         
 
         if loss_type == 'reg':
@@ -119,7 +122,7 @@ class XGBoostCostModel(CostModel):
                 'lambda': 1.00,
                 'alpha': 0,
 
-                'objective': 'rank:pairwise',
+                'objective': 'reg:gamma',
             }
         else:
             raise RuntimeError("Invalid loss type: " + loss_type)
@@ -183,27 +186,26 @@ class XGBoostCostModel(CostModel):
         return 1.0 / (2 ** (self._sample_size / 64.0))
 
     def fit(self, xs, ys, plan_size):
-        print()
-        print("_____________fit______________")
         tic = time.time()
         self._reset_pool(self.space, self.target, self.task)
 
         x_train = self._get_feature(xs)#能通过index得到对应的配置的特征,我能反过来找index吗？(通过x_trian找index)
 
 
-
-        self.pca = PCA(n_components=9)
-        x_train = self.pca.fit_transform(x_train)
-
+        # self.pca = PCA(n_components=9)
+        # x_train = self.pca.fit_transform(x_train)
+        #x_train = minmax_scale(x_train)
 
 
         y_train = np.array(ys)
+
+        x_train,y_train = self.drop_null(x_train,y_train)
+
         y_max = np.max(y_train)
         y_train = y_train / max(y_max, 1e-8)
 
+
         valid_index = y_train > 1e-6
-
-
         index = np.random.permutation(len(x_train))
 
         print("x_train shape:", x_train.shape)
@@ -240,6 +242,34 @@ class XGBoostCostModel(CostModel):
                      time.time() - tic, len(xs),
                      len(xs) - np.sum(valid_index),
                      self.feature_cache.size(self.fea_type))
+
+    def drop_null(self,x_train, y_train):
+        tic = time.time()
+        y_train = y_train.reshape(-1,1)
+        print(x_train.shape)
+        print(y_train.shape)
+        y_max = np.max(y_train)
+        y_train = y_train / max(y_max, 1e-8)
+        X = np.append(x_train, y_train, axis=1)
+        print(X.shape)
+        dataframe = pd.DataFrame(X)
+        df1 = dataframe.loc[:, dataframe.shape[1] - 1:]
+        df1 = df1[df1.loc[:, :] > 0]
+        df2 = dataframe.loc[:, :dataframe.shape[1] - 2]
+        df = pd.concat([df2, df1], axis=1)
+        df = df.dropna(axis=0, how='any')
+        print(df)
+        data = df.values
+        print(data)
+        x_train = data[:, :data.shape[1] - 1]
+        y_train = data[:, data.shape[1] - 1:]
+        print(x_train.shape)
+        print(y_train.shape)
+        print(y_train)
+        print("drop null cost time:", time.time() - tic)
+        y_train = y_train.flatten()
+        print("y train shape:",y_train.shape)
+        return x_train, y_train
 
     def fit_log(self, records, plan_size):
         #与上一个方法的不同主要在传图的是records
@@ -320,22 +350,17 @@ class XGBoostCostModel(CostModel):
     def predict(self, xs, output_margin=False):
         print("___________predict___________")
         feas = self._get_feature(xs)
+        #feas = minmax_scale(feas)
         self.feas = feas
         print("feas shape:",feas.shape)
-
-
-
-        feas = self.pca.fit_transform(feas)
-
-
+        #feas = self.pca.fit_transform(feas)
         dtest = xgb.DMatrix(feas)
 
         if self.base_model:
             dtest.set_base_margin(self._base_model_discount() *self.base_model.predict(xs, output_margin=True))
 
         result = self.bst.predict(dtest, output_margin=output_margin)
-        # print("predict result:",result)
-        print("predict result shape:",result.shape)
+        print("predict result[:20]:",result[:20])
         return result
 
 

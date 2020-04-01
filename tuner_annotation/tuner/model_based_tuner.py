@@ -22,7 +22,7 @@ find optimums points of cost model in space.
 import gc
 
 import numpy as np
-
+import time
 from .tuner import Tuner
 from ..env import GLOBAL_SCOPE
 
@@ -224,9 +224,9 @@ class ModelBasedTuner(Tuner):
         self.train_ct = 0   #这里置0说明作用域有限
         self.rets = []
 
-    def next_batch(self, batch_size):#batch_size一般为64或128------>看next_batch_test.py
+    def next_batch(self, batch_size):#batch_size=8------>看next_batch_test.py
+        tic = time.time()
         ret = []
-
         counter = 0
         while counter < batch_size:
             if len(self.visited) >= len(self.space):
@@ -255,7 +255,47 @@ class ModelBasedTuner(Tuner):
         #
         self.rets.append(ret)
         #
+        print("next batch cost time:",time.time()-tic)
         return ret
+
+
+    def next_batch_filter(self, batch_size):  # batch_size一般为64或128------>看next_batch_test.py
+        import re
+        import numpy as np
+        import pandas as pd
+        import random
+        tic = time.time()
+        filename = "res.txt"
+        fp = open(filename, "r")
+        ress = []
+        for line in fp.readlines():
+            line = line.strip()
+            pattern1 = re.compile("\d+", re.S)
+            data1 = pattern1.findall(line)
+            # print(data1)
+            res = []
+            for i in data1:
+                res.append(int(i))
+            ress.append(res)
+        ress = np.array(ress)
+        dataframe = pd.DataFrame(ress, columns=['x', 'fx', 'y', 'fy', 'k', 'fk', 'index'])
+        # print(dataframe)
+        filterdata = dataframe[(dataframe['fx'] <= 32) & (dataframe['fy'] <= 32) & (dataframe['fk'] <= 32)]
+        index = filterdata['index'].tolist()
+        print(index)
+        print(len(index))
+        slice = random.sample(index, batch_size)
+        print(slice)
+        ret = []
+        for i in slice:
+            ret.append(self.space.get(i))  # 将新的index追加到ret中
+            self.visited.add(i)  # 同时标记index为已经考虑过的配置了
+        self.rets.append(ret)
+        print("next batch filter cost time:", time.time() - tic)
+        self.isFrist = False
+        return ret
+
+
 
     def update(self, inputs, results):#最为重要的方法之一
         for inp, res in zip(inputs, results):

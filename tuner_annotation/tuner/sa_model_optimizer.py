@@ -81,6 +81,8 @@ class SimulatedAnnealingOptimizer(ModelOptimizer):
             #一开始是随机采样点
             # Sample m different integer numbers from [low, high) without replacement,返回一个list
             # 就是parallel_size = 128一组，知道空间最大值
+
+            #这个空间可以优化！！！！（1）继续filter(2)根据model预测出来的选
             points = np.array(sample_ints(0, len(self.task.config_space), self.parallel_size))
         #以XGBCostModel为例,这里的model就好比一个xgb已训练好的模型：对新采样的点进行预测
         #这里的points是在[0，len(self.task.config_space))之间采样的self.parallel_size个正整数组成的list,
@@ -127,7 +129,7 @@ class SimulatedAnnealingOptimizer(ModelOptimizer):
         # k_last_modify = 0
         # early_stop = 50
         # n_iter = 500
-        while k < n_iter and k < k_last_modify + early_stop:#保证不超过迭代次数  50?
+        while k < n_iter and k < k_last_modify + early_stop:#保证不超过迭代次数
             #Return a new array with the same shape and type as a given array.(数值随机正整数？)
             new_points = np.empty_like(points)
             for i, p in enumerate(points):
@@ -147,10 +149,12 @@ class SimulatedAnnealingOptimizer(ModelOptimizer):
             new_scores = model.predict(new_points)
             #数值上这个变量大于0,----->test.py
             ac_prob = np.exp(np.minimum((new_scores - scores) / (t + 1e-5), 1))#模拟退火超参数？温度变化？
+            '''
+            新值比旧值至少好出α（=1e-5）秒，才接受前一项
+            否则就是接受1，ac_prob 的取值在(0,e]之间
+            '''
             #返回boolean列表------>test.py
-            ac_index = np.random.random(len(ac_prob)) < ac_prob##????????
-
-            #语义理解就是，只有new_score > scores的才能赋值进去????????
+            ac_index = np.random.random(len(ac_prob)) < ac_prob##继续增加随机性，随机产生同尺寸的(0,1)之间的浮点数，满足这个条件即视为接受这样的index
             points[ac_index] = new_points[ac_index]
             scores[ac_index] = new_scores[ac_index]
 
@@ -163,7 +167,7 @@ class SimulatedAnnealingOptimizer(ModelOptimizer):
                     k_last_modify = k
 
             k += 1
-            t -= cool
+            t -= cool#哪里有用这个t和cool
             #################################################################################################
             
             #控制log输出和时间输出的
@@ -176,7 +180,7 @@ class SimulatedAnnealingOptimizer(ModelOptimizer):
                              time.time() - tic)
         #上面这个while循环结束
 
-
+        
         heap_items.sort(key=lambda item: -item[0])  #堆排序，便于从中选择性能scores最大？的键值对(其实就是列数为2的矩阵)
         heap_items = [x for x in heap_items if x[0] >= 0]  #从堆中取出所有大于0的可以当作索引的值，作为一个list返回
         logger.debug("SA iter: %d\tlast_update: %d\telapsed: %.2f",

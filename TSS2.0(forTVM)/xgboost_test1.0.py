@@ -350,12 +350,12 @@ if __name__ == '__main__':
 
     X,Y = load_data(datasrc, labelsrc)
     situation1(X, Y, xgb_params, plan_size, log_interval)
-    situation2(X, Y, xgb_params, plan_size, log_interval)
-    situation3(X, Y, xgb_params, plan_size, log_interval)
-    situation4(X, Y, xgb_params, plan_size, log_interval)
-    situation5(X, Y, xgb_params, plan_size, log_interval)
-    situation6(X, Y, xgb_params, plan_size, log_interval)
-    situation0(X, Y, xgb_params, plan_size, log_interval)
+    # situation2(X, Y, xgb_params, plan_size, log_interval)
+    # situation3(X, Y, xgb_params, plan_size, log_interval)
+    # situation4(X, Y, xgb_params, plan_size, log_interval)
+    # situation5(X, Y, xgb_params, plan_size, log_interval)
+    # situation6(X, Y, xgb_params, plan_size, log_interval)
+    # situation0(X, Y, xgb_params, plan_size, log_interval)
 
 
 

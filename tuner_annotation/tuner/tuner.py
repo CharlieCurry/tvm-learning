@@ -51,6 +51,7 @@ class Tuner(object):
         self.ttl = None
         self.n_trial = None
         self.early_stopping = None
+        self.next_batch_count = 0
 
     def has_next(self):
         """Whether has next untried config in the space
@@ -121,10 +122,22 @@ class Tuner(object):
                 break
             '''get the next batch of configs to be measure on real hardware'''
             #next_batch的用法
-            configs = self.next_batch(min(n_parallel, n_trial - i))#int batch_size = min(n_parallel, n_trial - i))
-
+            if self.next_batch_count < min(n_parallel, n_trial - i)//8:
+                print("next batch filter")
+                configs = self.next_batch_filter(min(n_parallel, n_trial - i))#int batch_size = min(n_parallel, n_trial - i))
+                self.next_batch_count +=1
+                print("self.next_batch_count",self.next_batch_count)
+            else:
+                print("next batch")
+                configs = self.next_batch(min(n_parallel, n_trial - i))#int batch_size = min(n_parallel, n_trial - i))
             inputs = [MeasureInput(self.task.target, self.task, config) for config in configs]
+            #
+            #print("tuner inputs:",inputs)
+            #
             results = measure_batch(inputs)
+            #
+            #print("tuner results:",results)
+            #
 
             # keep best config
             for k, (inp, res) in enumerate(zip(inputs, results)):
@@ -143,7 +156,7 @@ class Tuner(object):
                     self.best_flops = flops
                     self.best_config = config
                     self.best_measure_pair = (inp, res)
-                    self.best_iter = i + k
+                    self.best_iter = i + k  #记录真实的迭代轮次，不是指的index
 
                 logger.debug("No: %d\tGFLOPS: %.2f/%.2f\tresult: %s\t%s",i + k + 1, flops / 1e9, self.best_flops / 1e9,res, config)
 

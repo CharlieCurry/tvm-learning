@@ -111,7 +111,8 @@ def get_network(name, batch_size):
 # Before tuning, we apply some configurations.
 
 #### DEVICE CONFIG ####
-target = tvm.target.cuda()
+#target = tvm.target.cuda()
+target = "llvm"
 
 #### TUNING OPTION ####
 network = 'resnet-18'
@@ -128,10 +129,7 @@ tuning_option = {
     'measure_option': autotvm.measure_option(
         builder=autotvm.LocalBuilder(timeout=10),
         #runner=autotvm.LocalRunner(number=20, repeat=3, timeout=4, min_repeat_ms=150),
-        runner=autotvm.RPCRunner(
-            '1080ti',  # change the device key to your key
-            '0.0.0.0', 9190,
-            number=20, repeat=3, timeout=4, min_repeat_ms=150)
+        runner=autotvm.LocalRunner(number=5)
     ),
 }
 
@@ -161,7 +159,7 @@ def tune_tasks(tasks,
                measure_option,
                tuner='xgb',
                n_trial=1000,
-               early_stopping=None,
+               early_stopping=500,
                log_filename='tuning.log',
                use_transfer_learning=True,
                try_winograd=True):
@@ -178,8 +176,8 @@ def tune_tasks(tasks,
 
     # create tmp log file
     tmp_log_file = log_filename + ".tmp"
-    if os.path.exists(tmp_log_file):
-        os.remove(tmp_log_file)
+    # if os.path.exists(tmp_log_file):
+    #     os.remove(tmp_log_file)
 
     for i, tsk in enumerate(reversed(tasks)):
         prefix = "[Task %2d/%2d] " %(i+1, len(tasks))
@@ -201,17 +199,39 @@ def tune_tasks(tasks,
                 tuner_obj.load_history(autotvm.record.load_from_file(tmp_log_file))
 
         # do tuning
+        n_trial = 1000
         n_trial = min(n_trial, len(tsk.config_space))
+        res = []
+        for i in range(len(tsk.config_space)):
+            res.append(tuner_obj.space.get(i + 1))
+        with open("res.txt", "w", encoding='utf-8') as f:
+            for line in res:
+                f.write(str(line) + '\n')
+            f.close()
+
+        #任务单独保存
+        # import shutil
+        # shutil.copyfile('res.txt', 'res'+prefix+'.txt')
+
+
+        early_stopping = len(tsk.config_space)//2
+        print("n_trial=",n_trial)
+        print("early_stopping=",early_stopping)
         tuner_obj.tune(n_trial=n_trial,
                        early_stopping=early_stopping,
                        measure_option=measure_option,
                        callbacks=[
                            autotvm.callback.progress_bar(n_trial, prefix=prefix),
                            autotvm.callback.log_to_file(tmp_log_file)])
+        np.savetxt("feas"+prefix+".txt", tuner_obj.cost_model.feas, fmt='%s', delimiter=' ')
+        np.savetxt("x_train"+prefix+".txt", tuner_obj.cost_model.x_train, fmt='%s', delimiter=' ')
+        np.savetxt("y_train"+prefix+".txt", tuner_obj.cost_model.y_train, fmt='%s', delimiter=' ')
+        #他做到了同算子--》空间维度相同的迁移学习,那么实际上resnet18--->resnet50?
+
 
     # pick best records to a cache file
     autotvm.record.pick_best(tmp_log_file, log_filename)
-    os.remove(tmp_log_file)
+    #os.remove(tmp_log_file)
 
 
 ########################################################################
@@ -257,7 +277,7 @@ def tune_and_evaluate(tuning_opt):
 # We do not run the tuning in our webpage server since it takes too long.
 # Uncomment the following line to run it by yourself.
 
-# tune_and_evaluate(tuning_option)
+tune_and_evaluate(tuning_option)
 
 ######################################################################
 # Sample Output

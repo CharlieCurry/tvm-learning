@@ -1,37 +1,0 @@
-128*256*256
-########################Schedule candidate########################
-parallel
-evaluation time: 0.0006183900
-unroll
-evaluation time: 0.0001371250
-packing
-evaluation time: 0.0001401950
-write cache
-evaluation time: 0.0001474700
-#######################find best schedule#########################
-Minimum Value: 0.0001371250
-unroll
-Numpy running time: 0.000681
-speedup= 4.9631649954
-##################################################################
-best schedule method:  <function Gemm_tv2_reorder2_3_vec1_para1_unrollv1_config_define at 0x7f8811822e18>
-ConfigSpace (len=648, space_map=
-   0 tile_x: Split(policy=factors, product=128, num_outputs=2) len=8
-   1 tile_y: Split(policy=factors, product=256, num_outputs=2) len=9
-   2 tile_k: Split(policy=factors, product=256, num_outputs=2) len=9
-)
-XGBoost:
- Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/148) | 0.00 s Current/Best:   23.69/  31.28 GFLOPS | Progress: (8/148) | 13.87 s Current/Best:   39.67/  63.00 GFLOPS | Progress: (16/148) | 26.55 s Current/Best:    5.39/  63.00 GFLOPS | Progress: (24/148) | 38.86 s Current/Best:    1.52/  63.00 GFLOPS | Progress: (32/148) | 51.34 s Current/Best:   28.47/  63.00 GFLOPS | Progress: (40/148) | 63.91 s Current/Best:   54.43/  63.00 GFLOPS | Progress: (48/148) | 76.55 s Current/Best:   15.11/  63.00 GFLOPS | Progress: (56/148) | 89.42 s
-_____________fit______________
-fit count: 1
-x_train shape: (64, 9)
-y_train shape: (64,)
-fit cost time: 0.47371602058410645
-find maximums count: 1
-predict count: 1
-feas shape: (128, 9)
-predict cost time: 0.20004844665527344
-result[:1]: [0.79320145]
-points shape: (128,)
-scores shape: (128,)
-sa while

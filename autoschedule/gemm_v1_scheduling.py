@@ -486,7 +486,7 @@ if __name__ == '__main__':
 
     task = autotvm.task.create(dict_autoschedule[key], args=(N, K, M, dtype), target=target)
     measure_option = autotvm.measure_option(builder='local', runner=autotvm.LocalRunner(number=5))
-    myTuner = useTuner("xgb",148,task,measure_option)
+    myTuner = useTuner("xgb",648,task,measure_option)
     #apply_history_best('XGBtuner_matmul.log',ctx,Gemm_tv2_reorder2_3_vec1_para1_config_define)
     #testwithNoneopt('XGBtuner_matmul.log', ctx, Gemm_tv2_reorder2_3_vec1_para1_config_define)
     # apply history best from log file

@@ -76,6 +76,7 @@ class TSSModel():
         # print(X[b:b+1,:])
         self.top_time(label)
         self.top_time(prediction)
+
     @count_time
     def pca_minmax_split(self,X,Y,pca_components):
         pca = PCA(n_components=pca_components)
@@ -84,7 +85,7 @@ class TSSModel():
         print("X.shape :", X.shape)
         X = minmax_scale(X)
         #Y = minmax_scale(Y)
-        x_train, x_valiation, y_train, y_valiation = train_test_split(X, Y, test_size=0.1, random_state=42)
+        x_train, x_valiation, y_train, y_valiation = train_test_split(X, Y, test_size=0.5, random_state=42)
         print("x_train shape:", x_train.shape)
         print("y_train shape:", y_train.shape)
         print("x_valiation shape:", x_valiation.shape)
@@ -93,6 +94,75 @@ class TSSModel():
         self.y_train = y_train
         self.x_valiation = x_valiation
         self.y_valiation = y_valiation
+
+    @count_time
+    def split(self,X,Y):
+        x_train, x_valiation, y_train, y_valiation = train_test_split(X, Y, test_size=0.5, random_state=42)
+        print("x_train shape:", x_train.shape)
+        print("y_train shape:", y_train.shape)
+        print("x_valiation shape:", x_valiation.shape)
+        print("y_valiation shape:", y_valiation.shape)
+        self.x_train = x_train
+        self.y_train = y_train
+        self.x_valiation = x_valiation
+        self.y_valiation = y_valiation
+
+    @count_time
+    def minmax_split(self,X,Y):
+        X = minmax_scale(X)
+        Y = minmax_scale(Y)
+        x_train, x_valiation, y_train, y_valiation = train_test_split(X, Y, test_size=0.5, random_state=42)
+        # print("x_train shape:", x_train.shape)
+        # print("y_train shape:", y_train.shape)
+        # print("x_valiation shape:", x_valiation.shape)
+        # print("y_valiation shape:", y_valiation.shape)
+        self.x_train = x_train
+        self.y_train = y_train
+        self.x_valiation = x_valiation
+        self.y_valiation = y_valiation
+
+    @count_time
+    def normliza_split(self, X, Y):
+        X = normalize(X)
+        Y = normalize(Y)
+        x_train, x_valiation, y_train, y_valiation = train_test_split(X, Y, test_size=0.1, random_state=42)
+        # print("x_train shape:", x_train.shape)
+        # print("y_train shape:", y_train.shape)
+        # print("x_valiation shape:", x_valiation.shape)
+        # print("y_valiation shape:", y_valiation.shape)
+        self.x_train = x_train
+        self.y_train = y_train
+        self.x_valiation = x_valiation
+        self.y_valiation = y_valiation
+
+    @count_time
+    def maxabs_split(self, X, Y):
+        X = maxabs_scale(X)
+        Y = maxabs_scale(Y)
+        x_train, x_valiation, y_train, y_valiation = train_test_split(X, Y, test_size=0.1, random_state=42)
+        # print("x_train shape:", x_train.shape)
+        # print("y_train shape:", y_train.shape)
+        # print("x_valiation shape:", x_valiation.shape)
+        # print("y_valiation shape:", y_valiation.shape)
+        self.x_train = x_train
+        self.y_train = y_train
+        self.x_valiation = x_valiation
+        self.y_valiation = y_valiation
+
+    @count_time
+    def scale_split(self, X, Y):
+        X = scale(X)
+        Y = scale(Y)
+        x_train, x_valiation, y_train, y_valiation = train_test_split(X, Y, test_size=0.1, random_state=42)
+        # print("x_train shape:", x_train.shape)
+        # print("y_train shape:", y_train.shape)
+        # print("x_valiation shape:", x_valiation.shape)
+        # print("y_valiation shape:", y_valiation.shape)
+        self.x_train = x_train
+        self.y_train = y_train
+        self.x_valiation = x_valiation
+        self.y_valiation = y_valiation
+
     @count_time
     def pca_minmax(self,X,Y,pca_components):
         pca = PCA(n_components=pca_components)
@@ -123,8 +193,9 @@ class TSSModel():
         else:
             outputs=activation_function(Wx_plus_b)
         return outputs
+
     @count_time
-    def TSS_NN_Model_fit(self, x_train, y_train, x_valiation, y_valiation, l1_size=16, l2_size=16, output_size=1, delta=2.0, learning_rate=0.0005, batch_size=64, steps=60001, keep_prob=0.8):
+    def TSS_NN_Model_fit(self, x_train, y_train, x_valiation, y_valiation, l1_size=64, l2_size=32, output_size=1, delta=2.0, learning_rate=0.005, batch_size=32, steps=50001, keep_prob=0.8):
         '''
 
         :param x_train:
@@ -149,8 +220,8 @@ class TSSModel():
         print("#############################################################")
         L1=self.add_layer(self.xs,input_size,l1_size,activation_function=tf.nn.tanh)
         L2=self.add_layer(L1,l1_size,l2_size,activation_function=tf.nn.tanh)
-        dropped = tf.nn.dropout(L2,self.keep_prob)
-        #L3=add_layer(dropped,64,32,activation_function=tf.nn.tanh)
+        #dropped = tf.nn.dropout(L2,self.keep_prob)
+        #L3=self.add_layer(dropped,l2_size,32,activation_function=tf.nn.tanh)
 
         self.prediction = self.add_layer(L2,l2_size,output_size,activation_function=None)
         #self.prediction = tf.get_variable('prediction', shape=[None,1], initializer=prediction)

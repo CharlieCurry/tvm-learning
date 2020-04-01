@@ -203,7 +203,7 @@ def fit(x_train, y_train, xgb_params, plan_size, log_interval):
     bst = xgb.train(xgb_params, dtrain,
                     num_boost_round=8000,
                     callbacks=[custom_callback(
-                        stopping_rounds=200,
+                        stopping_rounds=20,
                         metric='tr-a-recall@%d' % plan_size,
                         evals=[(dtrain, 'tr')],
                         maximize=True,
@@ -246,9 +246,10 @@ def load_data(datasrc, labelsrc):
 def fit_and_evaluation(x_train, y_train, x_valiation, y_valiation, xgb_params, plan_size, log_interval):
     bst = fit(x_train, y_train, xgb_params, plan_size, log_interval)
     result = predict(bst, x_valiation)
+    return result
     # print("result:\n", result[:10])
     # print("y_valiation:\n", y_valiation[:10])
-    print("score:", mean_squared_error(result, y_valiation))
+    # print("mean_squared_error:", mean_squared_error(result, y_valiation))
 
 
 if __name__ == '__main__':
@@ -272,27 +273,41 @@ if __name__ == '__main__':
     log_interval = 25
 
 
-    print("nntss:situation1")
+
     input_size = 9
     tss = TSSModel(input_size=input_size)
     tss.load_data('train/feas1.txt', 'train/y_train.txt')
-    tss.pca_minmax_split(tss.X, tss.Y, pca_components=input_size)
+
+
+
+
+    print("xgb:situation1:split")
+    tss.split(tss.X, tss.Y)
+    y_prediction = fit_and_evaluation(tss.x_train, tss.y_train, tss.X, tss.Y, xgb_params, plan_size, log_interval)
+    tss.envaluation(y_prediction, tss.Y)
+
+    print("nntss:situation1")
+    tss.pca_minmax_split(tss.X, tss.Y,pca_components=input_size)
     tss.TSS_NN_Model_fit(tss.x_train, tss.y_train, tss.x_valiation, tss.y_valiation)
-    print("predict(x_valiation,y_valiation)")
+    #print("predict(x_valiation,y_valiation)")
     y_prediction = tss.predict(tss.x_valiation, tss.y_valiation)
     tss.envaluation(tss.y_prediction, tss.y_valiation)
 
-
-    print("xgb:situation1:original data")
-    train_test_split(tss.X, tss.Y, test_size=0.1, random_state=42)
-    fit_and_evaluation(tss.x_train, tss.y_train, tss.x_valiation, tss.y_valiation, xgb_params, plan_size, log_interval)
-
-    print("xgb:situation2:pca-maxabs")
-    pca = PCA(n_components=9)
-    X4 = pca.fit_transform(tss.X)
-    X4 = maxabs_scale(X4)
-    Y4 = maxabs_scale(tss.Y)
-    # print("pca variance ratio", pca.explained_variance_ratio_)
-    train_test_split(X4, Y4, test_size=0.1, random_state=42)
-    fit_and_evaluation(tss.x_train, tss.y_train, tss.x_valiation, tss.y_valiation, xgb_params, plan_size, log_interval)
-
+    #
+    # print("xgb:situation2:maxmin split")
+    # tss.minmax_split(tss.X,tss.Y)
+    # fit_and_evaluation(tss.x_train, tss.y_train, tss.x_valiation, tss.y_valiation, xgb_params, plan_size, log_interval)
+    #
+    # print("xgb:situation3:maxabs split")
+    # tss.minmax_split(tss.X, tss.Y)
+    # fit_and_evaluation(tss.x_train, tss.y_train, tss.x_valiation, tss.y_valiation, xgb_params, plan_size, log_interval)
+    #
+    # print("xgb:situation4:nomalize split")
+    # tss.minmax_split(tss.X, tss.Y)
+    # fit_and_evaluation(tss.x_train, tss.y_train, tss.x_valiation, tss.y_valiation, xgb_params, plan_size, log_interval)
+    #
+    #
+    # print("xgb:situation5:scale split")
+    # tss.minmax_split(tss.X, tss.Y)
+    # fit_and_evaluation(tss.x_train, tss.y_train, tss.x_valiation, tss.y_valiation, xgb_params, plan_size, log_interval)
+    #

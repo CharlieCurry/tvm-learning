@@ -55,7 +55,24 @@ def testwithNoneopt(str,ctx,method):
     evaluator = func.time_evaluator(func.entry_name, ctx, number=100)
     print(str)
     print('TVM: %f' % evaluator(tvm.nd.array(a_np), tvm.nd.array(b_np), c_tvm).mean)
+def gemm_split(N, K, M, dtype):
+    A = tvm.placeholder((N, K), name='A', dtype=dtype)
+    B = tvm.placeholder((K, M), name='B', dtype=dtype)
+    k = tvm.reduce_axis((0, K), name='k')
+    C = tvm.compute((N, M), lambda i, j: tvm.sum(A[i, k] * B[k, j], axis=k), name='C')
 
+    s = tvm.create_schedule(C.op)
+    k = s[C].op.reduce_axis[0]
+    y, x = s[C].op.axis
+
+    cfg = autotvm.get_config()
+    cfg.define_split("tile_x", x, num_outputs=2)
+    cfg.define_split("tile_y", y, num_outputs=2)
+    cfg.define_split("tile_k", k, num_outputs=2)
+    xo, xi = cfg["tile_x"].apply(s, C, x)
+    yo, yi = cfg["tile_y"].apply(s, C, y)
+    ko, ki = cfg["tile_k"].apply(s, C, k)
+    return s, [A, B, C]
 
 def Gemm_tv2_reorder2_3_vec1_para1_config_define(N, K, M, dtype):
     A = tvm.placeholder((N, K), name='A', dtype=dtype)
@@ -96,27 +113,28 @@ def Gemm_tv2_reorder2_3_vec1_para1_config_define(N, K, M, dtype):
 
 
 if __name__ == '__main__':
-    M = sys.argv[1]
-    K = sys.argv[2]
-    N = sys.argv[3]
-    M = int(M)
-    K = int(K)
-    N = int(N)
+    # M = sys.argv[1]
+    # K = sys.argv[2]
+    # N = sys.argv[3]
+    # M = int(M)
+    # K = int(K)
+    # N = int(N)
+    M = 128
+    N = 128
+    K = 128
     print(str(M)+"*"+str(K)+"*"+str(N))
     random.seed(30)
     target = 'llvm'
     dtype = 'float32'
     ctx = tvm.context(target, 0)
-
     a_np = np.random.rand(M,K).astype(dtype)
     b_np = np.random.rand(K,N).astype(dtype)
     c_np = np.zeros((M,N)).astype(dtype)
     c_np = a_np.dot(b_np)
-
     a = tvm.nd.array(a_np, ctx)
     b = tvm.nd.array(b_np, ctx)
     c = tvm.nd.array(c_np, ctx)
-
-
-    s,[A,B,C] = Gemm_tv2_reorder2_3_vec1_para1_config_define(N,K,M,dtype)
+    s,[A,B,C] = gemm_split(N,K,M,dtype)
+    #stmt = tvm.form_body(s)
+    #print(stmt)
     print(tvm.lower(s, [A, B, C], simple_mode=True))

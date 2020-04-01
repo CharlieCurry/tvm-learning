@@ -67,11 +67,18 @@ class XGBTuner(ModelBasedTuner):
     def __init__(self, task, plan_size=64,
                  feature_type='itervar', loss_type='rank', num_threads=None,
                  optimizer='sa', diversity_filter_ratio=None, log_interval=50):
+        #指导sa
         cost_model = XGBoostCostModel(task,
                                       feature_type=feature_type,
                                       loss_type=loss_type,
                                       num_threads=num_threads,
                                       log_interval=log_interval // 2)
+
+
+        #指导选点：当数据集到达一定的数量之后，进行时间的预测，选择预测出有前途的点作为sa的初始点
+        #ml_predict_model
+
+
         if optimizer == 'sa':
             optimizer = SimulatedAnnealingOptimizer(task, log_interval=log_interval)
         else:

@@ -1,0 +1,95 @@
+100*100*100
+Numpy running time: 0.000047
+ConfigSpace (len=729, space_map=
+   0 tile_y: Split(policy=factors, product=100, num_outputs=2) len=9
+   1 tile_x: Split(policy=factors, product=100, num_outputs=2) len=9
+   2 tile_k: Split(policy=factors, product=100, num_outputs=2) len=9
+)
+XGBoost:
+ Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/729) | 0.00 sconfigs space before filter: 729
+100 100 100
+26 26 50
+configs space before filter: 729
+configs space after filter1: 392
+Lower cube: 4
+configs space after filter2: 388
+Upper cube: 1024
+configs space after filter3: 301
+filterdata['fx'].max: 25
+filterdata['fy'].max: 25
+filterdata['fk'].max: 50
+ Current/Best:   95.08/  95.08 GFLOPS | Progress: (12/729) | 7.74 s | measure batch cost: 6.51 s
+ Current/Best:   57.49/ 139.97 GFLOPS | Progress: (24/729) | 13.65 s | measure batch cost: 5.90 s
+ Current/Best:   84.10/ 139.97 GFLOPS | Progress: (36/729) | 19.58 s | measure batch cost: 5.93 s
+ Current/Best:   34.43/ 139.97 GFLOPS | Progress: (48/729) | 25.66 s | measure batch cost: 6.08 s
+ Current/Best:   23.14/ 139.97 GFLOPS | Progress: (60/729) | 31.64 s | measure batch cost: 5.98 s
+ Current/Best:   73.68/ 139.97 GFLOPS | Progress: (72/729) | 39.24 s | measure batch cost: 6.42 s
+ Current/Best:   33.20/ 139.97 GFLOPS | Progress: (84/729) | 45.14 s | measure batch cost: 5.90 s
+ Current/Best:   80.34/ 139.97 GFLOPS | Progress: (96/729) | 52.50 s | measure batch cost: 7.36 s
+ Current/Best:   29.96/ 139.97 GFLOPS | Progress: (108/729) | 60.62 s | measure batch cost: 8.11 s
+ Current/Best:   47.52/ 139.97 GFLOPS | Progress: (120/729) | 66.66 s | measure batch cost: 6.04 s
+ Current/Best:   32.91/ 139.97 GFLOPS | Progress: (132/729) | 75.87 s | measure batch cost: 8.42 s
+ Current/Best:  145.65/ 145.65 GFLOPS | Progress: (144/729) | 82.08 s | measure batch cost: 6.21 s
+ Current/Best:   41.02/ 145.65 GFLOPS | Progress: (156/729) | 88.53 s | measure batch cost: 6.44 s
+ Current/Best:   25.11/ 145.65 GFLOPS | Progress: (168/729) | 96.83 s | measure batch cost: 8.30 s
+ Current/Best:   14.12/ 145.65 GFLOPS | Progress: (180/729) | 103.53 s | measure batch cost: 6.69 s
+ Current/Best:   29.09/ 145.65 GFLOPS | Progress: (192/729) | 110.65 s | measure batch cost: 6.33 s
+ Current/Best:   33.70/ 145.65 GFLOPS | Progress: (204/729) | 118.11 s | measure batch cost: 7.46 s
+ Current/Best:   56.02/ 145.65 GFLOPS | Progress: (216/729) | 127.67 s | measure batch cost: 9.55 s
+ Current/Best:   32.44/ 145.65 GFLOPS | Progress: (228/729) | 134.21 s | measure batch cost: 6.54 s
+ Current/Best:   90.22/ 145.65 GFLOPS | Progress: (240/729) | 140.71 s | measure batch cost: 6.50 s
+ Current/Best:   22.14/ 145.65 GFLOPS | Progress: (252/729) | 147.05 s | measure batch cost: 6.34 s
+ Current/Best:   17.67/ 145.65 GFLOPS | Progress: (264/729) | 154.67 s | measure batch cost: 6.61 s
+ Current/Best:   49.26/ 145.65 GFLOPS | Progress: (276/729) | 160.79 s | measure batch cost: 6.11 s
+ Current/Best:   75.73/ 145.65 GFLOPS | Progress: (288/729) | 166.98 s | measure batch cost: 6.19 s
+ Current/Best:   46.29/ 145.65 GFLOPS | Progress: (300/729) | 175.35 s | measure batch cost: 8.37 s
+ Current/Best:   58.98/ 145.65 GFLOPS | Progress: (301/729) | 176.28 s | measure batch cost: 0.94 s
+ Current/Best:    0.00/ 145.65 GFLOPS | Progress: (301/729) | 176.29 s | measure batch cost: 0.00 s
+ Current/Best:    0.00/ 145.65 GFLOPS | Progress: (301/729) | 176.29 s | measure batch cost: 0.00 s
+ Current/Best:    0.00/ 145.65 GFLOPS | Progress: (301/729) | 176.29 s | measure batch cost: 0.00 s
+ Current/Best:    0.00/ 145.65 GFLOPS | Progress: (301/729) | 176.29 s | measure batch cost: 0.00 s
+ Current/Best:    0.00/ 145.65 GFLOPS | Progress: (301/729) | 176.29 s | measure batch cost: 0.00 s
+ Current/Best:    0.00/ 145.65 GFLOPS | Progress: (301/729) | 176.29 s | measure batch cost: 0.00 s
+ Current/Best:    0.00/ 145.65 GFLOPS | Progress: (301/729) | 176.29 s | measure batch cost: 0.00 s
+ Current/Best:    0.00/ 145.65 GFLOPS | Progress: (301/729) | 176.29 s | measure batch cost: 0.00 s
+ Current/Best:    0.00/ 145.65 GFLOPS | Progress: (301/729) | 176.29 s | measure batch cost: 0.00 s
+ Current/Best:    0.00/ 145.65 GFLOPS | Progress: (301/729) | 176.29 s | measure batch cost: 0.00 s
+ Current/Best:    0.00/ 145.65 GFLOPS | Progress: (301/729) | 176.30 s | measure batch cost: 0.00 s
+ Current/Best:   82.38/ 145.65 GFLOPS | Progress: (313/729) | 191.34 s | measure batch cost: 15.05 s
+ Current/Best:   65.01/ 145.65 GFLOPS | Progress: (325/729) | 205.66 s | measure batch cost: 13.19 s
+ Current/Best:   62.31/ 145.65 GFLOPS | Progress: (337/729) | 213.30 s | measure batch cost: 7.64 s
+ Current/Best:   38.24/ 145.65 GFLOPS | Progress: (349/729) | 228.36 s | measure batch cost: 15.06 s
+ Current/Best:   39.32/ 145.65 GFLOPS | Progress: (361/729) | 242.81 s | measure batch cost: 14.45 s
+ Current/Best:   21.10/ 145.65 GFLOPS | Progress: (373/729) | 256.35 s | measure batch cost: 13.54 s
+ Current/Best:   17.90/ 145.65 GFLOPS | Progress: (385/729) | 271.53 s | measure batch cost: 13.29 s
+ Current/Best:   20.79/ 145.65 GFLOPS | Progress: (397/729) | 286.33 s | measure batch cost: 14.80 s
+ Current/Best:   39.00/ 145.65 GFLOPS | Progress: (409/729) | 301.09 s | measure batch cost: 14.76 s
+ Current/Best:   16.38/ 145.65 GFLOPS | Progress: (421/729) | 316.09 s | measure batch cost: 15.00 s
+ Current/Best:   14.27/ 145.65 GFLOPS | Progress: (433/729) | 331.26 s | measure batch cost: 15.17 s
+ Current/Best:   25.31/ 145.65 GFLOPS | Progress: (445/729) | 345.47 s | measure batch cost: 14.21 s
+ Current/Best:    2.85/ 145.65 GFLOPS | Progress: (457/729) | 360.45 s | measure batch cost: 13.57 s
+ Current/Best:   24.11/ 145.65 GFLOPS | Progress: (469/729) | 375.39 s | measure batch cost: 14.94 s
+ Current/Best:   20.86/ 145.65 GFLOPS | Progress: (481/729) | 384.52 s | measure batch cost: 9.12 s
+ Current/Best:   10.14/ 145.65 GFLOPS | Progress: (493/729) | 392.02 s | measure batch cost: 7.50 s
+ Current/Best:    3.88/ 145.65 GFLOPS | Progress: (505/729) | 399.45 s | measure batch cost: 7.43 s
+ Current/Best:    8.93/ 145.65 GFLOPS | Progress: (517/729) | 412.06 s | measure batch cost: 10.78 s
+ Current/Best:    6.02/ 145.65 GFLOPS | Progress: (529/729) | 426.62 s | measure batch cost: 14.56 s
+ Current/Best:    3.94/ 145.65 GFLOPS | Progress: (541/729) | 440.61 s | measure batch cost: 13.99 s
+ Current/Best:    3.40/ 145.65 GFLOPS | Progress: (553/729) | 454.90 s | measure batch cost: 14.28 s
+ Current/Best:    2.75/ 145.65 GFLOPS | Progress: (565/729) | 468.91 s | measure batch cost: 14.01 s
+ Current/Best:    5.25/ 145.65 GFLOPS | Progress: (577/729) | 482.70 s | measure batch cost: 12.32 s
+ Current/Best:    4.09/ 145.65 GFLOPS | Progress: (589/729) | 498.29 s | measure batch cost: 15.58 s
+ Current/Best:    4.04/ 145.65 GFLOPS | Progress: (601/729) | 512.55 s | measure batch cost: 14.26 s
+ Current/Best:    3.12/ 145.65 GFLOPS | Progress: (613/729) | 526.21 s | measure batch cost: 13.65 s
+ Current/Best:    2.36/ 145.65 GFLOPS | Progress: (625/729) | 538.95 s | measure batch cost: 12.74 s
+ Current/Best:    2.56/ 145.65 GFLOPS | Progress: (637/729) | 552.50 s | measure batch cost: 13.54 s
+ Current/Best:    2.90/ 145.65 GFLOPS | Progress: (649/729) | 567.87 s | measure batch cost: 13.69 s
+ Current/Best:    3.56/ 145.65 GFLOPS | Progress: (661/729) | 581.41 s | measure batch cost: 13.54 s
+ Current/Best:    2.82/ 145.65 GFLOPS | Progress: (673/729) | 595.31 s | measure batch cost: 13.90 s
+ Current/Best:    4.26/ 145.65 GFLOPS | Progress: (685/729) | 607.76 s | measure batch cost: 12.45 s
+ Current/Best:    4.21/ 145.65 GFLOPS | Progress: (697/729) | 620.11 s | measure batch cost: 12.35 s
+ Current/Best:    4.00/ 145.65 GFLOPS | Progress: (709/729) | 634.01 s | measure batch cost: 12.35 s
+ Current/Best:    3.11/ 145.65 GFLOPS | Progress: (721/729) | 647.12 s | measure batch cost: 13.11 s
+ Current/Best:    3.32/ 145.65 GFLOPS | Progress: (729/729) | 658.79 s | measure batch cost: 11.67 s
+#measure batch total time: 642.7242 s
+ Done.

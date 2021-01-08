@@ -119,8 +119,9 @@ Submodule path '3rdparty/rang': checked out 'cabe04d6d6b05356fa8f9741704924788f0
 ```
 
 ## Part II  Latest development
+Apache TVM and Deep Learning Compilation Conference
+Wed-Fri, December 2nd-4th 2020, Free Virtual Event. 
+https://tvmconf.org/#about-tvmconf
 
-
-## Part III  Contribution
 
 ###### Contact me:chihaoyu@cigit.ac.cn
